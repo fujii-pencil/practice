@@ -162,7 +162,17 @@ $(window).load(function () {
 			jQuery(this).val(this.defaultValue)
 		}
 	});
-
+	
+	
+	//FAQ TILE 高さ揃え
+	if($(".faqUser").length){
+		$(".faqUser dl dd.heightLine-faq1").tile();
+		
+		if($(".colorLink").length){
+			$(".faqUser dl .colorLink").tile();
+		}
+	}
+	
 });
 
 

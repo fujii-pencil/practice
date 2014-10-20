@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@import "../../aojiru/css/style.css";
 
 #backnumber {
 	width: 695px;
@@ -9,12 +8,11 @@
 	padding-bottom: 15px
 }
 
-#backnumber h3 {
-	width: 695px;
-	height: 41px;
-	background: url(../img/backNumberTtl.jpg);
-	text-indent: -9999px;
+
+.lineTop{
+	border-top:2px solid #ccc;
 }
+
 
 #backnumber-contents {
 	width: 667px;
@@ -61,13 +59,6 @@
 -------------------------------------------------------------------*/
 #kale-jonetsu {
 	width: 695px;
-}
-
-#kale-jonetsu h2 {
-	background: url(../img/kale-jonetsuTtl.jpg);
-	width: 695px;
-	height: 108px;
-	text-indent: -9999px;
 }
 
 .kale-jonetsu-contents {

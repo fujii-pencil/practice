@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
+.notes {
+font-size: 80%;
+}
+
 #hiroba .btns{
 	background: url(../img/bg_btns.gif) no-repeat left top;
 /*	text-align: center;*/
@@ -14,10 +19,6 @@
 }
 
 #hiroba h2 {
-	width: 696px;
-	height: 68px;
-	background: url(../img/hirobaTtl.jpg);
-	text-indent: -9999px;
 }
 
 #hiroba h3 {
@@ -40,13 +41,20 @@
 }
 
 .hiroba-voice {
-	width: 661px;
-	margin: 5px auto 0 auto;
-	background: url(../img/hirobaBg.jpg);
+	width: 668px;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #E7EBDA;
 }
 
 .hiroba-voice h4{
-	margin-bottom:10px;
+	font-size: 120%;
+	background: url(../img/icon_voice.jpg) 0 0 no-repeat;
+	min-height: 28px;
+	padding: 5px 0 5px 40px;
+	color: #66871A;
+	font-weight: bold;
+	border-bottom: dotted 1px #BFBBB8;
 }
 
 .hiroba-voice-ft {
@@ -58,8 +66,12 @@
 }
 
 .hiroba-voice-txt {
-	width: 495px;
+	width: 500px;
 	float: left;
+}
+.no_ph_txt {
+	width:auto !important;
+	float:none !important;
 }
 .hiroba-voice-txt-narrow {
 	width: 406px;
@@ -68,20 +80,24 @@
 
 .hiroba-voice-txt p,
 .hiroba-voice-txt-narrow p {
-	padding-left: 21px;
-	color: #666;
+	color: #2B1D13;
+	padding-left: 2px;
 }
 
-.hiroba-voice-txt p span,
-.hiroba-voice-txt-narrow p span {
-	color: #333;
-	font-weight: bold;
-	line-height:1.2;
+.hiroba-voice .name {
+	padding: 7px 0 7px 2px;
+	margin-bottom: 10px;
+	border-bottom: dotted 1px #BFBBB8;
+	font-size: 95%;
+	font-weight:bold !important;
+}
+
+.hiroba-voice .item {
+	margin-bottom: 10px;
 }
 
 .hiroba-voice-txt p .note,
 .hiroba-voice-txt-narrow p .note {
-	font-weight: normal;
 	line-height:1.2;
 	font-size:75%;
 }
@@ -111,9 +127,126 @@
 	padding-right: 20px;
 }
 
-.hiroba-voice .name{
+.head2 {
+	position: relative;
+	padding: 0 0 5px;
+	font-size: 200%;
+	background: url(/contents/contents/health/common/h_bg_02.png) no-repeat left bottom;
+	color:#2B1D14;
 	font-weight:bold;
-	display:block;
-	margin-bottom:5px;
 }
+
+.head2 span {
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+	font-size: 30%;
+	font-weight: normal;
+}
+
+.recommendList {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.recommendList h2 {
+	margin: 0 0 20px;
+	padding-top: 20px;
+}
+
+.recommendList h2 span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 50%;
+	font-weight: normal;
+}
+
+.recommendList ul {
+	position: relative;
+	left: 0;
+	width: 708px;
+}
+
+.recommendList li {
+	float: left;
+	width: 110px;
+	margin: 0 8px 10px 0;
+	font-size: 95%;
+}
+
+.recommendList li p:first-child {
+	margin: 0 0 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.recommendList li p a {
+	font-weight: bold;
+}
+
+.recommendList dt {
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+
+.recommendList dt a {
+	color: #DF7F00;
+	font-weight: bold;
+}
+
+.recommendListBtn {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+#kuchikomiTopList{
+	padding:20px;
+	margin:30px 10px 30px 0px;
+	background:#FBFAF6;
+	border:1px solid #eeeeee;
+}
+#kuchikomiTopList li{
+	padding-bottom:5px;
+	margin-bottom:5px;
+	border-bottom:1px solid #ddd;
+	color:#66871A;
+}
+#kuchikomiTopList li a:link,
+#kuchikomiTopList li a:visited{
+	color:#66871A;
+	text-decoration:underline;
+}
+#kuchikomiTopList li a:hover{
+	color:#66871A;
+	text-decoration:none;
+}
+
+
+.hiroba_voice_link{
+	text-align:right;
+	margin-right:20px;
+	clear:both;
+}
+.hiroba_voice_link a:link,
+.hiroba_voice_link a:visited{
+	color:#66871A;
+	text-decoration:underline;
+}
+.hiroba_voice_link a:hover{
+	color:#66871A;
+	text-decoration:none;
+}
+
+
+
+
+
+
 

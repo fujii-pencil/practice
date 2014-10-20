@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+EV SSL証明書について
+-------------------------------------------------------------------*/
+.head1 {
+	line-height: 40px;
+	margin: 0 0 20px;
+	padding: 5px 7px;
+	color: #fff;
+	font-size: 140%;
+	background: url(/contents/contents/aojiru/common/h_bg_01.png) no-repeat 0 0;
+}

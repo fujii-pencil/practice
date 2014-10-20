@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+/*------------------------------------------------------------------ 
+なつかしのCM
+-------------------------------------------------------------------*/
+.head1 {
+	height: 50px;
+	line-height: 50px;
+	margin: 0 0 30px;
+	padding: 0 0 0 7px;
+	color: #fff;
+	font-size: 160%;
+	background: url(/contents/contents/aojiru/common/h_bg_01.png) no-repeat 0 0;
+	position: relative;
+}
+
+.head1 span {
+	position: absolute;
+	right: 25px;
+	top: -30px;
+}
+
+#cmGallery {
+}
+
+#cmGallery ul {
+	overflow: hidden;
+	margin-left: -20px;
+}
+
+#cmGallery li {
+	float: left;
+	margin: 0 0 40px 20px;
+	width: 220px;
+	text-align: center;
+}
+
+#cmGallery li p {
+	margin-bottom: 20px;
+}
+
+#cmGallery .caution {
+	overflow: hidden;
+	font-size: 140%;
+	border: dashed 2px #ccc;
+	padding: 10px;
+}
+
+#cmGallery .caution a {
+	float: right;
+}

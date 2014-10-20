@@ -54,6 +54,22 @@
 
 
 
+.qa_ttl{
+	background:url(/contents/contents/faq/common/ttl_qa.png) 0 0 no-repeat;
+	
+	width: 654px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 5px 7px 5px 60px;
+	color: #fff;
+	font-size: 140%;
+	min-height:40px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+
+
 /*------------------------------------------------------------------ 
 よくあるご質問トップ
 -------------------------------------------------------------------*/

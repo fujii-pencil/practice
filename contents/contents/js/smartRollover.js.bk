@@ -1,0 +1,62 @@
+function smartRollover() {
+	if(document.getElementsByTagName) {
+		
+		var current = '';
+		var url = location.pathname;
+		//console.log(url);
+		
+		if (url.match(/^\/$/)) {
+			current=/^\/$/;
+		}else if (url.match(/\/aojiru/)) {
+			current=/\/aojiru/;
+		} else if (url.match(/\/freeze-aojiru/)) {
+			current=/\/freeze-aojiru/;
+		} else if (url.match(/\/hc/)) {
+			current=/\/hc/;
+		} else if (url.match(/\/cora-rich/)) {
+			current=/\/cora-richhc/;
+		} else if (url.match(/\/products/)) {
+			current=/\/products/;
+		} else if (url.match(/\/qa/)) {
+			current=/\/qa/;
+		}
+
+		var images = document.getElementsByTagName("img");
+
+		for(var i=0; i < images.length; i++) {
+			var anchor = images[i].parentNode; 
+			if (anchor && images[i].getAttribute("src").match("gNavi") && anchor.getAttribute("href").match(current)) {
+				//console.log(images[i].getAttribute("src"));
+				images[i].setAttribute("src", images[i].getAttribute("src").replace("_off.", "_on."));
+				//console.log(images[i].getAttribute("src"));
+				continue;
+			}
+			if(images[i].getAttribute("src").match("_off."))
+			{
+				images[i].onmouseover = function() {
+					this.setAttribute("src", this.getAttribute("src").replace("_off.", "_on."));
+					this.setAttribute("src", this.getAttribute("src").replace("_ac.", "_on."));
+				}
+				images[i].onmousedown = function() {
+					this.setAttribute("src", this.getAttribute("src").replace("_on.", "_ac."));
+					this.setAttribute("src", this.getAttribute("src").replace("_off.", "_ac."));
+				}
+				images[i].onmouseup = function() {
+					this.setAttribute("src", this.getAttribute("src").replace("_ac.", "_on."));
+					this.setAttribute("src", this.getAttribute("src").replace("_on.", "_on."));
+				}
+				images[i].onmouseout = function() {
+					this.setAttribute("src", this.getAttribute("src").replace("_on.", "_off."));
+					this.setAttribute("src", this.getAttribute("src").replace("_ac.", "_off."));
+				}
+			}
+		}
+	}
+}
+
+if(window.addEventListener) {
+	window.addEventListener("load", smartRollover, false);
+}
+else if(window.attachEvent) {
+	window.attachEvent("onload", smartRollover);
+}

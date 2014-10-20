@@ -78,6 +78,7 @@
 	color: #CC0000;
 }
 
-#freeze-aojiru .btnHowto{
-	text-align: right;
+.btnHowto{
+	text-align: right !important;
+	margin-top:-70px;
 }

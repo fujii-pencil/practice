@@ -42,3 +42,8 @@
 ul {
 	line-break: strict;
 }
+
+
+.freeze_btn{
+	margin-top:-30px !important;
+}

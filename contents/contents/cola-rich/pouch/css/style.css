@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#porch{
+	width: 659px;
+	margin: 15px auto;
+}
+
+#porch li{
+	float:left;
+	width:331px;
+}
+
+#porch li.desc{
+	float:right;
+	width:300px;
+}
+
+#porch p{
+	margin: 15px 0px;
+}

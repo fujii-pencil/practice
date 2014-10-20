@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+会報誌02
+-------------------------------------------------------------------*/
+
+#kaihoTxtLeft{
+	width:528px;
+	float:left;
+	text-align:left;
+	
+	line-height:1.8;
+	margin-bottom:30px;
+}
+#kaihoPhRight{
+	width:143px;
+	float:right;
+	text-align:right;
+}
+
+
+
+#kaihoTxtLeft2{
+	width:340px;
+	float:left;
+	text-align:left;
+	margin-bottom:50px;
+}
+
+#kaihoTxtRight2{
+	width:340px;
+	float:right;
+	text-align:right;
+	margin-bottom:50px;
+}

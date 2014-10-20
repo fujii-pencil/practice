@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+キューサイ善玉菌
+-------------------------------------------------------------------*/
+#nutrition{
+	width: 628px;
+	margin: 30px auto 10px;
+}
+
+#nutrition li{
+	float:left;
+}
+
+
+
+
+/**/
+.itemTtlDetail,
+#tabTxt1{
+	color:#FF6633 !important;
+}
+.itemTtlType02,
+#tabTxt2{
+	color:#12285D !important;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+モイストアップクレンジング
+-------------------------------------------------------------------*/
+#featureTtl{
+	margin: 18px 0px 11px;
+}
+
+#feature{
+	background: url(../img/featureBg.jpg) no-repeat left bottom;
+	width: 410px;
+	padding-left: 268px;
+}
+
+#feature li{
+	margin-bottom: 10px;
+}
+
+#howto{
+	margin: 27px auto 20px;
+}
+
+#howto li{
+	float: left;
+}

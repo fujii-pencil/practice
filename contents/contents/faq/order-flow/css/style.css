@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+.crosshead {
+	margin-top: 20px;
+}
+
+.flow-box {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.flow-box .img {
+	float: left;
+	width: 200px;
+	background-color: #efefef;
+	padding: 5px;
+}
+.flow-box .sentence {
+	float: left;
+	width: 415px;
+	margin-left: 15px;
+	text-align: left;
+}
+.flow-box .sentence p{
+	margin-top: 0.5em;
+}
+
+.flow-box .sentence .point {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 5px 0;
+}
+.flow-box .sentence .point .title{
+	font-weight: bold;
+	text-align: center;
+	color: #008833;
+	margin: 10px 0px 3px;
+	font-size: 110%;
+}
+.flow-box .sentence .point dl.more{
+	background-color: #fffff3;
+	padding: 6px;
+}
+.flow-box .sentence .point dl{
+}
+.flow-box .sentence .point dl dt{
+	font-weight: bold;
+	color: #95CF0E;
+}
+.flow-box .sentence .point dl dd{
+	padding-left: 1.5em;
+	margin-bottom: 5px;
+}
+.flow-box .sentence strong {
+	color: #95CF0E;
+	font-weight: bold;
+}
+.flow-box .sentence .highlight {
+	background-color: #ff6;
+}

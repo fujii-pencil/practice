@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#goods{
+	width:696px;
+}
+
+#goods li{
+	float:left;
+}
+
+#application h3{
+	margin: 14px 0px 10px;
+}
+
+#application .emph{
+	color: #009900;
+	font-weight: bold;
+	font-size: 115%;
+}
+
+#application #date{
+	background: #FFFFCC;
+	padding: 5px 10px 15px;
+	font-weight: bold;
+	margin:10px 0px;
+}
+
+#application #date dt{
+	color: #009900;
+	margin-top: 10px;
+}
+
+#application .notice{
+	font-size: 85%;
+	margin-bottom: 10px;
+}

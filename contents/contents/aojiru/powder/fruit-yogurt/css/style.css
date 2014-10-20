@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+青汁フルーツヨーグルト
+-------------------------------------------------------------------*/
+
+#recipe .howto2{
+	float: left;
+	width: 434px;
+	border-bottom: 1px dotted #CCC;
+	margin: 20px 0 0 0;
+}
+
+#recipe .howto2 dt{
+	float: left;
+	width: 40px;
+	margin: 0 20px 0 0;
+	padding: 0 0 15px 0;
+}
+
+#recipe .howto2 dd{
+	float: left;
+	width: 374px;
+	font-size: 95%;
+	padding: 0 0 15px 0;
+}
+
+#recipe .howto2 ul{
+	margin-left:1.5em;
+}
+
+#recipe .howto2 li{
+	margin-bottom:15px;
+}
+
+#recipe .howto2 li.advice{
+	text-indent:0;
+	margin-left:-1.5em;
+}
+
+.indent01 {
+	text-indent:-1.5em;
+}
+
+.indent02 {
+	text-indent:-1.0em;
+}

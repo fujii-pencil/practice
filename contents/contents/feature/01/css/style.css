@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+会報誌01
+-------------------------------------------------------------------*/
+
+.taihoTtl01{
+	text-align:center;
+	padding:30px 0px 0px 0px;
+	margin-bottom:50px;
+}
+
+
+#kaihoTxtLeft{
+	width:521px;
+	float:left;
+	text-align:left;
+	
+	line-height:1.8;
+	margin-bottom:30px;
+}
+#kaihoPhRight{
+	width:142px;
+	float:right;
+	text-align:right;
+}
+
+
+#kaihoBox{
+	padding:15px;
+	border:1px solid #C94743;
+	
+	line-height:1.8 !important;
+	
+	margin-bottom:50px;
+}
+
+h3.taihoTtl03{
+	color:#CA4644;
+	margin-bottom:10px;
+	font-size:130%;
+	font-weight:bold;
+}
+
+
+#kaihoTxtLeft2{
+	width:500px;
+	float:left;
+	text-align:left;
+}
+
+#kaihoPhRight2{
+	width:147px;
+	float:right;
+	text-align:right;
+}

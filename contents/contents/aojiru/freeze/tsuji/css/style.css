@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+	繊維青汁ツージー（冷凍タイプ）
+-------------------------------------------------------------------*/
+
+#secret01 .text{
+	padding: 15px 0px 20px 0px;
+}
+
+#secret01 h3 {
+	margin-bottom: 20px;
+}
+
+#secret01 h3.secret01sTtl02 {
+	margin-top: 20px;
+}
+
+.secret01Text {
+	margin: 10px 0px;
+	font-size: 83.4%;
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+.secret01BlockA {
+	margin-top: 12px;
+}
+
+.caution {
+	color: #CC0000;
+}
+
+#freeze-aojiru .btnHowto{
+	text-align: right;
+}
+
+#secret02{
+	width: 699px;
+}
+
+ul {
+	line-break: strict;
+}

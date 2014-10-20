@@ -1,0 +1,1635 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------ 
+シリーズ一覧ページ
+-------------------------------------------------------------------*/
+/*商品紹介枠　リンク色*/
+.pLayoutL .desc h4 a:hover,
+.pLayoutS .desc h4 a:hover{
+	color:#0099CC;
+}
+
+
+.emphB{
+	color:#CC0000;
+	font-weight:bold;
+	font-size:115%;
+}
+
+/*商品紹介枠　大*/
+.pLayoutL{
+	border: 1px solid #CCC;
+	padding: 10px;
+	width: 673px;
+	margin-top: 10px;
+}
+
+.pLayoutL .pics{
+	width: 200px;
+	float: left;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.pLayoutL .desc{
+	float: left;
+	width: 453px;
+}
+
+.pLayoutL .desc h4{
+	font-size: 130%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.pLayoutL .desc .doze{
+	background: #F2F2F2;
+	padding: 10px 13px;
+	width: 411px;
+	margin: 10px 0px;
+}
+
+.pLayoutL .desc .comment{
+	font-size: 95%;
+	padding-right: 10px;
+}
+
+.pLayoutL .desc .btnDetails{
+	text-align: right;
+	padding: 8px 10px 8px 0px;
+}
+
+.pLayoutL .discount{
+	width: 646px;
+	margin: 0 auto;
+	clear:both;
+}
+
+.pLayoutL .nolink{
+	padding-top:15px;
+}
+
+.pLayoutL .discount ul{
+	background: #F2F2F2;
+	padding: 5px 10px 10px;
+}
+
+.pLayoutL .discount .button{
+	text-align: center;
+	margin-top: 8px;
+}
+
+.pLayoutL .discount li{
+	display:inline;
+}
+
+		.pLayoutL .discount li.iconTeiki{
+			background: url(../p_common/iconTeikiRec.gif) no-repeat left center;
+			padding: 7px 0px 5px 65px;
+		}
+		
+		.pLayoutL .discount li.iconNormal{
+			background: url(../p_common/iconNormalRec.gif) no-repeat left center;
+			padding: 7px 0px 5px 65px;
+		}
+		
+		.pLayoutS .discount ul.iconPack{
+			background: #F2F2F2 url(../p_common/iconPackSq.gif) no-repeat 8px center;
+			padding: 5px 0px 5px 48px;
+		}
+
+.pLayoutL .discount .teiki .tag{
+	color: #CC0000;
+}
+
+.pLayoutL .discount .teiki{
+	width: 300px;
+	border-right: 1px dotted #CCC;
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.pLayoutL .discount .normal{
+	width: 300px;
+	float: right;
+}
+
+.pLayoutL .discount .teiki .price{
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 160%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.pLayoutL .discount .normal .price{
+	font-weight: bold;
+	font-size: 160%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.pLayoutL .discount .teiki .note{
+	font-size: 90%;
+	margin-top: 3px;
+}
+
+/*商品紹介枠　横長で注文ボタン1つの場合*/
+.pLayoutL .normal02{
+	width: 453px;
+	float: right;
+}
+
+.pLayoutL .normal02 ul{
+	float: left;
+}
+
+.pLayoutL .normal02 .button{
+	float: right;
+}
+
+.pLayoutL .normal02 .price{
+	font-weight: bold;
+	font-size: 160%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/*商品紹介枠　小*/
+.pLayoutS{
+	border: 1px solid #CCC;
+	padding: 10px;
+	width: 320px;
+	margin: 10px 10px 0px 0px;
+	float:left;
+}
+
+.even{
+	margin: 10px 0px 0px 0px;
+}
+
+.pLayoutS .pics{
+	width: 91px;
+	float: left;
+	padding-right: 15px;
+	_padding-right: 0;
+	text-align: center;
+}
+
+.pLayoutS .desc{
+	float: left;
+	width: 214px;
+}
+
+.pLayoutS .desc h4{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.pLayoutS .desc .present{
+	font-size: 85%;
+	margin-bottom: 3px;
+	color: #CC0000;
+}
+
+.pLayoutS .desc .setDiscount{
+	font-size: 85%;
+	margin-bottom: 3px;
+	color: #008837;
+}
+
+.pLayoutS .desc .pNotice{
+	font-size: 85%;
+	line-height: 1.2;
+	margin-bottom: 5px;
+	color: #666666;
+}
+
+.pLayoutS .desc .comment{
+	font-size: 95%;
+}
+
+.pLayoutS .desc .btnDetails{
+	text-align: right;
+	padding: 8px 0px;
+}
+
+.pLayoutS .discount{
+	width: 320px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.pLayoutS .discount ul{
+	background: #F2F2F2;
+	padding: 8px 10px;
+	text-align:center;
+}
+
+.pLayoutS .discount li{
+	font-size: 85%;
+}
+
+.pLayoutS .discount .button{
+	text-align: center;
+	margin-top: 8px;
+}
+
+		.pLayoutS .discount ul.iconTeiki{
+			background: #F2F2F2 url(../p_common/iconTeikiSq.gif) no-repeat 8px center;
+			padding: 5px 0px 5px 48px;
+		}
+		
+		.pLayoutS .discount ul.iconNormal{
+			background: #F2F2F2 url(../p_common/iconNormalSq.gif) no-repeat 8px center;
+			padding: 5px 0px 5px 48px;
+		}
+		
+		.pLayoutS .discount ul.iconSet{
+			background: #F2F2F2 url(../p_common/iconSetSq.gif) no-repeat 8px center;
+			padding: 5px 0px 5px 48px;
+		}
+		
+		.pLayoutS .discount ul#twomonth{
+			background: #F2F2F2 url(../p_common/iconTeikiSq.gif) no-repeat 3px center;
+			padding: 5px 0px 3px 42px;
+		}
+
+
+
+.pLayoutS .discount .teiki .tag{
+	color: #CC0000;
+}
+
+.pLayoutS .discount .teiki{
+	width: 154px;
+	border-right: 1px dotted #CCC;
+	float: left;
+	margin-right: 5px;
+	padding-right: 5px;
+}
+
+.pLayoutS .discount .normal{
+	width: 154px;
+	float: right;
+}
+
+.pLayoutS .discount .teiki .price{
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 125%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.pLayoutS .discount .normal .price{
+	font-weight: bold;
+	font-size: 125%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*商品紹介枠　ついでにおすすめ商品*/
+.pLayoutS_rcmd{
+	border: 1px solid #CCC;
+	padding: 10px;
+	width: 673px;
+	margin: 10px 10px 0px 0px;
+	clear: both;
+}
+
+.even{
+	margin: 10px 0px 0px 0px;
+}
+
+.pLayoutS_rcmd .pics{
+	width: 200px;
+	float: left;
+	padding-right: 15px;
+	_padding-right: 0;
+	text-align: center;
+}
+
+.pLayoutS_rcmd .desc{
+	float: left;
+	width: 458px;
+}
+
+.pLayoutS_rcmd .desc h4{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.pLayoutS_rcmd .desc .present{
+	font-size: 85%;
+	margin-bottom: 3px;
+	color: #CC0000;
+}
+
+.pLayoutS_rcmd .desc .setDiscount{
+	font-size: 85%;
+	margin-bottom: 3px;
+	color: #008837;
+}
+
+.pLayoutS_rcmd .desc .pNotice{
+	font-size: 85%;
+	line-height: 1.2;
+	margin-bottom: 5px;
+	color: #666666;
+}
+
+.pLayoutS_rcmd .desc .comment{
+	font-size: 95%;
+	margin-bottom: 5px;
+}
+
+.pLayoutS_rcmd .desc .btnDetails{
+	padding: 8px 0px;
+	width: 106px;
+	float: right;
+}
+
+.pLayoutS_rcmd .discount{
+	width: 458px;
+}
+
+.pLayoutS_rcmd .discount ul{
+	text-align:center;
+	float: left;
+	margin-right: 10px;
+}
+
+.pLayoutS_rcmd .discount li{
+	font-size: 85%;
+}
+
+.pLayoutS_rcmd .discount .button{
+	text-align: center;
+	margin-top: 8px;
+	float: right;
+	width: 151px;
+}
+		
+		.pLayoutS_rcmd ul.iconNormal{
+	background: #F2F2F2 url(../p_common/iconNormalSq.gif) no-repeat 8px center;
+	padding: 5px 30px 5px 48px;
+	margin-right: 40px;
+		}
+
+.pLayoutS_rcmd .discount .price{
+	font-weight: bold;
+	font-size: 125%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+詳細ページの商品紹介
+-------------------------------------------------------------------*/  
+.pIntroTtl{
+	background: url(../p_common/frameBg_t.jpg) no-repeat center top;
+	width: 675px;
+	margin: 0 auto;
+	padding: 10px 0px 10px 20px;
+	font-size: 115%;
+	font-weight: bold;
+}
+  
+.pIntro{
+	background: url(../p_common/frameBg_m.jpg) repeat-y center;
+	width: 665px;
+	margin: 0 auto;
+	padding: 20px 15px 0px;
+}
+
+.pIntro .pics{
+	float: left;
+	padding: 0px 20px 5px 0px;
+	width: 185px;
+	text-align: center;
+}
+
+.pIntro .details{
+	width: 460px;
+	float: left;
+	padding-bottom: 18px;
+}
+
+.pIntro .details .note{
+	font-size: 85%;
+}
+
+.pIntro .details .emph{
+	font-size: 85%;
+}
+
+.pIntro .details dd{
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.pIntro .details dd.camBeginner{
+	background: url(../p_common/iconCam.jpg) no-repeat left center;
+	padding-left: 100px;
+	margin: 5px 0px 10px;
+}
+
+.pIntro .doze{
+	background: #F2F2F2;
+	padding: 10px 15px;
+	width: 407px;
+	margin: 10px 0px;
+}
+
+.pIntro .comment{
+	font-size: 95%;
+}
+
+.priceArea{
+	width: 656px;
+	margin: 0 auto;
+	border-top: 1px dotted #CCC;
+	padding: 18px 0px 0px;
+	clear: both;
+}
+
+.set{
+	border-top: none;
+	padding: 10px 0px 0px;
+}
+
+.priceArea h4{
+	width: 278px;
+	float: left;
+}
+
+.priceArea h4 .note{
+	font-size: 90%;
+	margin-top: 5px;
+}
+
+.priceArea .discount{
+	width: 370px;
+	float: right;
+}
+
+.priceArea .discount ul{
+	float: left;
+}
+
+.priceArea .discount p{
+	float: right;
+}
+
+.priceArea .discount p.choice,
+.closing p.choice{
+	padding: 0px 10px 4px 0px;
+}
+
+.priceArea .discount .teiki .tag{
+	color: #CC0000;
+	font-size: 115%;
+}
+
+.priceArea .discount .teiki .price{
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 190%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.priceArea .discount .normal{
+	padding-top:5px;
+}
+
+.priceArea .discount .normal .price{
+	font-weight: bold;
+	font-size: 160%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.hrz{
+	border:none;
+	height:25px;
+	width:695px;
+	background:url(../p_common/frameBg_b.jpg) no-repeat center top;
+	margin: 0 auto;
+}
+
+.pHl01{
+	margin: 40px 0px 0px;
+}
+
+.pHl02{
+	margin: 30px 0px 10px;
+}
+
+.pHl03{
+	margin: 15px 0px 0px;
+}
+
+.pLayout{
+	width: 660px;
+	margin: 0 auto;
+}
+
+.pLayout .note{
+	font-size: 85%;
+	clear: both;
+	padding-top: 10px;
+}
+
+#feedback{
+	width: 690px;
+	margin: 10px auto 0px;
+}
+
+#feedback .bg01{
+	background: url(../p_common/feedbackBg01_t.jpg) no-repeat center top;
+	width: 340px;
+	float: left;
+}
+
+#feedback .bg02{
+	background: url(../p_common/feedbackBg01_b.jpg) no-repeat center bottom;
+	padding: 12px 6px 22px;
+}
+
+#feedback h4{
+	width: 301px;
+	margin: 0px auto 5px;
+	padding-top: 10px;
+}
+
+#feedback p{
+	padding: 0px 5px 0px 15px;
+	float: left;
+	width: 113px;
+}
+#feedback p.vertical{
+	padding: 0 5px 20px 15px;
+	float: left;
+	width: 113px;
+}
+
+#feedback dl{
+	padding: 3px 10px 0px 15px;
+}
+
+#feedback dt{
+	font-weight: bold;
+}
+
+#feedback dd{
+	font-size: 95%;
+/*	padding-bottom: 10px;*/
+}
+
+#feedback .last{
+	float:right;
+}
+
+.closing{
+	margin: 0px auto 20px;
+	width: 685px;
+	padding: 0px 5px 5px;
+}
+
+#closingTtl{
+	width: 695px;
+	margin: 30px auto 0px;
+}
+
+.closing .bg{
+	background:#FFF;
+	padding:24px 18px 12px 10px;
+	width: 657px;
+}
+
+.closing .border{
+	background: #FFF url(../p_common/closingBorder.gif) no-repeat center bottom;
+}
+
+.closing .bg .pics{
+	width: 241px;
+	float: left;
+}
+
+.closing .bg .pics .note{
+	font-size: 90%;
+	margin-top: 5px;
+}
+
+.closing .bg .pics h3{
+	text-align:center;
+}
+
+
+/* 商品名・内容量：商品画像の下にある場合 */
+.closing .bg .pics dl{
+	margin: 15px 0px 0px;
+	background: #F2F2F2;
+	padding: 8px;
+}
+
+.closing .bg .pics dt{
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.closing .bg .pics dd{
+	font-size: 95%;
+}
+
+/* 商品名・内容量：商品画像の右にある場合 */
+.closing .bg .desc dl#name{
+	margin: 0px 0px 20px;
+	background: #F2F2F2;
+	padding: 8px;
+}
+
+.closing .bg .desc #name dt{
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.closing .bg .desc #name dd{
+	font-size: 95%;
+}
+
+.closing .bg .desc{
+	float: right;
+	width: 400px;
+}
+
+.closing .bg .desc .note{
+	font-size:85%;
+	margin-top:5px;
+}
+
+.closing .bg .desc #merit{
+	margin: 10px 0px;
+}
+
+.closing .teiki ul,
+.closing .normal ul{
+	float: left;
+}
+
+.closing .teiki p,
+.closing .normal p{
+	float: right;
+}
+
+.closing .teiki .tag{
+	color: #CC0000;
+	font-size: 115%;
+}
+
+.closing .teiki .price{
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 200%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.closing .normal .price{
+	font-weight: bold;
+	font-size: 160%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.warning{
+	border-top: 1px dotted #CCC;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.noborder{
+	border: none;
+}
+
+.warning li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+.warning li.package{
+	margin-top: 15px;
+}
+
+.warning li.b{
+	margin-top: 15px;
+}
+
+#recommend,
+#recommendYellow{
+	width: 665px;
+	padding: 15px;
+	margin: 30px auto 12px;
+}
+
+#recommend #comment,
+#recommendYellow #comment{
+	float: left;
+}
+
+#recommend #comment dd,
+#recommendYellow #comment dd{
+	font-weight: bold;
+	color: #CC0000;
+	font-size: 115%;
+}
+
+#recommend .button,
+#recommendYellow .button{
+	float: right;
+}
+
+#recommend .item,
+#recommendYellow .item{
+	clear: both;
+	width: 665px;
+	margin: 5px auto;
+}
+
+#recommend .item dl,
+#recommendYellow .item dl{
+	float: left;
+	width: 155px;
+	margin: 0px 12px 15px 0px;
+}
+
+#recommend .item dt,
+#recommendYellow .item dt{
+	background: #FFF;
+	border: 1px solid #CCC;
+	text-align: center;
+	padding: 5px 0px;
+	height: 104px;
+}
+
+#recommend .item dl.last,
+#recommendYellow .item dl.last{
+	margin: 0;
+}
+
+#recommend .item dd,
+#recommendYellow .item dd{
+	font-weight: bold;
+	background: url(../p_common/check.jpg) no-repeat left top;
+	padding: 0px 0px 0px 15px;
+	font-size: 95%;
+}
+
+#links{
+	text-align: center;
+}
+
+#links li{
+	display: inline;
+	padding-right: 5px;
+}
+
+
+/*------------------------------------------------------------------ 
+一般ページ
+-------------------------------------------------------------------*/
+.mainTxt {
+	padding: 0px 10px;
+}
+
+.crosshead {
+	width: 645px;
+	border-bottom: dotted 1px #333;
+	border-left: solid 5px #85c80c;
+	margin-bottom: 10px;
+	padding: 3px 0px 3px 10px;
+	font-size: 108%;
+	font-weight: bold;
+}
+
+.crossheadBox {
+	width: 660px;
+	margin: 15px auto 0px auto;
+}
+
+.numberList h5 {
+	font-weight: bold;
+	margin-top: 7px;
+}
+
+.numberList h5.title {
+	color: #008837;
+	border-top: dotted 1px #95CF0E;
+	border-bottom: dotted 1px #95CF0E;
+	margin-bottom: 3px;
+	padding: 2px 0;
+	text-indent: 0.5em;
+}
+
+.numberList p,
+.numberList ol,
+.numberList ul
+ {
+	padding-left: 1em;
+}
+
+.numberList p span,
+.numberList ol span,
+.numberList ul span
+ {
+	font-weight:bold;
+}
+
+.numberList p {
+	margin-bottom: 1em;
+}
+
+.numberList ol li {
+	list-style-type: none;
+	text-indent: -1em;
+	padding-left: 1em;
+	margin-bottom: 1em;
+}
+
+.numberList ul li {
+	list-style-type: none;
+	text-indent: -1.3em;
+	padding-left: 1.3em;
+}
+
+.numberList ul.disc li {
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: 0em;
+	padding-left: 0em;
+	margin-bottom: 0em;
+}
+
+.numberList ul li.none {
+	list-style-type: none;
+	text-indent: 0em;
+	padding-left: 0em;
+}
+
+.numberList dt {
+	width: 12em;
+	float: left;
+	text-indent: 0em;
+	padding-left: 0em;
+}
+
+.numberList dd {
+	padding-left: 12em;
+	text-indent: 0em;
+	_text-indent: -4px;
+}
+
+.txtRight {
+	text-align: right;
+}
+
+.colorLink a {
+	color: #0099cc;
+}
+
+.centerImage {
+	width: 660px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+
+/*------------------------------------------------------------------ 
+商品詳細クロージング
+-------------------------------------------------------------------*/
+/*青汁シリーズ　緑*/
+#aojiru #closingB {
+	background: #339933 url(../aojiru/common/closingBg_b.jpg) no-repeat center bottom;
+}
+
+
+
+/*冷凍青汁シリーズ　緑*/
+#freeze-aojiru #closingB {
+	background: #339933 url(../freeze-aojiru/common/closingBg_b.jpg) no-repeat center bottom;
+}
+
+
+
+/*ヒアルロン酸コラーゲンシリーズ　黄*/
+#hc #closingB{
+	background: #FFD950 url(../hc/common/closingBg_b.jpg) no-repeat center bottom;
+}
+
+
+
+/*コラリッチシリーズ　オレンジ*/
+#cora-rich #closingB {
+	background: #FF9501 url(../cola-rich/common/closingBg_b.gif) no-repeat center bottom;
+}
+
+
+
+/*髪育習慣シリーズ　赤*/
+#hatsuiku #closingB {
+	background: #D70202 url(../hatsuiku/common/closingBg_b.jpg) no-repeat center bottom;
+}
+
+
+
+/*元気サポートシリーズ　緑*/
+#health #closingB {
+	background: #95CF0E url(../health/common/closingBg_b.gif) no-repeat center bottom;
+}
+
+
+
+/*きれいシリーズ　紫*/
+#kirei #closingB{
+	background: #CC99FF url(../kirei/common/closingBg_b.gif) no-repeat center bottom;
+}
+
+
+
+/*無添加石けんシリーズ　黄緑*/
+#mutenka #closingB{
+	background: #95CF0E url(../mutenka/common/closingBg_b.jpg) no-repeat center bottom;
+}
+
+
+
+/*下にスペースがいる場合のキャンペーンバナー*/
+.closing .bg .camBanner{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+商品詳細内の「初めての方へ」
+-------------------------------------------------------------------*/
+/* ヒアコラ */
+#hc #intro{
+	background: url(../hc_recipe/img/cofee.jpg) no-repeat right bottom;
+	width: 424px;
+	margin: 25px auto;
+	padding: 0px 236px 0px 0px;
+}
+
+#hc #intro dt{
+	margin-bottom: 15px;
+}
+
+#hc #intro dd{
+	margin-left: 5px;
+}
+
+
+/* ヒアコラ「初めてお召し上がりの方へボタン」エリア */
+
+#hc #intro_btn_area{
+	width: 183px;
+	margin: 0 auto;
+	padding: 10px 0 0 512px;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+関連商品枠
+-------------------------------------------------------------------*/
+#recommend{
+	background: #FFE8F0;
+}
+
+#recommendYellow{
+	background: #FFFFD7;
+}
+
+
+
+
+
+/*------------------------------------------------------------------ 
+レシピ
+-------------------------------------------------------------------*/
+.dishTtl{
+	background: url(../p_common/border.gif) repeat-x left top;
+	font-size: 130%;
+	padding: 18px 10px 20px;
+}
+
+/* 青汁 */
+.dishTtl .aojiru{
+	background: url(../aojiru_recipe/common/bullet_dish.gif) no-repeat left center;
+	padding: 3px 0px 3px 20px;
+	display: inline-block;
+}
+
+.portion{
+	color: #99CC00;
+	font-weight: bold;
+}
+
+
+
+/* ヒアコラ */
+.dishTtl .hc{
+	background: url(../hc_recipe/common/bullet_dish.gif) no-repeat left center;
+	padding: 3px 0px 3px 20px;
+	display: inline-block;
+}
+
+
+
+
+#recipe .dish{
+	float: left;
+	padding-right: 20px;
+	margin-top: 15px;
+}
+
+#recipe .howto{
+	float: left;
+	width: 47%;
+	margin-top: 20px;
+}
+
+#recipe .howto dt{
+	float: left;
+	clear: left;
+	padding: 0px 0px 15px;
+	margin-bottom: 15px;
+}
+
+#recipe .howto dd{
+	padding: 0px 0px 15px 5em;
+	font-size: 95%;
+	border-bottom: 1px dotted #CCC;
+	margin-bottom: 15px;
+}
+
+#recipe .howto ul{
+	margin-left:1.5em;
+}
+
+#recipe .howto li{
+	text-indent:-1.5em;
+	margin-bottom:15px;
+}
+
+#recipe .howto li.notice{
+	text-indent:-1em;
+	margin-bottom:15px;
+	margin-left:-0.5em;
+}
+
+#recipe .howto li.advice{
+	text-indent:0;
+	margin-left:-1.5em;
+}
+
+.recipes{
+	border-top:1px dotted #CCC;
+	padding:10px 0px;
+}
+
+		.recipes:first-child{
+				border-top:none;
+		}
+		
+		.recipes.first-child{ /*IE-expression (first-child) */
+				border-top:none;
+		}
+		.recipes{ /* IE-expression (first-child) */
+		behavior: expression(
+		this.className += (this.previousSibling == null) ? " first-child" : "",
+		this.style.behavior = "none"
+		);
+		}
+
+.recipes dl{
+	width: 156px;
+	float: left;
+	padding-right:11px;
+}
+
+.recipes dl.last{
+	padding-right:0;
+}
+
+
+.recipes dd.hc{
+	background: url(../hc_recipe/common/bullet.gif) no-repeat left;
+	margin-left: 5px;
+	padding: 2px 0px 2px 14px;
+}
+
+.recipes dd.aojiruIce{
+	background: url(../aojiru_recipe/common/bulletIce.gif) no-repeat;
+	background-position: 0 6px;
+	margin-left: 5px;
+	padding: 2px 0px 2px 14px;
+}
+
+.recipes dd.aojiruHot{
+	background: url(../aojiru_recipe/common/bulletHot.gif) no-repeat;
+	background-position: 0 6px;
+	margin-left: 5px;
+	padding: 2px 0px 2px 14px;
+}
+
+.recipes dd.aojiruDish{
+	background: url(../aojiru_recipe/common/bulletDish.gif) no-repeat;
+	background-position: 0 6px;
+	margin-left: 5px;
+	padding: 2px 0px 2px 14px;
+}
+
+.recipes dd.aojiruDessert{
+	background: url(../aojiru_recipe/common/bulletDessert.gif) no-repeat;
+	background-position: 0 6px;
+	margin-left: 5px;
+	padding: 2px 0px 2px 14px;
+}
+
+.warningRecipe{
+	width:660px;
+	margin:15px auto;
+}
+
+.warningRecipe li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+.warningRecipe li.n_indent{
+	text-indent: 0em;
+	margin-left: 0em;
+}
+
+.recipeCat{
+	width: 668px;
+	margin: 15px auto 0px;
+}
+
+.wn{
+	font-size: 95%;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+注文方法から探す
+-------------------------------------------------------------------*/
+.kLayout{
+	border-bottom: 1px dotted #CCC;
+	margin: 0px auto 15px;
+	width: 660px;
+}
+
+.kLayout .pics{
+	float: left;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.kLayout .desc{
+	float: left;
+}
+
+.kLayout .desc h4{
+	font-size: 115%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.kLayout .normal{
+	width: 155px;
+	float: right;
+}
+
+.kLayout .present{
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.kLayout .set{
+	color: #0F74BA;
+	font-weight: bold;
+	font-size: 105%;
+	padding: 0;
+}
+
+.kLayout .present img{
+	display: block;
+	margin: 2px 0px;
+}
+
+.kLayout .desc p.comment{
+	font-size: 85%;
+	color: #494949;
+}
+
+
+
+/*------------------------------------------------------------------ 
+よくある質問
+-------------------------------------------------------------------*/
+#faqList{
+	background: url(../p_common/faq/qBg_t.jpg) no-repeat center top;
+	padding-top: 10px;
+	margin: 15px auto 0px;
+}
+
+#faqList ul{
+	background: url(../p_common/faq/qBg_m.jpg) repeat-y center;
+	padding: 5px 15px;
+}
+
+.faqHrz{
+	border:none;
+	height:10px;
+	width:660px;
+	background:url(../p_common/faq/qBg_b.jpg) no-repeat center top;
+	margin: 0px auto 15px;
+}
+
+#faqList li{
+	padding: 2px 0px 2px 25px;
+}
+
+#faqList li.category{
+	padding: 3px 8px;
+	background: #F2F2F2;
+	font-weight: bold;
+	color: #008837;
+	margin-bottom: 15px;
+}
+
+#faqList li a{
+	color:#0099CC;
+}
+
+#faqList li span{
+	display: inline-block;
+	background: url(../p_common/faq/bgNum.jpg) no-repeat center center;
+	padding: 5px 0px;
+	font-weight:bold;
+	font-size:82%;
+	color:#FFF;
+	width: 18px;
+}
+
+#faqList .no01{
+	background:url(../p_common/faq/no01.jpg) no-repeat left top;
+}
+
+#faqList .no02{
+	background:url(../p_common/faq/no02.jpg) no-repeat left top;
+}
+
+#faqList .no03{
+	background:url(../p_common/faq/no03.jpg) no-repeat left top;
+}
+
+#faqList .no04{
+	background:url(../p_common/faq/no04.jpg) no-repeat left top;
+}
+
+#faqList .no05{
+	background:url(../p_common/faq/no05.jpg) no-repeat left top;
+}
+
+#faqList .no06{
+	background:url(../p_common/faq/no06.jpg) no-repeat left top;
+}
+
+#faqList .no07{
+	background:url(../p_common/faq/no07.jpg) no-repeat left top;
+}
+
+#faqList .no08{
+	background:url(../p_common/faq/no08.jpg) no-repeat left top;
+}
+
+#faqList .no09{
+	background:url(../p_common/faq/no09.jpg) no-repeat left top;
+}
+
+#faqList .no10{
+	background:url(../p_common/faq/no10.jpg) no-repeat left top;
+}
+
+#faqList .no11{
+	background:url(../p_common/faq/no11.jpg) no-repeat left top;
+}
+
+#faqList .no12{
+	background:url(../p_common/faq/no12.jpg) no-repeat left top;
+}
+
+#faqList .no13{
+	background:url(../p_common/faq/no13.jpg) no-repeat left top;
+}
+
+#faqList .no14{
+	background:url(../p_common/faq/no14.jpg) no-repeat left top;
+}
+
+#faqList .no15{
+	background:url(../p_common/faq/no15.jpg) no-repeat left top;
+}
+
+#faqList .no16{
+	background:url(../p_common/faq/no16.jpg) no-repeat left top;
+}
+
+#faqList .no17{
+	background:url(../p_common/faq/no17.jpg) no-repeat left top;
+}
+#faqList .no18{
+	background:url(../p_common/faq/no18.jpg) no-repeat left top;
+}
+
+#faqList .no19{
+	background:url(../p_common/faq/no19.jpg) no-repeat left top;
+}
+
+#faqList .no20{
+	background:url(../p_common/faq/no20.jpg) no-repeat left top;
+}
+
+#faqList .last{
+	margin-bottom: 15px;
+}
+
+.faqBtn{
+	text-align: right;
+	width: 660px;
+	margin: 0px auto 15px;
+}
+
+.faqCtgry{
+	width: 660px;
+	margin: 0px auto 10px;
+	color: #008837;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+.faqDetails{
+	width:660px;
+	margin: auto;
+}
+
+.faqDetails dt{
+	background:#F2F2F2;
+	font-weight: bold;
+	font-size: 110%;
+	padding: 4px 10px;
+}
+
+.faqDetails dt span{
+	color: #95CF0E;
+	margin-right: 3px;
+}
+
+.faqDetails dd{
+	padding: 13px 0px 25px 35px;
+}
+
+.faqDetails dd .bold {
+	font-weight: bold;
+}
+
+.faqDetails dd div.topic{
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px 0px 4px;
+}
+
+.faqDetails dd div.topic p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.faqDetails dd div.topic strong {
+	font-weight: bold;
+	color:#95CF0E;
+}
+
+
+
+.faqDetails dd p.more-q{
+	background: url(../common/arrowS.gif) no-repeat left center;
+	padding: 2px 0px 2px 10px;
+	margin: 0px;
+}
+
+.faqDetails dd ul {
+	padding-left: 1em;
+}
+.faqDetails dd ul.disc {
+	padding-left: 0em;
+}
+.faqDetails dd ul.disc li {
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: 0em;
+	padding-left: 0em;
+	margin-bottom: 0em;
+}
+
+
+#faqW{
+	border:none;
+	padding-top:0;
+}
+
+.faqMisc{
+	padding: 10px 0px 20px;
+}
+
+.faqMisc li a{
+	color:#0099CC;
+}
+
+.faqMisc dl{
+	width: 232px;
+	float: left;
+}
+
+.faqMisc dt{
+	float: left;
+	clear: left;
+	padding-right: 4px;
+}
+
+.faqMisc .category{
+	font-weight: bold;
+	font-size: 115%;
+	margin-bottom: 4px;
+}
+
+.faqUser{
+	margin: 10px 0px 8px;
+	width: 696px;
+}
+
+.faqUser dl{
+	width: 344px;
+	float: left;
+	background: url(../p_common/faq/catBg_m.jpg) repeat-y center;
+	margin-right:8px;
+}
+
+.faqUser dl.even{
+	margin: 0;
+}
+
+.faqUser dt{
+	background: url(../p_common/faq/catBg_t.jpg) no-repeat center top;
+	font-weight: bold;
+	font-size: 115%;
+	padding: 10px 20px;
+}
+
+.faqUser dd{
+	padding:12px 20px 0px;
+}
+
+.faqUser dd.example div{
+	border-top:1px dotted #CCCCCC;
+	padding-top:12px;
+}
+
+.faqUser dd.example div p{
+	color:#95CF0E;
+	font-weight:bold;
+}
+
+.faqUser dd.example div ul{
+	margin-top:5px;
+}
+
+.faqUser dd.example div li {
+	padding-left:1em;
+	text-indent:-1em;
+}
+
+.faqUser .more{
+	background:url(../p_common/faq/catBg_b.jpg) no-repeat center bottom;
+	padding:0px 20px 15px;
+	text-align:right;
+}
+
+#faqContact{
+	width: 659px;
+	margin: 30px auto 0px;
+	background: url(../p_common/faq/cBg_m.jpg) repeat-y center;
+}
+
+#faqContact h3{
+	background: url(../p_common/faq/cBg_t.jpg) no-repeat center top;
+	text-align: center;
+	padding: 20px 0px 5px;
+}
+
+#faqContact p{
+	text-align: center;
+}
+
+#faqContact #choice{
+	width: 640px;
+	margin: 15px auto 0px;
+	padding-bottom: 15px;
+}
+
+#faqContact #choice .btnForm{
+	padding: 5px 0px 0px 80px;
+}
+
+#faqContact #choice ul{
+	float: left;
+	padding-right: 10px;
+}
+
+#faqChrz{
+	border:none;
+	height:10px;
+	width:659px;
+	background:url(../p_common/faq/cBg_b.jpg) no-repeat center top;
+	margin: 0px auto 15px;
+}
+
+
+/*---------------------------------------------------------
+フェイスローラーの販売について注意書き
+---------------------------------------------------------*/
+.notonline{
+	font-size: 85%;
+	background: #FFFFCC;
+	padding: 10px;
+	margin: 10px 0px;
+	width: 380px;
+}
+
+.pLayoutS_rcmd  .notonline{
+	width: 438px;
+}
+
+.pIntro .notonline{
+	width: 440px;
+}
+
+.pIntro #roller_details{
+	width: 417px;
+}
+
+#roller_kaikata{
+	width: 343px;
+}
+
+.notonline .tel{
+	font-weight: bold;
+	padding-top: 5px;
+	display: block;
+}
+
+.notonline .tel span{
+	font-size: 125%;
+	color: #CC0000;
+}
+
+.price_roller{
+	font-weight: bold;
+	font-size: 160%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/*---------------------------------------------------------
+新商品アイコン
+---------------------------------------------------------*/ 
+.icon_newp{
+	padding:0px 0px 4px 6px;
+}

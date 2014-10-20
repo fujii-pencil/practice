@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.wn{
+	font-size: 95%;
+}
+
+.aojiruMethod {
+	margin: 0 0 45px;
+}
+
+.aojiruMethod h2 {
+	margin: 0;
+}
+
+.aojiruMethod div {
+	overflow: hidden;
+	padding: 15px 10px 15px 15px;
+	background: #ffeccc;
+}
+
+.aojiruDifference {
+	overflow: hidden;
+	margin: 0 0 40px;
+	padding: 0 0 20px;
+	background: #F2F7F2 url(/contents/contents/aojiru/powder/img/difference_bg.png) no-repeat 50% 65px;
+}
+
+.aojiruDifference h2 {
+	margin: 0 0 23px;
+}
+
+.aojiruDifference dl {
+	float: left;
+	width: 207px;
+	padding: 0 13px;
+}
+
+.aojiruDifference dt {
+	float: left;
+}
+
+.aojiruDifference dd {
+	margin: 0 0 0 55px;
+}
+
+.aojiruComparison {
+	margin: 0 0 35px;
+}
+
+.aojiruComparison h2 {
+	margin: 0;
+}
+
+.aojiruText{
+	font-size:94%;
+}
+
+.tyuuijikou strong{
+	background:url(../img/icon_01.png) no-repeat 0 0;
+	padding: 0 0 0 13px;
+}
+
+.itemData1 .itemNotes{
+	font-size:75%;
+}

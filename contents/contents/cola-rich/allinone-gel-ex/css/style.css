@@ -1,0 +1,597 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------
+:::
+-------------------------------------------------------------------*/
+
+ul#headTab{
+	overflow: hidden;
+}
+
+ul#headTab li{
+	float: left;
+	margin-right: 12px;
+}
+
+.healthWrap{
+	border:#A36F31 4px solid;
+}
+
+.notes{
+	font-size:80%;
+}
+
+.contMain{
+	position: relative;
+	margin-bottom: 30px;
+	padding: 20px 10px 0 10px;
+}
+.contMain .mainAojiru{
+	position: absolute;
+	z-index: 10;
+	top:0;
+	right:0;
+}
+.contMain div.flL{
+	padding: 25px 0 0 0;
+}
+.contMain div.flR{
+	padding-top: 30px;
+	width: 470px;
+	padding-right: 7px;
+}
+
+.contMain div.flR div {
+	float: right;
+	width: 468px;
+}
+
+.contMain div.flR div .ttl {
+	margin-left: -10px;
+}
+
+.contMain .volumeBox{
+	border: #DAD0C1 1px solid;
+	min-height: 30px;
+	line-height: 30px;
+	color: #664B24;
+	font-size: 92.8%;
+	text-align: center;
+	margin:0 0 25px 5px;
+	background-color: #fff;
+	letter-spacing: -1px;
+}
+
+.contReccomend {
+	width: 667px;
+	margin: 0 auto 30px auto;
+}
+
+.contReccomend ul {
+	padding: 20px 0 5px 0;
+	border: 1px solid #B06A13;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.contReccomend ul li {
+	width: 320px;
+	padding-left: 10px;
+	margin-bottom: 15px;
+	float: left;
+
+}
+
+.colaggenBox {
+	width: 669px;
+	margin: 0 auto 30px auto;
+	padding: 0 0 20px 0;
+	background: url(/contents/contents/cola-rich/allinone-gel/img/collagen_bg_bottom.png) 50% 100% no-repeat;
+}
+
+.colaggenBox div {
+	padding: 20px 20px 0 20px;
+	background: url(/contents/contents/cola-rich/allinone-gel/img/collagen_bg_top.png) 0 0 no-repeat;
+}
+
+.colaggenBox div dt {
+	border-bottom: 1px dashed #A36F31;
+	padding: 0 0 7px 5px;
+	margin-bottom: 7px;
+}
+
+.colaggenBox div dd {
+	padding: 0 5px;
+}
+
+.shoppingList{
+	width: 650px;
+	margin:0 auto;
+	padding: 15px 7px;
+	background: #fff;
+	border: #DAD0C1 1px solid;
+}
+.shoppingList .itemPrice1 {
+	float: left;
+	width: 320px;
+	line-height: 1.3;
+	font-size: 120%;
+	text-align: center;
+	color: #664B24;
+}
+
+.shoppingList .itemPrice2 {
+	float: right;
+	width: 320px;
+	line-height: 1.3;
+	color: #c00;
+	font-size: 120%;
+	text-align: center;
+}
+.shoppingList .itemPrice1 strong,
+.shoppingList .itemPrice2 strong{
+	font-size: 200%;
+}
+
+.shoppingList .itemPrice1 img,
+.shoppingList .itemPrice2 img{
+	margin: 7px 0 0;
+}
+
+.shoppingList img {
+	vertical-align: top;
+}
+
+.secretBox {
+	width: 664px;
+	margin: 0 auto 35px auto;
+}
+
+.secretBox h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.secretBox ul {
+	width: 675px;
+	overflow: hidden;
+	margin: 0 0 0 -9px;
+}
+	
+.secretBox ul li{
+	float: left;
+	margin: 0 0 0 9px;
+	width: 216px;
+}
+
+
+.collagenNote {
+	background: url(/contents/contents/health/hc/150/img/intake_bg_bottom.png) 0 bottom no-repeat #E6E6E6;
+	width: 550px;
+	margin: 0 0 20px 50px;
+	padding-bottom: 7px;
+	font-size: 75%;
+}
+
+.contEiyou .collagenNote .inner {
+	background: url(/contents/contents/health/hc/150/img/intake_bg_top.png) 0 top no-repeat #E6E6E6;
+	padding: 10px 0 0 0;
+	width: 550px;
+}
+
+.collagenNote table {
+	width: 100%;
+}
+
+.collagenNote table th {
+	text-align: center;
+	padding: 2px 5px;
+}
+
+.collagenNote table td {
+	padding: 2px;
+}
+
+.contSecret {
+}
+
+.contKodawari {
+	width: 663px;
+	border: 2px solid #FF9900;
+	border-top: none;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.contKodawari h3 {
+	background-color: #FF9900;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 140%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contKodawari ul {
+	overflow: hidden;
+	padding: 3px;
+}
+
+.contKodawari ul li {
+	width: 193px;
+	float: left;
+	padding: 10px;
+	background-color: #FFFFBF;
+	margin: 3px;
+	min-height: 160px;
+}
+
+.contKodawari ul li.viE {
+	min-height: 345px;
+	float: right;
+}
+
+.contKodawari ul li .img {
+	float: left;
+	margin-right: 10px;
+}
+
+.contKodawari ul li dl {
+	float: left;
+	padding-top: 2px;
+}
+
+.contKodawari ul li dt {
+	color: #E00000;
+	font-weight: bold;
+}
+
+.contKodawari ul li dt span {
+	font-size: 85%;
+}
+
+.contKodawari ul li dd {
+	color: #A16700;
+	font-weight: bold;
+}
+
+.contKodawari ul li .txt {
+	clear: both;
+	padding-top: 10px;
+}
+
+.contEiyou .inner,
+.contContinue .inner,
+.contUse .inner {
+	width: 670px;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+
+.contEiyou .bgYellow {
+	background-color: #FFFF62;
+}
+
+.contContinue {
+}
+
+ul#bottomTab{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+ul#bottomTab li{
+	float: left;
+	margin-right: 12px;
+}
+
+.contShopping{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.contShopping div.flL{
+	padding-top: 20px;
+}
+
+.contShopping div.flR{
+	width: 476px;
+	padding: 35px 0 0 0 ;
+}
+.contShopping .volumeBox{
+	border: #DAD0C1 1px solid;
+	min-height: 30px;
+	line-height: 30px;
+	color: #664B24;
+	font-size: 92.8%;
+	text-align: center;
+}
+.shoppingBox{
+	clear: both;
+	width: 700px;
+	padding: 15px 0 0;
+	background: #fff;
+	text-align: center;
+	font-size: 120%;
+	line-height: 1.3;
+}
+
+.shoppingBox p.price{
+	float: left;
+	padding: 15px 0 0 30px;
+}
+.shoppingBox p.img{
+	float: right;
+}
+
+.shoppingBox .itemPrice1 {
+	border: #DAD0C1 3px solid;
+	padding: 10px;
+	margin-bottom: 30px;
+	color: #664B24;
+}
+.shoppingBox .itemPrice2 {
+	border: #FFCC33 3px solid;
+	color: #c00;
+	padding: 10px;
+}
+.shoppingBox .itemPrice1 strong,
+.shoppingBox .itemPrice2 strong{
+	font-size: 200%;
+}
+.shoppingBox img {
+	vertical-align: bottom;
+}
+
+.shoppingBox .honeyAttention{
+	font-size:70%;
+}
+
+.contMerit{
+	width: 694px;
+	background: url(/contents/contents/health/hc/150/img/merit_bg.png) 0 0 repeat;
+	border: #6A8B1F 3px solid;
+	padding: 22px 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.contMerit ul{
+	overflow: hidden;
+	width: 674px;
+	margin: 0 auto;
+	margin-top: -10px;
+}
+.contMerit ul li{
+	float: left;
+	margin-top: 30px;
+	width: 335px;
+	text-align: left;
+}
+
+.contCustomer {
+	margin-bottom: 40px;
+}
+
+.contCustomer div {
+	border: 1px solid #F7C4C1;
+	border-top: none;
+	padding: 15px;
+	line-height: 1.8;
+}
+
+.contCustomer .tel {
+	font-weight: bold;
+	font-size: 120%;
+	color: #444444;
+}
+
+.contCustomer .tel img {
+	vertical-align: middle;
+}
+
+.contLotbuy{
+	width: 694px;
+	border: #F7A91A 3px solid;
+	padding-bottom: 17px;
+	margin-bottom: 50px;
+}
+
+.contLotbuy h3{
+	height: 47px;
+	background: #F7A91A;
+	text-align: center;
+	padding-top: 9px;
+}
+.contLotbuy div.setPriceBox{
+	width: 451px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.contLotbuy div.setPriceBox p{
+	float: left;
+}
+.contLotbuy div.setPriceBox p.setPrice{
+	background: url(/contents/contents/aojiru/powder/honey-stick/img/lotbuy_fukidashi.png) no-repeat 0 0;
+	width: 290px;
+	height: 65px;
+	font-size: 120%;
+	color: #c00;
+	text-align: center;
+	padding-top: 25px;
+}
+.contLotbuy .setPrice strong{
+	font-size: 200%;
+}
+.contLotbuy .setPrice strong.otoku{
+color: #2B1D14;
+}
+.lotbuyLine{
+	line-height: 0;
+}
+
+.contLotbuy div.priceOff{
+	overflow: hidden;
+	text-align: left;
+	font-size: 120%;
+	width: 510px;
+	margin:10px auto;
+}
+.contLotbuy div.priceOff p{
+	float: left;
+}
+.contLotbuy div.priceOff .itemPrice1 {
+	width: 210px;
+	line-height:1.2;
+}
+.contLotbuy div.priceOff .itemPrice2 {
+	color: #c00;
+	width: 210px;
+	line-height:1.2;
+}
+.contLotbuy div.priceOff .itemPrice1 strong,
+.contLotbuy div.priceOff .itemPrice2 strong{
+	font-size: 200%;
+}
+.lotbuyNote{
+	padding:0 0 15px 95px;
+}
+
+#compTab{
+	display: none;
+}
+
+.compMain{
+	padding:0 0 0 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.compMain .notes {
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+}
+
+.contComp{
+	width: 670px;
+	margin: 0 auto;
+}
+.contComp h2{
+	padding-left: 17px;
+	width: 644px;
+	margin-bottom: 20px;
+}
+.contComp p,
+.contComp ul{
+	margin-bottom: 30px;
+}
+.contComp li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+ヒアコラ分包
+-------------------------------------------------------------------*/
+#hc_150 .btnFirst{
+	text-align: right;
+	margin-top: 3px;
+}
+
+#secret01{
+	margin-top: 30px;
+}
+
+#secret01 .pics{
+	width: 376px;
+	float: left;
+}
+
+#secret01 .desc{
+	float: right;
+	width: 266px;
+}
+
+#secret01 .desc dt{
+	margin-bottom: 10px;
+}
+
+#secret01_1 .pics{
+	width: 275px;
+	float: left;
+	margin-top: 8px;
+}
+
+#secret01_1 .desc{
+	float: right;
+	width: 367px;
+	margin-top: 8px;
+}
+
+#secret01_1 .desc dd{
+	margin: 5px 0px 20px;
+	font-size: 95%;
+}
+
+#secret02{
+	background:#fff url(../../../common/pics.jpg) no-repeat right top;
+	padding: 0px 260px 0px 0px;
+	width: 400px;
+}
+
+#secret02 dt{
+	padding: 24px 0px 18px;
+}
+
+#secret02 dd .emph{
+	color:#FA5C26;
+}
+
+#secret03{
+	margin-top:25px;
+}
+
+#secret03 .pics{
+	width: 361px;
+	float: right;
+}
+
+#secret03 .desc{
+	width: 279px;
+	float: left;
+}
+
+#hcHowto{
+	width: 657px;
+	margin: 0 auto;
+	padding:24px 0px 0px;
+	clear: both;
+}
+
+#hcHowto .recipe{
+	padding: 25px 0px 0px;
+	background:#fff url(../../../common/recipePics.jpg) no-repeat right 25px;
+	width: 651px;
+}
+
+#hcHowto .recipe dd{
+	margin: 10px 0px 6px;
+}
+
+#hc .pIntro .note,
+#hc .closing .note{
+	margin-bottom: 10px;
+}

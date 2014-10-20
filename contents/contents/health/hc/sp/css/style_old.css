@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ヒアコラスーパー
+-------------------------------------------------------------------*/
+#smooth01{
+	margin: 24px auto;
+	background: url(../img/smoothImg01.jpg) no-repeat right top;
+	width: 355px;
+	padding:0px 305px 20px 0px;
+}
+
+#smooth01 dt{
+	margin-bottom: 20px;
+}
+
+#smooth02{
+	background: url(../img/smoothImg02.jpg) no-repeat right top;
+	width: 404px;
+	padding: 0px 256px 40px 0px;
+}
+
+#smooth02 dt{
+	margin-bottom: 10px;
+}
+
+#secret03{
+	margin-top:25px;
+}
+
+#secret03 .pics{
+	width: 361px;
+	float: right;
+}
+
+#secret03 .desc{
+	width: 279px;
+	float: left;
+}
+
+#hcHowto{
+	width: 657px;
+	margin: 0 auto;
+	padding:24px 0px 0px;
+	clear: both;
+}
+
+#hcHowto .recipe{
+	padding: 25px 0px 0px;
+	background: url(../../hc/common/recipePics.jpg) no-repeat right 25px;
+	width: 651px;
+}
+
+#hcHowto .recipe dd{
+	margin: 10px 0px 6px;
+}

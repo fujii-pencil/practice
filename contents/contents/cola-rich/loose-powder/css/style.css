@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+コラリッチ ルースパウダー
+-------------------------------------------------------------------*/
+#feature{
+	background: url(../img/bg.jpg) no-repeat center 25px;
+	width: 686px;
+	margin: 10px auto;
+	padding-bottom: 30px;
+}
+
+#feature ul{
+	text-align:center;
+}
+
+#feature li{
+	float:left;
+	padding:8px 10px 0px 0px;
+}
+
+#feature li.last{
+	padding:8px 0px 0px 0px;
+}
+
+#shine{
+	width: 666px;
+	margin: 0 auto;
+}
+
+#beauty{
+	width: 666px;
+	margin: 140px auto 0px;
+}
+
+#beauty h3{
+	text-align: right;
+}
+
+.twomonth{
+	font-size:85%;
+}
+
+.bdr_t{
+	border-top:1px dotted #CCC;
+	padding-top:5px;
+	margin-top:5px;
+}

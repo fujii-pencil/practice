@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+おいしい発芽青玄米
+-------------------------------------------------------------------*/
+#nutrition{
+	margin-top: 10px;
+	width: 657px;
+}
+
+#nutrition ul{
+	margin-top: 10px;
+}
+
+#nutrition li{
+	margin-bottom: 5px;
+}
+
+#nutrition li.note{
+	text-align:right;
+	padding-top: 0px;
+	font-size: 75%;
+}

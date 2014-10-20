@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@import "/contents/contents/teiki/css/style.css";
+
+
+#teiki_contact{
+	background:#F0F0F0;
+	padding:15px 10px 0px;
+	margin-bottom: 20px;
+}
+
+#teiki_contact .tel_num{
+	font-size: 125%;
+}

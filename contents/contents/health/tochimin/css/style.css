@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+トーチミン
+-------------------------------------------------------------------*/
+#tochi{
+	margin: 14px auto 30px;
+}
+
+#tochi .pics{
+	float: right;
+	width: 158px;
+	margin-top: 30px;
+}
+
+#tochi .desc{
+	float: left;
+	width: 465px;
+}
+
+#tochi dt{
+	color: #008837;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+#diet{
+	width: 540px;
+	margin: 14px auto 30px;
+}
+
+#diet ul,
+#workout ul{
+	margin-top:12px;
+}
+
+#diet li{
+	color: #008837;
+	font-weight: bold;
+	margin: 0px 0px 4px;
+}
+
+#workout{
+}
+
+.grn{
+	color: #1A9430;
+}
+
+
+/**/
+.itemTtlDetail,
+#tabTxt1{
+	color:#FF6633 !important;
+}
+.itemTtlType02,
+#tabTxt2{
+	color:#12285D !important;
+}
+

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ブルーベリーメグスリノキ
+-------------------------------------------------------------------*/
+#extract{
+	width: 685px;
+}
+
+#extract li{
+	float: left;
+}
+
+#bilberry{
+	margin: 18px auto;
+}
+
+#bilberry .desc{
+	width: 338px;
+	float: left;
+}
+
+#bilberry .pics{
+	width: 302px;
+	float: right;
+}
+
+#bilberry dt{
+	margin-bottom: 12px;
+}
+
+#bilberry .ref{
+	font-size: 95%;
+	margin-top: 15px;
+}
+
+#threeP{
+	margin-top:8px;
+}
+
+#threeP li{
+	float: left;
+}

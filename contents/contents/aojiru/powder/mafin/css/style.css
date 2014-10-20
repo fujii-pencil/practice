@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ヘルシーマフィン
+-------------------------------------------------------------------*/
+
+#recipe .howto_b{
+	float: left;
+	width: 316px;
+	border-bottom: 1px dotted #CCC;
+	margin: 20px 0 0 0;
+}
+
+#recipe .howto_b dt{
+	float: left;
+	width: 40px;
+	margin: 0 20px 0 0;
+}
+
+#recipe .howto_b dd{
+	float: left;
+	width: 256px;
+	padding: 0 0 15px 0;
+}
+
+.recipe_l{
+	width: 121px;
+	font-size: 95%;
+	padding: 0 14px 0 0;
+	float: left;
+}
+
+.recipe_r{
+	width: 121px;
+	font-size: 95%;
+	float: left;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+
+ clearfix
+ 
+--------------------------------------------------
+-------------------------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac ¥*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* End Hides from IE-mac ¥*/

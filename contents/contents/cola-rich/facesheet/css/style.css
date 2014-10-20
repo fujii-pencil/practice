@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+#details01{
+	margin: 15px auto 30px;
+	width: 676px;
+}
+
+#elements{
+	background:url(../img/bg.jpg) no-repeat right bottom;
+}
+
+#details01 .layout{
+	border-bottom: 1px dotted #CCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#details01 .layout#nob{
+	border-bottom: none;
+}
+
+#details01 .layout .pics{
+	width: 180px;
+	float: left;
+	padding-right: 17px;
+}
+
+#details01 .layout .desc{
+	float: left;
+	width: 479px;
+}
+
+#details01 .layout .desc .notice{
+	text-align:right;
+	font-size: 85%;
+}
+
+#details01 .layout .desc dt{
+	margin-bottom:10px;
+}
+
+#details01 .emph,
+#quality dd .emph{
+	font-weight:bold;
+	color:#FF6600;
+}
+
+#quality{
+	border: 1px solid #FF9301;
+	background: #FFFFCC url(../img/element04_2.jpg) no-repeat right bottom;
+	padding: 15px 258px 15px 20px;
+}
+
+#quality dt{
+	margin-bottom: 5px;
+}
+
+#details02{
+	margin: 15px auto 30px;
+	width: 676px;
+}
+
+#details02 #howto{
+	background: url(../img/howto_bg.gif) repeat;
+	border: 1px solid #DEB672;
+	padding: 22px 17px 15px;
+}
+
+#details02 #howto h3{
+	margin-bottom:5px;
+}
+
+#details02 #howto li{
+	float: left;
+	margin-top: 15px;
+}
+
+.bdr_t{
+	border-top:1px dotted #CCC;
+	padding-top:5px;
+	margin-top:5px;
+}

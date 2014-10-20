@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+髪育習慣　薬用育毛剤
+-------------------------------------------------------------------*/
+#tonic{
+	font-size: 160%;
+}
+
+
+.btnFirst{
+	text-align: right;
+	margin-top: 3px;
+}
+
+#section02 {
+	margin-top: 0px;
+	background: url(../img/section02Bg01.jpg) 40px top no-repeat;
+	min-height: 277px;
+	height: auto !important;
+	height: 277px;
+}
+
+#section02 .desc {
+	margin-left: 150px;
+}
+
+#section02 ul.desc  li {
+	padding-bottom: 16px;
+}
+
+#section03 .desc li {
+	padding-bottom: 16px;
+}
+
+#section04 {
+	margin-top: 0px;
+	background: url(../img/section04Bg01.jpg) left top no-repeat;
+	min-height: 257px;
+	height: auto !important;
+	height: 257px;
+}
+
+#section04 .desc,
+#section04 .point,
+#section04 P {
+	margin-left: 200px;
+}
+
+#section04 .desc dt, 
+#section04 .desc dd {
+	padding-bottom: 16px;
+}
+
+
+#section05 .desc li {
+	float: left;
+	width: 165px;
+	text-align: right;
+}
+
+/*—– first-child start —–*/
+#section05 .desc li:first-child{
+	width: 158px;
+}
+#section05 .desc li.first-child{ /*IE-expression (first-child) */
+	width: 158px;
+}
+#section05 .desc li { /* IE-expression (first-child) */
+behavior: expression(
+this.className += (this.previousSibling == null) ? '' first-child'' : '''',
+this.style.behavior =''none''
+);
+}
+/*—– first-child end —–*/
+
+.point dd  {
+	width: 426px;
+	padding: 10px 18px 17px 18px;
+	border: 1px solid #FFCED5;
+	background: #FFF0F2;
+	border-top: none;
+}
+
+.caution {
+	margin-top: 5px;
+	font-size: 83.40%;
+}
+
+
+
+
+
+
+
+
+
+
+

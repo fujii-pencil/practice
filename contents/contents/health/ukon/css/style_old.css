@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+キューサイ　ウコン
+-------------------------------------------------------------------*/
+.curcumin{
+	margin: 14px auto 30px;
+}
+
+.curcumin dl{
+}
+
+.curcumin dt{
+	margin-bottom: 12px;
+}
+
+.curcumin .desc{
+	width: 418px;
+	float: left;
+}
+
+.curcumin .pics{
+	width: 222px;
+	float: right;
+}
+
+#healthy{
+	margin: 18px auto;
+	background: url(../img/healtyImg.jpg) no-repeat right top;
+	padding: 0px 320px 50px 0px;
+	width: 340px;
+}

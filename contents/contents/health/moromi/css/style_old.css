@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+キューサイ　もろみ酢
+-------------------------------------------------------------------*/
+#acid{
+	margin: 0px auto 30px;
+	background: url(../img/aminoImg01.jpg) no-repeat right bottom;
+}
+
+#acid dt{
+	margin: 16px 0px 12px;
+}
+
+#acid .desc{
+	padding-right: 164px;
+}
+
+#compare{
+	margin: 20px auto;
+	background: url(../img/compareBg.jpg) no-repeat right bottom;
+}
+
+#compare .desc{
+	float: right;
+	width: 249px;
+}
+
+#compare .pics{
+	width: 381px;
+	float: left;
+}
+
+#jpn{
+	margin: 15px auto;
+}
+
+#jpn .desc{
+	width: 460px;
+	float: left;
+}
+
+#jpn .pics{
+	width: 180px;
+	float: right;
+}

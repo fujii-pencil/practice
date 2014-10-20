@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+キューサイ　ウコン
+-------------------------------------------------------------------*/
+.curcumin{
+	margin: 14px auto 30px;
+}
+
+.curcumin dl{
+}
+
+.curcumin dt{
+	margin-bottom: 12px;
+}
+
+.curcumin .desc{
+	width: 418px;
+	float: left;
+}
+
+.curcumin .pics{
+	width: 222px;
+	float: right;
+}
+
+#healthy{
+	margin: 18px auto 0px;
+	background: url(../img/healtyImg.jpg) no-repeat right top;
+	padding: 0px 320px 10px 0px;
+	width: 340px;
+}
+
+#healthy02{
+	margin: 18px auto 0px;
+	background: url(../img/healtyImg02.jpg) no-repeat right top;
+	padding: 0px 170px 50px 0px;
+	width:490px;
+}
+
+#healthy h3,
+#healthy02 h3{
+	margin-bottom:10px;
+}
+
+
+
+/**/
+.itemTtlDetail,
+#tabTxt1{
+	color:#FF6633 !important;
+}
+.itemTtlType02,
+#tabTxt2{
+	color:#12285D !important;
+}

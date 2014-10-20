@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+コラリッチ　オールインワン美容液ファンデーション
+-------------------------------------------------------------------*/
+#care{
+	width: 666px;
+	background: url(../img/careBg.jpg) no-repeat 185px 60px;
+	padding-bottom: 20px;
+}
+
+#care p{
+	margin-bottom:20px;
+}
+
+#care li{
+	margin-bottom:10px;
+}
+
+#care #ing01{
+	width: 278px;
+	float: left;
+}
+
+#care #ing02{
+	width: 267px;
+	float: right;
+}
+
+#basemake{
+	margin: 20px auto;
+}
+
+#basemake .desc{
+	width: 365px;
+	float: left;
+}
+
+#basemake .desc dt{
+	margin-bottom: 15px;
+}
+
+#basemake .pics{
+	width: 265px;
+	float: right;
+}
+
+#color{
+	margin: 14px auto;
+}
+
+#color ul{
+	width: 633px;
+	border: 1px dotted #CCC;
+	padding: 15px;
+	margin: 22px 0px;
+}
+
+#color li{
+	display: inline;
+	padding-right: 10px;
+}
+
+
+#developer{
+	margin: 20px auto 0px;
+}
+
+#developer .desc{
+	width: 490px;
+	float: left;
+}
+
+#developer .pics{
+	width: 150px;
+	float: right;
+}
+
+.color_sample{
+	margin: 10px 0px 0px;
+}
+
+.closing .bg .desc .color_sample{
+	margin: 0px 0px 10px;
+}
+
+#ultra{
+	padding-top: 10px;
+}
+
+#ultra h3{
+	margin-bottom: 10px;
+}
+
+#ultra li{
+	float: left;
+	margin-top:5px;
+}
+
+#cora-rich .notice{
+	font-size:85%;
+}
+
+.bdr_t{
+	border-top:1px dotted #CCC;
+	padding-top:5px;
+	margin-top:5px;
+}
+
+/*---------------------------------------------------------
+ファンデ通販中止に伴う変更　2013.01.21追加
+---------------------------------------------------------*/ 
+.crfoundation{
+	float: left;
+	padding-right: 15px;
+	border-right: 1px dotted #CCC;
+	margin-right: 15px;
+	width: 40%;
+}
+
+.priceArea .discount{
+	margin-top:20px;
+}

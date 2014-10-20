@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+スキンケア TOP
+-------------------------------------------------------------------*/
+#mainVisual {
+	margin-bottom: 70px;
+}
+
+.slide {
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: none;
+}
+
+.slide ul {
+	overflow:hidden;
+	width: 700px;
+	height: 270px;
+}
+
+.slide li {
+	position: relative;
+}
+
+.slide .thumbnail {
+	background-color: #EBE7D4;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.slide .thumbnail a {
+	margin: 0 3px;
+}
+
+.slide .thumbnail img {
+	border: 3px solid #ffffff;
+}
+
+.slide .thumbnail .active img {
+	border: 3px solid #999999;
+}
+
+.skincareStep {
+	margin-bottom: 70px;
+	text-align: center;
+	border: 1px solid #CA943E;
+	padding: 15px 0 20px 0;
+}
+
+.trouble {
+	margin-bottom: 60px;
+}
+
+.trouble h2 {
+	margin-bottom: 10px;
+}
+
+.trouble ul {
+	overflow: hidden;
+}
+
+.trouble li {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.series01 {
+	margin-bottom: 70px;
+	background: url(/contents/contents/cola-rich/img/series01_bg.png) 0 176px no-repeat #F4EBA8;
+	padding-bottom: 15px;
+}
+
+.series01 ul {
+	background: #ffffff;
+	width: 670px;
+	margin: 0 auto;
+	padding: 20px 0 15px 5px;
+	overflow: hidden;
+}
+
+.series01 ul li {
+	float: left;
+	margin: 0 20px;
+	width: 180px;
+}
+
+.series01 ul li dt {
+	color: #D8344A;
+	font-size: 123%;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.series01 ul li .capacity {
+	background-color: #FFCCCC;
+	padding: 0 2px;
+	margin-top: 5px;
+	letter-spacing: -1px;
+}
+
+.series01 ul li .price {
+	padding: 5px 0;
+}
+
+.series01 ul li .price span {
+	font-size: 123%;
+	padding-left: 2px;
+}
+
+.series01 ul li .linkBtn {
+	text-align: right;
+	border-top: dashed 1px #BDBDBD;
+	padding-top: 5px;
+}
+
+.series01 ul li .linkBtn a {
+	background: url(/contents/contents/cola-rich/img/link_icon.png) 0 50% no-repeat;
+	padding-left: 20px;
+	color: #FF6600;
+	font-size: 92%;
+}
+
+.series02 {
+	margin-bottom: 70px;
+}
+
+.series02 p {
+	padding: 10px 0;
+}
+
+.series02 span {
+	font-size: 90%;
+}
+
+.series02 ul {
+	overflow: hidden;
+	margin-left: -8px;
+}
+
+.series02 li {
+	float: left;
+	margin-left: 8px;
+}
+
+#trouble01,
+#trouble02,
+#trouble03,
+#trouble04,
+#trouble05,
+#trouble06 {
+	display: none;
+}
+
+.troubleBox {
+	position: relative;
+	background-color: #ffffff;
+	padding: 0 0 25px 0;
+	font-size: 130%;
+	line-height: 1.5;
+}
+
+.troubleBox h2 {
+	text-align: center;
+}
+
+.troubleBox .inner {
+	background: url(/contents/contents/cola-rich/img/trouble_bg.png) 0 0 no-repeat;
+	width: 962px;
+	margin: 0 auto;
+	padding: 0 0 25px 0;
+	border-bottom: 1px solid #F0E386;
+}
+
+.troubleBox .productList {
+	background-color: #ffffff;
+	width: 905px;
+	margin: 0 auto;
+	padding: 20px 0 20px 15px;
+}
+
+.troubleBox .productList table {
+}
+
+.troubleBox .productList td.borderNone {
+	border-top: none !important;
+}
+
+.troubleBox .productList td {
+	padding: 12px 10px 12px 12px;
+	width: 273px;
+	border: 1px solid #D0D2D4;
+	vertical-align: top;
+}
+
+.troubleBox .productList .notes {
+	font-size: 70%;
+	word-break: keep-all;
+	display: inline-block;
+}
+
+.troubleBox .productList td.catch {
+	background-color: #FAF4D2;
+}
+
+.troubleBox .productList td div {
+	width: 180px;
+	float: right;
+}
+
+.troubleBox .productList td .productsImg {
+	float: left;
+	border: 1px solid #D0D2D4;
+}
+
+.troubleBox .productList td .productsImg a {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.troubleBox .productList td .productsImg span {
+	width: 80px;
+	height: 80px;
+	display: table;
+	text-align: center;
+}
+
+.troubleBox .productList td .productsImg img {
+	vertical-align: middle;
+}
+
+.troubleBox .productList td div h3 {
+	color: #D8344A;
+	font-size: 123%;
+	font-weight: bold;
+	padding: 5px 0;
+	min-height: 45px;
+}
+
+.troubleBox .productList td div h3 span {
+	color: #C8903B;
+}
+
+.troubleBox .productList td div .capacity {
+	background-color: #FFCCCC;
+	padding: 0 2px;
+	margin-top: 5px;
+	letter-spacing: -1px;
+	font-size: 96%;
+}
+
+.troubleBox .productList td div .price {
+	padding: 5px 0;
+}
+
+.troubleBox .productList td div .price span {
+	font-size: 123%;
+	padding-left: 2px;
+}
+
+.troubleBox .productList td div .linkBtn {
+	text-align: right;
+	border-top: dashed 1px #BDBDBD;
+	padding-top: 5px;
+}
+
+.troubleBox .productList td div .linkBtn a {
+	background: url(/contents/contents/cola-rich/img/link_icon.png) 0 50% no-repeat;
+	padding-left: 20px;
+	color: #FF6600;
+	font-size: 92%;
+}
+
+/*  thickbox 
+-------------------------------------------------*/
+#TB_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+
+.TB_overlayMacFFBGHack {background: url(/contents/contents/images/sys/modal_bg.png) repeat;}
+.TB_overlayBG {
+	background: url(/contents/contents/images/sys/modal_bg.png) 0 0 repeat;
+}
+
+#TB_window {
+	position: fixed;
+	background: #ffffff;
+	z-index: 102;
+	color:#000000;
+	display:none;
+	text-align:left;
+	top:50%;
+	left:50%;
+}
+
+#TB_closeWindow{
+	height:25px;
+	padding:11px 25px 10px 0;
+	float:right;
+}
+
+#TB_closeAjaxWindow{
+	position: absolute;
+	top: -30px;
+	right: 0;
+}
+
+#TB_closeAjaxWindow a {
+	width: 100px;
+	height: 30px;
+	text-indent: -9999px;
+	background: url(/contents/contents/cola-rich/img/close_btn.png) 0 0 no-repeat;
+	display: block;
+}
+
+#TB_closeAjaxWindow a:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+#TB_ajaxWindowTitle{
+	float:left;
+	padding:7px 0 5px 10px;
+	margin-bottom:1px;
+}
+
+#TB_ajaxContent{
+	clear:both;
+	padding:2px 15px 15px 15px;
+	overflow:auto;
+	text-align:left;
+	line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal{
+	padding:15px;
+}
+
+#TB_load{
+	position: fixed;
+	display:none;
+	height:13px;
+	width:208px;
+	z-index:103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+#TB_HideSelect{
+	z-index:99;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:#ffffff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height:100%;
+	width:100%;
+}
+
+#TB_iframeContent{
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}

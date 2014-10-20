@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+#details01{
+	margin: 15px auto 30px;
+	width: 456px;
+	background:url(../img/policy01.jpg) no-repeat left top;
+	padding-left:220px;
+}
+
+#details01 .layout{
+	border-bottom:1px dotted #CCC;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#details01 .layout#nob{
+	border-bottom:none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#details01 .emph{
+	font-weight:bold;
+	color:#FF6600;
+}
+
+
+#details01 .pics{
+	width: 120px;
+	float: right;
+	padding-left: 28px;
+}
+
+#details01 .desc{
+	float: left;
+	width: 308px;
+}
+
+#details01 .desc dt{
+	margin-bottom:8px;
+}
+
+#details02{
+	margin: 15px auto 30px;
+	width: 676px;
+}
+
+#details02 dl{
+	float: left;
+	padding: 10px 9px;
+	border: 1px solid #DEB672;
+	background: url(../img/juicy_bg.jpg) repeat-y center;
+	margin-right: 11px;
+}
+
+#details02 dl#last{
+	margin-right: 0;
+}
+
+#details02 dt{
+	margin-bottom:10px;
+}
+
+#details02 dd{
+	width:198px;
+	line-height: 1.3;
+	font-size: 100%;
+}
+
+
+#details02 .note{
+	font-size:75%;
+	text-align:right;
+	color:#462D32;
+	padding-top:5px;
+	clear:both;
+}

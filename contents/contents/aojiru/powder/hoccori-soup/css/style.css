@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+緑のほっこりスープ
+-------------------------------------------------------------------*/
+
+#recipe .howto2{
+	float: left;
+	width: 434px;
+	border-bottom: 1px dotted #CCC;
+	margin: 20px 0 0 0;
+}
+
+#recipe .howto2 dt{
+	float: left;
+	width: 40px;
+	margin: 0 20px 0 0;
+}
+
+#recipe .howto2 dd{
+	float: left;
+	width: 374px;
+	font-size: 95%;
+	padding: 0 0 15px 0;
+}
+
+.recipe_t{
+	width: 256px;
+	font-size: 95%;
+}
+
+.recipe_l{
+	width: 121px;
+	font-size: 95%;
+	padding: 0 14px 0 0;
+	float: left;
+}
+
+.recipe_r{
+	width: 121px;
+	font-size: 95%;
+	float: left;
+}
+
+#recipe .howto2 ul{
+	margin-left:1.5em;
+}
+
+#recipe .howto2 li{
+	text-indent:-1.5em;
+	margin-bottom:15px;
+}
+
+#recipe .howto2 li.advice{
+	text-indent:0;
+	margin-left:-1.5em;
+}
+
+
+
+
+/*------------------------------------------------
+--------------------------------------------------
+
+ clearfix
+ 
+--------------------------------------------------
+-------------------------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac ¥*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* End Hides from IE-mac ¥*/

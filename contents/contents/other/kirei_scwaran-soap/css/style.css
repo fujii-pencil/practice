@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+洗顔せっけん
+-------------------------------------------------------------------*/
+#threepoint dl{
+	float: left;
+	width: 210px;
+	padding-right:15px;
+	padding-top: 15px;
+}
+
+#threepoint dd{
+	margin-top:5px;
+	font-size:95%;
+}
+
+#threepoint .last{
+	padding-right:0;
+}
+
+#threepoint .point dd{
+	font-size: 95%;
+	margin-top: 5px;
+}
+

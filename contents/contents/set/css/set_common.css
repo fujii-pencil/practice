@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+まとめ買い
+-------------------------------------------------------------------*/
+.head1 {
+	line-height: 40px;
+	margin: 0 0 20px;
+	padding: 5px 7px;
+	color: #fff;
+	font-size: 140%;
+	background: url(/contents/contents/aojiru/common/h_bg_01.png) no-repeat 0 0;
+}
+
+.head1 .txt01 {
+	font-size: 85%;
+	padding: 3px 5px 2px 10px;
+	color: #000;
+}
+
+.head1 .txt02 {
+	font-size: 70%;
+	padding: 3px 5px 2px;
+	color: #000;
+	float: right;
+}

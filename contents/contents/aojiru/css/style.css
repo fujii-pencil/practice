@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+青汁 TOP
+-------------------------------------------------------------------*/
+.aojiruType {
+	overflow: hidden;
+	margin: 0 0 20px;
+}
+
+.aojiruType ul {
+	position: relative;
+	left: 0;
+	width: 711px;
+}
+
+.aojiruType li {
+	float: left;
+	margin: 0 11px 0 0;
+}
+
+.aojiruPower {
+	margin: 0 0 50px;
+}
+
+.aojiruPower dl {
+	float: left;
+	width: 315px;
+	margin: 0 0 10px;
+}
+
+.aojiruPower dt {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.aojiruPower dd {
+	margin: 0 0 15px;
+}
+
+.aojiruPowerNotes {
+	font-size: 80%;
+}
+
+.aojiruVoice {
+	margin: 0 0 50px;
+}
+
+.aojiruVoice h2 {
+	margin: 0 0 20px;
+}
+
+.itemList .itemNotes{
+	font-size:75%;
+}

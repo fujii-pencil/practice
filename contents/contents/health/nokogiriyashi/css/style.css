@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+  ノコギリヤシ ギャバプラス
+-------------------------------------------------------------------*/
+#first{
+	margin: 20px auto 40px;
+}
+
+#first h3{
+	margin-bottom: 15px;
+}
+
+#first #note{
+	width: 370px;
+	float: left;
+}
+
+#first #note li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+#first #note dl{
+	background: #FFFFDB;
+	padding: 12px 15px;
+	margin-top: 15px;
+}
+
+#first #note dt{
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+#first #note .note{
+	padding: 0;
+}
+
+#first #contact{
+	width: 230px;
+	float: right;
+	background: #F2F2F2;
+	padding: 15px 20px 25px;
+}
+
+#first #contact dt{
+	margin-bottom: 28px;
+}
+
+#worry{
+	margin: 16px auto 30px;
+	width: 657px;
+}
+
+#support{
+	margin: 12px auto 35px;
+}
+
+#support p{
+	width: 275px;
+	float: left;
+}
+
+#support ul{
+	width: 358px;
+	float: right;
+	margin-top: 13px;
+}
+
+#support li{
+	margin-bottom:3px;
+}
+
+#support li#power{
+	margin-top:17px;
+}
+
+#extract{
+	background: url(../img/extractImg.jpg) no-repeat right 20px;
+	width: 452px;
+	padding: 0px 208px 25px 0px;
+	position: relative;
+}
+
+#extract .notes {
+	position: absolute;
+	right: 0;
+	top: 290px;
+	font-size: 90%;
+}
+
+#extract #how{
+	background: #F2F2F2;
+	padding: 15px;
+	margin-top: 5px;
+}
+
+#extract #how dt{
+	font-weight: bold;
+}
+
+.gabaDesc{
+	margin:8px 0px 0px 5px;
+}
+
+.gabaDesc dt{
+	color: #008837;
+	font-weight: bold;
+	font-size: 115%;
+	margin-bottom:5px;
+}
+
+#health .border{
+	border-top: 1px dotted #CCC;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+
+
+
+/**/
+.itemTtlDetail,
+#tabTxt1{
+	color:#FF6633 !important;
+}
+.itemTtlType02,
+#tabTxt2{
+	color:#12285D !important;
+}

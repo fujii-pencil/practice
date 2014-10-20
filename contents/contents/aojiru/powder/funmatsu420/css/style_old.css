@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+青汁420
+-------------------------------------------------------------------*/
+#secret01{
+	background: url(../img/bg01.jpg) no-repeat right top;
+}
+
+#secret01 h4{
+	margin-top:20px;
+}
+
+#secret01 .text{
+	padding: 15px 280px 20px 0px;
+}
+
+#secret01 #secure li{
+	float: left;
+	padding-top: 15px;
+}
+
+#secret01 #secure li.last{
+	float: right;
+}
+
+#kale_tomato li{
+	float: left;
+}
+
+#secret02{
+	margin-top:15px;
+}
+
+#secret02 .desc{
+	float: left;
+	width: 265px;
+}
+
+#secret02 .pics{
+	float: right;
+	width: 379px;
+}
+
+#secret02 .desc h4{
+	margin: 0px 0px 15px;
+}
+
+#secret02 .desc #base{
+	margin-top: 15px;
+}
+
+#secret03{
+	background: url(../../aojiru/common/secret03Bg01.jpg) no-repeat left top;
+	min-height: 310px;
+	height: auto !important;
+	height: 310px;
+}
+
+#secret03 h4 {
+	margin-top:20px;
+	padding-left: 310px;
+}
+
+#secret03 .text{
+	padding: 15px 0px 10px 310px;
+}
+
+#secret03 .img{
+	padding-left: 310px;
+}
+
+
+
+
+
+
+
+#secret04{
+	margin-top: 20px;
+	background: url(../../aojiru/common/secret04Bbg01.jpg) right bottom no-repeat;
+}
+
+#secret04 h4{
+	margin-top:20px;
+}
+
+#secret04 .text{
+	padding: 15px 310px 0px 0px;
+}
+
+
+/*---------------------------------------------------------
+recipe
+---------------------------------------------------------*/ 
+
+#aojiruRecipe{
+	background: url(../../aojiru/common/recipeBg.jpg) no-repeat center top;
+	width: 696px;
+	min-height: 174px;
+}
+
+#aojiruRecipe dl{
+	padding: 55px 0px 0px 37px;
+}
+
+#aojiruRecipe dd{
+	padding: 15px 0px 0px 0px;
+}
+

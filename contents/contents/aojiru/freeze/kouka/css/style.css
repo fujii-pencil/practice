@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+#kale{
+	background: url(../../common/sumImg01.jpg) no-repeat right 30px;
+	padding: 0px 230px 0px 0px;
+	margin-bottom:40px;
+}
+
+#kale dt{
+	margin: 20px 0px 10px;
+}
+
+#aojiruSum #kale .btnCheck{
+	text-align:center;
+	padding-top: 10px;
+}
+
+#veg{
+	background:url(../img/img04.jpg) no-repeat left top;
+	text-indent:-9999px;
+	width:695px;
+	height:148px;
+}
+
+.kouka_text{
+	margin:5px 10px 20px;
+}
+
+.pLayoutS{
+	min-height:215px;
+}
+
+.pLayoutS .desc .comment{
+	margin-top:5px;
+}
+
+.aojiru_more{
+	text-align:right;
+	margin-top:10px;
+}
+
+.aojiru_more a{
+	background:url(../../common/arrowS.gif) no-repeat left center;
+	padding-left: 10px;
+}
+
+#a_funmatsu{
+	padding-top:190px;
+}
+
+.caption2{
+	text-align:right;
+	font-size:80%;
+	margin-top:-10px;
+	margin-bottom:10px;
+}

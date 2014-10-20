@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+#details01{
+	margin: 30px auto 50px;
+	width: 448px;
+	background: url(../img/ing01.jpg) no-repeat left bottom;
+	padding: 0px 0px 0px 232px;
+}
+
+#details01 .pics{
+	width: 365px;
+	float: left;
+	padding-right: 25px;
+}
+
+#details01 .desc{
+	float: left;
+	width: 276px;
+}
+
+#details02{
+	margin: 17px auto 45px;
+	width: 662px;
+}
+
+#details02 li{
+	text-align:center;
+}
+
+#details02 p{
+	margin-bottom:17px;
+}
+
+#details02 .pics{
+	width: 257px;
+	float: left;
+}
+
+#details02 .desc{
+	float: left;
+	width: 364px;
+	padding-right: 45px;
+}
+
+#details03{
+	margin:12px 0px 47px;
+}
+

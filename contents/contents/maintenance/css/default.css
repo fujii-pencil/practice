@@ -1,0 +1,14 @@
+@charset "Shift_JIS";
+
+/*------------------------------------------------------------------ 
+[Master Stylesheet]
+-------------------------------------------------------------------*/  
+
+
+/* ----- import ----- */
+
+@import url("reset.css");
+@import "common.css";
+@import "system.css";
+@import "thickbox.css";
+

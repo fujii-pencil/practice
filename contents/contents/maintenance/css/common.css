@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+link  
+-------------------------------------------------------------------*/  
+
+.f8h12 a:link,
+.f8h12 a:visited {
+	color: #666;
+	text-decoration: underline;
+}
+
+.f8h12 a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------ 
+font size/color  
+-------------------------------------------------------------------*/  
+
+.f18 {
+	font-size: 18px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f14 {
+	font-size: 14px;
+}
+
+.f11h17 {
+	line-height: 17px;
+	font-size: 11px;
+}
+.f10h14 {
+	line-height: 14px;
+	font-weight: normal;
+	font-size: 10px;
+}
+.f8h12 {
+	line-height: 12px;
+	color: #666;
+	font-size: 8px;
+}
+
+.f12h18 {
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.fred {
+	color: #CC0000;
+}
+.fpink {
+	color: #FF0066;
+}
+.fwhite {
+	color: #FFF;
+}
+.fygreen {
+	color: #94CE0D;
+}
+.fgreen {
+	color: #008737;
+}
+.fblue {
+	color: #0066CC;
+}
+.fgray {
+	color: #666;
+}
+
+
+/*------------------------------------------------------------------ 
+margin/padding 
+-------------------------------------------------------------------*/  
+
+.mr5 {
+	margin-right: 5px;
+}
+.ml5 {
+	margin-left: 5px;
+}
+.mr2 {
+	margin-right: 2px;
+}
+.mb2 {
+	margin-bottom: 2px;
+}
+.mb5 {
+	margin-bottom: 5px;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.mt15 {
+	margin-top: 15px;
+}
+.mb15 {
+	margin-bottom: 15px;
+}
+.mt20 {
+	margin-top: 20px;
+	width: 800px;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+}
+
+.mb25 {
+	margin-bottom: 25px;
+} 
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+
+/*------------------------------------------------------------------ 
+header
+-------------------------------------------------------------------*/  
+#header{
+	width:980px;
+	padding:0px 11px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#season{
+	/*background: url(/contents/images/sys/common/headerBg.jpg) no-repeat center top;*/
+	/* 20121203 Q modify*/
+	background: url(/contents/contents/common/headerBg.jpg) no-repeat center top;
+	width: 980px;
+}
+
+#header #tagline{
+	width: 952px;
+	padding:0px 14px;
+}
+
+#header #tagline p{
+	float: left;
+	padding: 12px 0px 0px;
+	font-size: 83%;
+	visibility: hidden;
+}
+
+#header #tagline #fontSize{
+	float: right;
+	width: 200px;
+	height:28px;
+	visibility: hidden;
+}
+
+#header #tagline #fontSize li{
+	float: left;
+}
+/*
+
+#header #tagline #fontSize a{
+	display:block;
+	height:28px;
+	text-indent:-9999px;
+}
+#header #tagline #fontSize #fontSizeN a{
+	width: 42px;
+}
+
+#header #tagline #fontSize #fontSizeL a{
+	width: 82px;
+}
+*/
+#logo{
+	width: 340px;
+	padding: 0;
+	float: left;
+	text-align: center;
+}
+
+#tel{
+	width: 299px;
+	height: 59px;
+	float: right;
+	margin-top: 3px;
+	padding-right: 15px;
+	visibility: hidden;
+}
+
+#points{
+	width: 297px;
+	float: left;
+	padding: 8px 0px 5px 22px;
+	margin: 6px 0px 0px 0px;
+	visibility: hidden;
+}
+
+#points dt{
+	width:157px;
+	margin-bottom: 1px;
+	padding-left:120px;
+	font-size:83%;
+}
+
+#points dd{
+	width:157px;
+	padding-left:120px
+}
+
+
+
+/*------------------------------------------------------------------ 
+footer
+-------------------------------------------------------------------*/  
+
+#footer {
+	padding-top: 17px;
+	width: 100%;
+	height: 121px;
+	background-image: url(/contents/images/sys/common/footer_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#footer-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+}
+#footer-add {
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	width: 950px;
+	font-size: 10px;
+	text-align: right;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+box 
+-------------------------------------------------------------------*/  
+#main {
+	margin-right: auto;
+	margin-left: auto;
+	width: 950px;
+}
+
+.main-box30 {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	text-align: left;
+}
+
+.main-box40 {
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	text-align: left;
+}
+
+.main-box60 {
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	text-align: left;
+}
+
+.main-box20 {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	text-align: left;
+}
+.main-box15 {
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	text-align: left;
+}
+.narrow-box15 {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 650px;
+	text-align: left;
+}
+
+
+
+/*------------------------------------------------------------------ 
+back to top 
+-------------------------------------------------------------------*/  
+.pagetop {
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding-bottom: 2px;
+	width: 915px;
+	font-size: 10px;
+	text-align: right;
+}
+
+.pagetop a {
+	border-bottom: dotted 1px #333;
+	text-decoration: none;
+}
+
+
+.pagetop a:link,
+.pagetop a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+/*------------------------------------------------------------------ 
+icon
+-------------------------------------------------------------------*/  
+.iconPresent{
+	background: url(/contents/images/sys/common/ic_tokuten.gif) no-repeat right center;
+	padding-right: 54px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.iconDscount10{
+	background: url(/contents/images/sys/common/icon10%25off.gif) no-repeat right center;
+	padding-right: 48px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.iconDiscount{
+	background: url(/contents/images/sys/common/iconDiscount.gif) no-repeat right center;
+	padding-right: 48px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.iconMonth{
+	background: url(/contents/images/sys/common/iconEveryM.gif) no-repeat left center;
+	padding-left: 48px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.iconTwoMonth{
+	background: url(/contents/images/sys/common/iconEvery2.gif) no-repeat left center;
+	padding-left: 48px;
+	display: inline-block;
+}
+
+.iconBox{
+	background: url(/contents/images/sys/common/ic_present.gif) no-repeat left;
+	padding: 2px 0px 2px 20px;
+	display: inline-block;
+}
+
+.iconOrdering{
+	background: url(/contents/images/sys/common/ic_ordering.gif) no-repeat right;
+	display: inline-block;
+	padding-right: 75px;
+}
+
+.iconStop{
+	background: url(/contents/images/sys/common/ic_stop.gif) no-repeat right;
+	display: inline-block;
+	padding-right: 75px;
+}
+
+.iconCanceled{
+	background: url(/contents/images/sys/common/ic_canceled.gif) no-repeat right;
+	display: inline-block;
+	padding-right: 75px;
+}

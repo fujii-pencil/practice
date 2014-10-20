@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+
+/*--------------------
+  fontsize large
+--------------------*/
+
+h1, h2, h3, h4, h5, h6,
+div, p, pre, ul, ol, dl, dt, dd,
+address, form, blockquote, table {
+	font-size: 104%;
+	line-height:1.6;
+	/line-height:1.5;
+}
+
+
+/***** fontSize *****/
+#header #tagline #fontSize #fontSizeL a{
+	background: url(../common/fontSizeL.jpg) no-repeat 0 -28px;
+}
+
+/* QPACEC 2014/5/20 DEL STR サイトリニューアル対応 */
+/*
+#header #tagline #fontSize #fontSizeN a{
+	background: url(../common/fontSizeS.jpg) no-repeat 0 0px;
+}
+
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+#footerNavi ul{
+	padding: 0px 20px 20px 0px;
+}
+
+.backtoTop{
+	width: 130px;
+	font-size: 95%;
+	padding: 0px 0px 0px 15px;
+	margin: 30px 0px 0px auto;
+	border-bottom: 1px dotted #333;
+	padding-bottom: 2px;
+}
+
+#points dt{
+	font-size:75%;
+}
+
+#sideColumn #search input{
+	width: 12em;
+	font-size:85%;
+}
+
+#letter dd.more{
+	background: url(../common/arrowS.gif) no-repeat 205px center;
+}
+
+#productsColumn #enquete .more{
+	left: 355px;
+}
+
+/*.priceArea .discount .teiki .price{
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 190%;
+	line-height:4.5;
+}
+*/
+

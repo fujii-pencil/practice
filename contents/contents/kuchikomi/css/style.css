@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+#hiroba .btns{
+	background: url(../img/bg_btns.gif) no-repeat left top;
+/*	text-align: center;*/
+	padding: 13px 0px;
+	width: 660px;
+	margin: 20px auto 0px;
+}
+
+#hiroba .btns li{
+	float: left;
+	margin: 0 0 5px 5px;
+}
+
+#hiroba h2 {
+	width: 696px;
+	height: 68px;
+	background: url(../img/hirobaTtl.jpg);
+	text-indent: -9999px;
+}
+
+#hiroba h3 {
+	margin: 25px 0 5px 0;
+}
+
+#hiroba-navi ul {
+	width: 661px;
+	margin: 5px auto 0 auto;
+}
+
+#hiroba-navi li {
+	padding: 2px 20px 0 0;
+	float: left;
+}
+
+#hiroba-navi li.last {
+	padding: 2px 0 0 0;
+	float: left;
+}
+
+.hiroba-voice {
+	width: 661px;
+	margin: 5px auto 0 auto;
+	background: url(../img/hirobaBg.jpg);
+}
+
+.hiroba-voice h4{
+	margin-bottom:10px;
+}
+
+.hiroba-voice-ft {
+	width: 661px;
+	height: 15px;
+	background: url(../img/hirobaBg_b.jpg);
+	text-indent: -9999px;
+	clear: both;
+}
+
+.hiroba-voice-txt {
+	width: 495px;
+	float: left;
+}
+.hiroba-voice-txt-narrow {
+	width: 406px;
+	float: left;
+}
+
+.hiroba-voice-txt p,
+.hiroba-voice-txt-narrow p {
+	padding-left: 21px;
+	color: #666;
+}
+
+.hiroba-voice-txt p span,
+.hiroba-voice-txt-narrow p span {
+	color: #333;
+	font-weight: bold;
+	line-height:1.2;
+}
+
+.hiroba-voice-txt p .note,
+.hiroba-voice-txt-narrow p .note {
+	font-weight: normal;
+	line-height:1.2;
+	font-size:75%;
+}
+
+.hiroba-voice-txt p span.red,
+.hiroba-voice-txt-narrow p span.red {
+	color: #cc0000;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+.hiroba-voice-txt-narrow p span.red .note{
+	color: #cc0000;
+}
+
+.hiroba-voice-photo {
+	float: right;
+}
+
+.caution {
+	padding-right: 12px;
+	text-align: right;
+	color: #666666;
+}
+
+#saeka{
+	padding-right: 20px;
+}
+
+.hiroba-voice .name{
+	font-weight:bold;
+	display:block;
+	margin-bottom:5px;
+}
+

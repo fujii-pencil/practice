@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ヒアコラ レシピ
+-------------------------------------------------------------------*/
+#intro{
+	background: url(../img/cofee.jpg) no-repeat right bottom;
+	width: 424px;
+	margin: 0 auto;
+	padding: 0px 236px 0px 0px;
+}
+
+#intro dt{
+	margin-bottom: 15px;
+}
+
+#intro dd{
+	margin-left: 5px;
+}
+

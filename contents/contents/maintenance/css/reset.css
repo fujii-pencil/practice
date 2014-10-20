@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+body 
+-------------------------------------------------------------------*/  
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	background: url(../images/sys/common/bg.gif) repeat-y center;
+	font:12px/1.5 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	text-align: center;
+}
+
+
+
+/*------------------------------------------------------------------ 
+link 
+-------------------------------------------------------------------*/  
+
+a:link,
+a:visited {
+	color: #0099CC;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #0099CC;
+	text-decoration: none;
+}
+.default a:link,
+.default a:visited {
+	color: #333;
+	text-decoration: underline;
+}
+
+.default a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+reset
+-------------------------------------------------------------------*/  
+
+ul, ol, dl, dt, dd {
+	padding: 0;
+	margin: 0;
+	display: block;
+	font-style:normal;
+	line-height: 1.5;
+	list-style: none;
+}
+
+p,h1,h2,h3,h4,form,ul,ol,li {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border: none;
+}
+
+
+
+
+/* clearfix */
+.clearfix:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+.clearfix {
+	display: inline-table;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+
+table {
+	empty-cells: show;
+}

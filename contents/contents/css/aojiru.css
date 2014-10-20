@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ケール青汁（粉末タイプ）シリーズ
+-------------------------------------------------------------------*/
+#aojiruSum{
+	width: 696px;
+	background: url(../aojiru/img/bg.jpg) no-repeat center top;
+	margin-bottom: 30px;
+}
+
+#aojiruSum .catch{
+	padding: 15px 0px 10px 274px;
+}
+
+#aojiruSum .text{
+	padding: 0px 20px 23px 280px;
+}
+
+#aojiruSum ul{
+	padding: 0px 0px 0px 274px;
+}
+
+#aojiruSum li{
+	float: left;
+}
+
+#aojiruSum #kale{
+	width: 460px;
+	margin: 30px 0px 0px auto;
+	background: url(../aojiru/img/sumImg01.jpg) no-repeat right bottom;
+	padding: 0px 220px 0px 0px;
+	clear: both;
+}
+
+#aojiruSum #kale dt{
+	padding: 30px 0px 10px;
+}
+
+
+
+/*------------------------------------------------------------------ 
+ケール青汁（粉末タイプ）
+-------------------------------------------------------------------*/
+#funmatsu420g #secret01{
+	background: url(../aojiru_funmatsu420g/img/bg01.jpg) no-repeat right top;
+}
+
+#funmatsu420g #secret01 h4{
+	margin-top:20px;
+}
+
+#funmatsu420g #secret01 .text{
+	padding: 15px 280px 20px 0px;
+}
+
+#funmatsu420g #secret01 #secure li{
+	float: left;
+	padding-top: 15px;
+}
+
+#funmatsu420g #secret01 #secure li.last{
+	float: right;
+}
+
+#funmatsu420g #kale_tomato li{
+	float: left;
+}
+
+#funmatsu420g #secret02{
+	margin-top:15px;
+}
+
+#funmatsu420g #secret02 .desc{
+	float: left;
+	width: 265px;
+}
+
+#funmatsu420g #secret02 .pics{
+	float: right;
+	width: 379px;
+}
+
+#funmatsu420g #secret02 .desc h4{
+	margin: 0px 0px 15px;
+}
+
+#funmatsu420g #secret02 .desc #base{
+	margin-top: 15px;
+}
+
+.closing .closingTtl{
+}
+
+#aojiruFunmatsu420g{
+	background: #339933 url(../aojiru_funmatsu420g/img/closingBg_b.jpg) no-repeat center bottom;
+}
+
+#funmatsu420g #recommend{
+	background: #FFE8F0;
+}

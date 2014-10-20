@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ヒアコラシリーズのよくある質問
+-------------------------------------------------------------------*/
+
+#hcRecipe li{
+	float: left;
+}
+
+#wVitaminC .recommend{
+	font-weight: bold;
+	font-size: 115%;
+}
+
+#wVitaminC .desc{
+	float: left;
+	width: 340px;
+	padding-right: 20px;
+}
+
+#wVitaminC .pics{
+	width: 238px;
+	float: left;
+}
+
+#rot .desc{
+	width: 360px;
+	float: left;
+}
+
+#rot .pics{
+	width: 221px;
+	float: right;
+}
+
+#faqDetails #recipeBtn{
+	text-align: right;
+	padding: 0px 25px 25px 0px;
+}
+
+#hc_recipe{
+	text-align: right;
+	padding: 0px 25px 25px 35px;
+}

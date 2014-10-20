@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+
+.pIntroTtl .emphB{
+	font-size:125%;
+}
+
+
+.pIntro{
+	padding-top: 5px;
+}
+
+.pIntro .details{
+	margin-top: 10px;
+}
+
+.closing .bg{
+	padding-top: 10px;
+}
+
+.readme{
+	background: url(../img/img16.jpg) no-repeat left top;
+	width: 612px;
+	height: 61px;
+	padding: 39px 0px 20px 445px;
+	margin: 15px 0px 0px;
+}
+
+#care li{
+	float: left;
+	padding-bottom: 20px;
+}
+
+#benefits{
+	margin: 40px 10px 22px;
+}
+
+#point_care{
+	margin: 20px 10px;
+}
+
+#point_care dl{
+	width: 320px;
+	float: left;
+}
+
+#point_care dl.sec{
+	float: right;
+}
+
+#point_care dd{
+	margin: 10px 0px;
+}
+
+#point_care .point{
+	color: #E12F00;
+	background: url(../img/point.jpg) no-repeat left top;
+	padding: 0px 0px 3px 55px;
+}
+
+#steps{
+	margin: 0px 20px 40px;
+}
+
+#msg{
+	margin: 0px 20px 50px;
+}
+
+#msg .desc{
+	width: 435px;
+	float: left;
+	border-top: 2px solid #C79E7D;
+	border-bottom: 2px solid #C79E7D;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+
+#msg .desc h3{
+	margin-bottom: 15px;
+}
+
+#msg .desc p{
+}
+
+#msg .desc .name{
+	margin: 10px 10px 15px 0px;
+	text-align: right;
+}
+
+#msg .pic{
+	width: 208px;
+	float: right;
+}
+
+#msg .note{
+	text-align: right;
+	font-size: 85%;
+	clear: both;
+	padding-top: 5px;
+}
+
+.fb{
+	width: 676px;
+	margin: 10px auto;
+	background: url(../img/bg.jpg) no-repeat center bottom;
+	padding-bottom: 15px;
+}
+
+.fb .name{
+	text-align: right;
+	margin: 10px 15px 10px;
+}
+
+.fb .pic{
+	width: 100px;
+	float: left;
+	padding: 10px 20px 0px 22px;
+}
+
+.fb .desc{
+}
+
+.bdr_t{
+	border-top:1px dotted #CCC;
+	padding-top:5px;
+	margin-top:5px;
+}
+
+
+#tabTxt2{
+	font-size:35px;
+	margin-bottom:10px;
+}
+#tabTxt1 span.fs2{
+	font-size:13px !important;
+}

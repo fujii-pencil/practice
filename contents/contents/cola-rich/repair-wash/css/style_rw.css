@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/*-------------------- 
+      
+	  style
+	   
+--------------------*/
+#wrap {
+  width: 692px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.red {
+  color: #CC0000;
+}
+
+.head2 {
+  color: #2B1D14;
+  font-weight: bold;
+}
+
+#rw{
+	background: url(../img/bg01.png) no-repeat top center;
+	width: 692px;
+}
+#volume{
+	border: #D9D0C2 1px solid;
+	padding: 5px 0;
+	text-align: center;
+	color: #664B24;
+  font-size: 92.8%;
+}
+#rw .pl_product{
+	width: 462px;
+}
+#pl_product2{
+	width: 462px;
+}
+
+.contMain{
+	position: relative;
+	margin-bottom: 30px;
+	padding: 0px 0px 0 0px !important;
+}
+
+
+
+#rw .point dt{
+	float: left;
+}
+#rw .point dd{
+	float: left;
+}
+#rw #cont2 dd{
+	background: url(../img/bg1.jpg) no-repeat top center;
+	width: 430px;
+	height: 102px;
+	padding: 15px 220px 0px 40px;
+}
+#rw #notes{
+	background: url(../img/bg2.jpg) no-repeat top center;
+	width: 417px;
+	height: 17px;
+	font-size: 76.692%;
+	padding: 8px 0 0 275px;
+}
+#rw #notes2{
+	background: url(../img/bg3.jpg) repeat-x top left;
+	width: 652px;
+	height: 90px;
+	font-size: 76.692%;
+	line-height: 110%;
+	padding: 20px 20px 0 20px;
+}
+#rw #bt1{
+	background: url(../img/bg4.jpg) no-repeat top center;
+	width: 233px;
+	height: 99px;
+	padding: 30px 0 0 458px;
+}
+#rw h1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+#rw .cv {
+  border: 1px solid #DAD0C1;
+  padding: 15px 0 15px 10px;
+  width: 666px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+#rw .cv ul li {
+  float: left;
+  display: inline;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 115.38%;
+}
+
+
+#rw_tab #rw_ttl {
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 640px;
+  background: url(../images/img_00038610_s.jpg) no-repeat top right;
+}
+
+#rw_tab dl dt,
+.contVoice h2.head3 {
+  padding-left: 17px;
+  width: 644px;
+}
+
+#rw_tab dl dd {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2em;
+  text-indent: -1em;
+  color: #2B1D14;
+}
+#rw_tab dl dd span.bdb {
+  border-bottom: 1px solid #63461F;
+}
+#rw_tab p#bal {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#rw_bg{
+	background: url(../img/bg5.jpg) no-repeat top right;
+	width: 666px;
+	height: 155px;
+	padding: 35px 0 0 25px;
+}
+
+#rw_cv .pl_product {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#rw_cv .pl_product li {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+#rw_cv #cv_01 {
+  border: 3px solid #DAD0C1;
+  padding: 10px;
+}
+#rw_cv #cv_01 dt {
+  width: 340px;
+  float: left;
+  display: inline;
+  margin-top: 10px;
+}
+#rw_cv #cv_01 dd {
+  text-align: right;
+}
+#rw_cv #cv_02 {
+  border: 3px solid #FFCC33;
+  padding: 10px;
+}
+#rw_cv #cv_02 dt {
+  width: 340px;
+  float: left;
+  display: inline;
+  margin-top: 10px;
+}
+#rw_cv #cv_02 dd {
+  text-align: right;
+}
+#rw_cv div#merit {
+  background: url(../images/merit_bg1.jpg) repeat;
+  border: 3px solid #6A8B1F;
+  padding: 20px 5px 20px 10px;
+}
+#rw_cv div#merit ol li {
+  float: left;
+  display: inline;
+  width: 330px;
+}
+#rw_cv div#merit ol li p {
+  padding-left: 75px;
+}
+#rw_cv div#merit ol li p.fl {
+  padding-left: 0 !important;
+}
+#rw_cv div#merit ol li p.mb05 {
+  margin-top: 10px;
+}
+#rw_cv div#merit ol li.fl_l {
+  width: 340px;
+}
+
+#rw div ul li {
+  color: #2B1D14;
+}
+
+ul#headTab{
+	overflow: hidden;
+}
+
+ul#headTab li{
+	float: left;
+	margin-right: 12px;
+}
+
+.healthWrap{
+	border:#A36F31 4px solid;
+}
+
+ul#bottomTab{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+ul#bottomTab li{
+	float: left;
+	margin-right: 12px;
+}
+#compTab{
+	display: none;
+}
+
+.contVoice {
+  color: #2B1D14;
+}
+
+.contVoice h3 {
+  font-weight: bold;
+}
+/*
+.voiceBook li div h3 {
+  margin-top: 10px !important;
+}*/
+
+.red {
+  color: #C00 !important;
+}
+
+#merit ol li p {
+  font-size: 107.692%;
+}
+
+#cv_01 dt,
+#cv_02 dt {
+  font-size: 120%;
+}
+
+.contMerit {
+  width: 694px;
+  background: url(/contents/contents/health/hc/150/img/merit_bg.png) 0 0 repeat;
+  border: #6A8B1F 3px solid;
+  padding: 22px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contMerit ul {
+  overflow: hidden;
+  width: 674px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+.contMerit ul li {
+  float: left;
+  margin-top: 30px;
+  width: 335px;
+  text-align: left;
+}

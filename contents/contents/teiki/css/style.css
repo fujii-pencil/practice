@@ -1,0 +1,424 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+定期お届けコースのご案内
+-------------------------------------------------------------------*/
+#teiki {
+}
+
+#teikiTtl {
+	width: 670px;
+	padding: 15px 0 0 20px;
+	margin-bottom: 30px;
+}
+
+#teikiTtl.teikibg {
+	background: url(../img/teiki_bg.png) 0 0 no-repeat;
+	height: 304px;
+	margin-bottom: 30px;
+}
+
+#teikiTtl.teikibg02 {
+	background: url(../img/teiki_bg02.png) 0 0 no-repeat;
+	height: 210px;
+	margin-bottom: 30px;
+}
+
+#teikiTtl h2 {
+	margin-bottom: 20px;
+}
+
+#teikiTtl h2 + p {
+	margin-bottom: 20px;
+}
+
+#teikiTtl .teikiMsg {
+	position: relative;
+	width: 654px;
+	margin-bottom: 10px;
+}
+
+#teikiTtl .teikiMsg span {
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+#teikiNavi {
+	width: 660px;
+	overflow: hidden;
+}
+
+#teikiNavi li {
+	float: left;
+	margin-right: 6px;
+}
+
+#teikiNavi li.teikiList {
+	border-bottom: 1px dotted #999999;
+	width: 225px;
+	margin-top: 5px;
+}
+
+#teikiNavi li.teikiList a {
+	padding: 5px 0;
+	display: inline-block;
+}
+
+#teikiNavi li.teikiCustomer {
+	width: 225px;
+	margin-top: 5px;
+}
+
+#teikiNavi li.teikiCustomer a {
+	padding: 5px 0;
+}
+
+#teikiMerit {
+	margin: 15px auto;
+	width: 666px;
+}
+
+.teikiMerit-box {
+	background: url(../img/meritBg.jpg);
+	width: 333px;
+	float: left;
+}
+
+.teikiMerit-box h4 {
+	height: 77px;
+	text-indent: -9999px;
+}
+
+.teikiMerit-box p {
+	padding: 0px 21px 0px 17px;
+}
+
+.teikiMerit-box span {
+	color: #cc0000;
+}
+
+.teikiMerit-box p.teikiMerit-more{
+	background: url(../img/arrowS.gif) no-repeat left center;
+	padding: 0px 21px 0px 10px;
+	float: right;
+}
+
+.merit01 {
+	background: url(../img/merit01.jpg);
+}
+
+.merit02 {
+	background: url(../img/merit02.jpg);
+}
+
+.merit03 {
+	background: url(../img/merit03.jpg);
+}
+
+.merit04 {
+	background: url(../img/merit04.jpg);
+}
+
+.teikiMerit-b {
+	background: url(../img/meritFt.jpg);
+	width: 333px;
+	height: 18px;
+	text-indent: -9999px;
+	font-size: 1%;
+	clear: both;
+}
+
+#teikiBalloon {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#teikiBalloon p.explain {
+	width: 446px;
+	height: 310px;
+	float: left;
+	position: relative;
+}
+
+#teikiBalloon-link {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+#teikiMember {
+	background: url(../img/memberTtl.jpg) no-repeat left top;
+	width: 207px;
+	padding: 0px 22px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+#teikiMember h3 {
+	height: 72px;
+	text-indent: -9999px;
+	font-size: 1%;
+}
+
+#teikiMember img {
+	margin-top: 5px;
+}
+
+.teikiOtoku {
+	background: url(../img/otokuBg.jpg);
+	width: 668px;
+	margin: 0px auto;
+}
+
+.teikiOtoku-t {
+	background: url(../img/otokuHd.jpg);
+	width: 668px;
+	height: 20px;
+	text-indent: -9999px;
+	font-size: 1%;
+}
+
+.teikiOtoku-b {
+	background: url(../img/otokuFt.jpg);
+	width: 668px;
+	height: 24px;
+	text-indent: -9999px;
+	font-size: 1%;
+	clear:both;
+}
+
+.teikiOtoku-photo {
+	width: 135px;
+	padding-left: 15px;
+	float: left;
+}
+
+.teikiOtoku-photo p {
+	width: 8em;
+	margin: 0px auto;
+}
+
+.teikiOtoku-txt {
+	float: right;
+	width: 470px;
+	padding-right: 25px;
+}
+
+.teikiOtoku-txt h4 {
+	margin-bottom: 20px;
+}
+
+.teikiOtoku-txt h4 + p {
+	margin-bottom: 10px;
+}
+	
+
+.teikiOtoku-txt ul {
+	padding: 5px;
+	font-size: 92%;
+}
+
+.teikiOtoku-txt ul.teiki {
+	margin: 0px 0 10px 0;
+	padding: 5px;
+	background: #ffe2e2;
+	clear: both;
+	font-size: 92%;
+}
+
+.teikiOtoku-txt li {
+	float: left;
+}
+
+.teikiOtoku-txt li.teiki {
+	padding: 7px 0px 5px 0;
+	color: #c00;
+	text-align: right;
+}
+		
+.teikiOtoku-txt li.normal {
+	padding: 7px 0px 5px 0;
+	text-align: right;
+}
+		
+.teikiOtoku-txt li .price{
+	font-weight: bold;
+	font-size: 160%;
+}
+
+.teikiOtoku-txt li .price-red{
+	font-weight: bold;
+	font-size: 160%;
+	color: #c00;
+}
+
+.teikiOtoku-price {
+	float: left;
+}
+
+.teikiOtoku-btn {
+	float: left;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+
+#teikiCaution {
+	margin: 15px auto 0px auto;
+	width: 503px;
+	padding: 10px;
+	border: solid 2px #ff6600;
+	background: #fffae6;
+	font-weight: bold;
+}
+
+
+
+/*------------------------------------------------------------------ 
+定期お届けコースのご案内 20140901追記
+-------------------------------------------------------------------*/
+
+#teikiAbout {
+	background: url(../img/teiki_bg.png) 0 0 no-repeat;
+	height: 469px;
+	width: 690px;
+	padding: 15px 0 0 0;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#teikiAbout h2 {
+	margin-bottom: 10px;
+}
+
+#teikiAbout div {
+	position: relative;
+	text-align: left;
+	padding: 10px 0 0 15px;
+}
+
+#teikiAbout .proImg {
+	position: absolute;
+	top: 0;
+	right: 3px;
+	
+}
+
+#teikiCaution2 {
+	width: 660px;
+	margin: 0 auto;
+}
+
+#teikiCaution2 div {
+	border: 3px solid #D32020;
+	border-top: none;
+	padding: 19px;
+}
+
+#teikiCaution2 .teikiTel {
+	padding: 15px 0;
+	text-align: center;
+	margin-bottom: 15px;
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.teikiCourse {
+	width: 685px;
+	padding-right: 5px;
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+
+.teikiCourse .teikiOtoku-photo {
+	width: 135px;
+	padding-left: 10px;
+	float: left;
+}
+
+.teikiCourse .teikiOtoku-txt {
+	float: right;
+	width: 540px;
+	padding-top: 10px;
+	color: #FF6600;
+}
+
+.teikiCourse .teikiOtoku-txt p {
+	font-size: 92%;
+}
+
+.teikiCourse .teikiOtoku-txt div {
+	padding-top: 10px;
+	position: relative;
+}
+
+
+.teikiCourse .teikiOtoku-txt ul {
+	margin-left: 0;
+	padding: 5px 5px 5px 10px;
+	font-size: 100%;
+	background-color: #F2F2F2;
+	width: 310px;
+	color: #2B1D13;
+	float: left;
+}
+
+.teikiCourse .teikiOtoku-txt ul.teiki {
+	margin: 0px 20px 0px 0;
+	padding: 5px 5px 5px 10px;
+	background-color: #F2F2F2;
+	clear: both;
+	font-size: 100%;
+}
+
+.teikiCourse .teikiOtoku-txt li {
+	float: left;
+	height: 26px;
+	line-height: 26px;
+}
+
+.teikiCourse .teikiOtoku-txt li.iconTeiki {
+	background: url(../img/iconTeikiRec.gif) no-repeat left center;
+	padding: 0 0 0 65px;
+	width: auto;
+	color: #c00;
+	text-align: right;
+}
+		
+.teikiCourse .teikiOtoku-txt li.iconNormal {
+	background: none;
+	padding: 0 5px 0 0;
+	width: auto;
+	text-align: right;
+}
+		
+.teikiCourse .teikiOtoku-txt li .price{
+	font-weight: bold;
+}
+
+.teikiCourse .teikiOtoku-txt li .price-red{
+	font-weight: bold;
+	font-size: 100%;
+	color: #c00;
+}
+
+.teikiCourse .teikiOtoku-txt .teikiOtoku-price {
+	float: left;
+	padding-left: 10px;
+}
+
+.teikiCourse .teikiOtoku-txt .teikiOtoku-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 10px;
+}
+
+#teikiCaution {
+	margin: 15px auto 0px auto;
+	width: 503px;
+	padding: 10px;
+	border: solid 2px #ff6600;
+	background: #fffae6;
+	font-weight: bold;
+}

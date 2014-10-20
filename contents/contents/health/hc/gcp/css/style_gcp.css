@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/*-------------------- 
+      
+	  style
+	   
+--------------------*/
+#wrap {
+  width: 692px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.red {
+  color: #CC0000;
+}
+
+#guru h1 {
+  padding-top: 25px;
+  padding-left: 25px;
+  background: url(../img/main_bg.jpg) no-repeat top right, url(../img/bg.jpg) repeat;
+}
+#guru .pl_product {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#guru .pl_product li {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+#guru .bg_cros {
+  background: url(../img/bg.jpg) repeat;
+}
+#guru .cv {
+  border: 1px solid #DAD0C1;
+  padding: 15px 0 15px 10px;
+  width: 666px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#guru .cv ul li {
+  float: left;
+  display: inline;
+  margin-right: 10px;
+}
+#guru .cv ul li dl dt {
+  text-align: center;
+}
+#guru .cv ul li dl dt span.f30 {
+  font-family: "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro W6";
+  font-weight: bold;
+}
+#guru #img2 {
+  padding-left: 245px;
+  padding-top: 25px;
+  background: url(../img/img2.jpg) no-repeat top center;
+  height: 337px;
+  width: 446px;
+}
+#guru #img2 p {
+  width: 390px;
+}
+#guru #nankotsu p.pl05.f10 {
+  margin-left: 155px;
+}
+#guru #ing_bg {
+  background: url(../img/ingredient_bg1.jpg) repeat-x;
+  margin-bottom: 40px;
+}
+#guru .ing_wrap {
+  background: url(../img/txt_bg1.jpg) no-repeat bottom right;
+  width: 651px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+#guru .ingredient {
+  background: url(../img/txt_bg2.jpg) no-repeat bottom right;
+  
+}
+#guru .ingredient h4 {
+  margin-bottom: 10px;
+}
+#guru #txt_bg3 {
+  width: 662px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../img/txt_bg3.jpg) no-repeat right top;
+  padding-top: 20px;
+  padding-left: 30px;
+  height: 185px;
+  line-height: 1.6;
+}
+#guru #qa dl dt {
+  text-align: center;
+  margin-bottom: 25px;
+}
+#guru #qa dl dd {
+  width: 624px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+#guru_tab #guru_ttl {
+	/*
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../img/img_00038610_s.jpg) no-repeat top right;
+  */
+}
+#guru_tab #guru_ttl  .img img{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+#guru_tab dl dd {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2em;
+  text-indent: -1em;
+  color: #2B1D14;
+}
+#guru_tab dl dd span.bdb {
+  border-bottom: 1px solid #63461F;
+}
+#guru_tab p#bal {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2B1D14;
+}
+
+#guru_cv .pl_product {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#guru_cv .pl_product li {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+#guru_cv #cv_01 {
+  border: 3px solid #DAD0C1;
+  padding: 10px;
+}
+#guru_cv #cv_01 dt {
+  width: 340px;
+  float: left;
+  display: inline;
+  margin-top: 10px;
+}
+#guru_cv #cv_01 dd {
+  text-align: right;
+}
+#guru_cv #cv_02 {
+  border: 3px solid #FFCC33;
+  padding: 10px;
+}
+#guru_cv #cv_02 dt {
+  width: 340px;
+  float: left;
+  display: inline;
+  margin-top: 10px;
+}
+#guru_cv #cv_02 dd {
+  text-align: right;
+}
+#guru_cv div#merit {
+  background: url(../img/merit_bg1.jpg) repeat;
+  border: 3px solid #E74641;
+  padding: 20px 5px 20px 10px;
+}
+#guru_cv div#merit ol li {
+  float: left;
+  display: inline;
+  width: 330px;
+}
+#guru_cv div#merit ol li p {
+  padding-left: 75px;
+}
+#guru_cv div#merit ol li p.fl {
+  padding-left: 0 !important;
+}
+#guru_cv div#merit ol li p.mb05 {
+  margin-top: 10px;
+}
+#guru_cv div#merit ol li.fl_l {
+  width: 340px;
+}
+ul#headTab{
+	overflow: hidden;
+}
+ul#headTab li{
+	float: left;
+	margin-right: 12px;
+}
+
+.healthWrap{
+	border:#E74640 4px solid;
+}
+
+ul#bottomTab{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+ul#bottomTab li{
+	float: left;
+	margin-right: 12px;
+}
+#compTab{
+	display: none;
+}
+.contMerit {
+  width: 694px;
+  background: url(../img/merit_bg1.jpg) 0 0 repeat;
+  border: #6A8B1F 3px solid;
+  padding: 22px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contMerit ul {
+  overflow: hidden;
+  width: 674px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+.contMerit ul li {
+  float: left;
+  margin-top: 30px;
+  width: 335px;
+  text-align: left;
+}
+
+
+.ttl_01 {
+  padding-left: 17px;
+  width: 644px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;  
+  color: #fff;
+  font-size: 140%;
+  background: url(../img/ttl_bg.jpg) no-repeat 0 100% #E32F2A;
+  position: relative;
+}
+
+.cv dt,
+#cv_01 dt,
+#cv_02 dt {
+  font-size: 120%;
+}

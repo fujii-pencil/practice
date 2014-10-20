@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+.layout{
+	width:666px;
+	margin:0px auto 15px;
+}
+
+.layout .title,
+.layout .catch{
+	margin-bottom: 15px;
+}
+
+#decline{
+	margin: 30px auto;
+}
+
+#decline .desc p{
+	margin-bottom:15px;
+}
+
+#decline .desc p.notice{
+	font-size:85%;
+}
+
+#decline .pic{
+	width: 343px;
+	float: left;
+	padding-right: 15px;
+}
+
+#merit{
+	margin: 30px auto 60px;
+}
+
+#merit .desc{
+	width: 468px;
+	float: left;
+}
+
+#z_points li{
+	float:left;
+}
+
+#merit .pic{
+	width: 183px;
+	float: right;
+	margin-top: 17px;
+}
+
+#merit .notice{
+	font-size:85%;
+	text-align:right;
+}
+
+.reason{
+	margin:30px 0px 20px;
+}
+
+#reason01 .pic{
+	width: 286px;
+	float: left;
+	padding-right: 20px;
+}
+
+#reason01 .desc{
+	float: left;
+	width: 360px;
+}
+
+#reason01 .catch{
+	margin-bottom:25px;
+}
+
+#reason01 .desc p,
+#reason02 .desc02 p,
+#reason03 .desc p{
+	margin-bottom:15px;
+}
+
+#reason02 .desc01{
+	float: left;
+	width: 267px;
+	padding-top: 8px;
+}
+
+#reason02 .pic01{
+	width: 384px;
+	float: right;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	padding-top: 8px;
+}
+
+#reason02 .desc02{
+	float: right;
+	width: 369px;
+}
+
+#reason02 .pic02{
+	float: left;
+	width: 277px;
+	padding-right: 20px;
+	padding-bottom:30px;
+}
+
+#reason03{
+}
+
+#reason03 .pic{
+	width: 220px;
+	padding-left: 30px;
+	float: right;
+	padding-top: 4px;
+	padding-bottom: 30px;
+}
+
+#reason03 .desc{
+	width: 416px;
+	float: left;
+	padding-top: 5px;
+}
+
+#dev{
+	width: 666px;
+	margin: 0 auto;
+	background: url(../img/f_bg.jpg) repeat;
+}
+
+#dev .pic{
+	width: 230px;
+	float: left;
+	padding: 0px 20px 20px 20px;
+}
+
+#dev .desc{
+	width: 376px;
+	float: right;
+	padding-top: 4px;
+	padding-right: 20px;
+}
+
+#dev .desc .catch{
+	margin-bottom: 10px;
+}
+
+#dev .desc .name{
+	margin-bottom: 15px;
+}
+
+#dev .desc .demo{
+	float: right;
+	padding:0px 0px 0px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.g_notice{
+	font-size: 85%;
+	clear: both;
+	text-align: right;
+}
+
+.notice_r{
+	text-align:right;
+	font-size: 85%;
+}
+
+.camMore{
+	margin: 10px 0px 5px;
+}
+
+
+.pIntro .pics .notice,
+.closing .bg .pics .notice{
+	font-size:85%;
+	text-align:left;
+	line-height: 1.2;
+	padding-top: 10px;
+	display: block;
+}
+
+.closing .bg .pics .notice{
+	margin:0px 25px;
+}
+
+.ing{
+	text-indent: -4em;
+	margin-left: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pIntro .details .name span{
+	font-size: 85%;
+	font-weight: normal;
+}
+
+.closing .bg .pics dt span{
+	font-size: 85%;
+	font-weight: normal;
+}
+
+
+.bnr_new{
+	margin-bottom:10px;
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+
+/*------------------------------------------------------------------ 
+コラリッチ良くある質問
+-------------------------------------------------------------------*/
+#cr_family{
+	width: 414px;
+	background: url(../img/cr_family.jpg) no-repeat 12px 12px;
+	padding: 0px 0px 12px 280px;
+	margin-top: 10px;
+	border: 1px solid #CCC;
+}
+
+#cr_family dt{
+	margin-bottom: 10px;
+	padding: 12px 0px 0px 12px;
+}
+
+#cr_family dd{
+	padding: 0px 12px 12px 12px;
+}
+
+#faqList li.category#wc{
+	margin-bottom: 5px;
+}
+
+#faqList li.note{
+	padding: 2px 0px 0px 0px;
+	text-align: right;
+}
+
+.faqCtgry span{
+	font-size: 75%;
+	font-weight: normal;
+}
+
+.faq_notice_r{
+	font-size: 85%;
+	text-align: right;
+	width: 660px;
+	margin: 0 auto;
+}
+
+.nomb{
+	margin-bottom:0;
+}
+
+#faqList li.nomb{
+	margin-bottom:0;
+}

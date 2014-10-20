@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+コラリッチ
+-------------------------------------------------------------------*/
+#cora-richSum h2{
+	background: url(../img/bg.jpg) no-repeat center top;
+	text-indent: -9999px;
+	width: 695px;
+	padding-bottom: 300px;
+}
+
+#cora-richSum p{
+	padding: 15px 0px 0px 10px;
+}
+
+.pLayoutL .desc .note{
+	font-size:85%;
+}
+
+.pLayoutL .discount li.choice{
+	display:block;
+	padding-top:4px;
+}
+
+#lineup{
+	width: 699px;
+	margin: 25px auto 15px;
+}
+
+#lineup #skincare{
+	width: 696px;
+}
+
+
+
+#lineup #haircare,
+#lineup #basemake,
+#lineup #supplement{
+	padding-top:10px;
+	float: left;
+}
+
+#lineup #haircare{
+	width: 219px;
+	padding-right:3px;
+}
+
+#lineup #skincare li,
+#lineup #haircare li,
+#lineup #basemake li{
+	float: left;
+}
+
+#lineup #basemake{
+	width: 347px;
+	padding-right:3px;
+}
+
+#lineup #supplement{
+	width: 124px;
+}
+
+.cora-richBtn .pLayoutS .discount .normal{
+	width: 154px;
+	float: left;
+}
+
+.cora-richBtn .pLayoutS .discount .button{
+	text-align: center;
+	margin-top: 8px;
+	padding-top:3px;
+}
+
+.pLayoutS .desc .comment span{
+	font-size: 75%;
+	line-height: 1.3;
+	margin-top: 5px;
+	display: block;
+}
+
+.cora-richBtn{
+	clear:both;
+}

@@ -1,0 +1,1119 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+Other COMMON
+-------------------------------------------------------------------*/
+
+strong{
+	font-weight:bold !important;
+}
+.comment{
+	margin:0 13px;
+}
+
+#links{
+	text-align: center;
+}
+
+#links li{
+	display: inline;
+	padding-right: 5px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+
+.leadTxt1{
+	color:#A36F31 !important;
+	font-size:40px;
+	padding:20px 20px 10px;
+	font-weight:bold;
+	line-height:1.2;
+}
+.leadTxt2{
+	color:#684B24;
+	text-align:center;
+	padding:5px;
+	
+	font-size:14px;
+	background:#F9F6EF;
+	border:1px dashed #CCCCCC;
+	font-weight:bold;
+	margin-bottom:10px;
+	margin-right:15px;
+}
+
+.syouhinTtl{
+	color:#664B24;
+	font-size:35px;
+	font-weight:bold;
+	margin-bottom:10px;
+	line-height:1.2em;
+}
+
+
+#tabTxt1{
+	color:#CB8E31 !important;
+	font-size:25px;
+	font-weight:bold;
+	padding-top:25px;
+	line-height:1.2;
+	width:520px
+}
+
+#tabTxt1 span.normal{
+	font-weight:normal !important;
+	font-size:14px;
+}
+
+#tabTxt2{
+	color:#CE8522;
+	font-size:40px;
+	font-weight:bold;
+	line-height:1.2;
+	width:520px
+}
+
+
+
+
+#tabTxt2 span{
+	font-size:14px !important;
+	font-weight:normal !important;
+}
+
+
+#tabTxt2 span.fs2{
+	font-size:50% !important;
+}
+
+
+.head1 {
+	line-height: 50px;
+	margin: 0 0 20px;
+	padding: 0 0 0 13px;
+	color: #fff;
+	font-size: 140%;
+	text-align: center;
+	background: url(/contents/contents/other/common/h_bg_01.png) no-repeat 0 0;
+}
+
+.head1 img {
+	vertical-align: middle;
+}
+
+.head1 span {
+	vertical-align: top;
+	font-size: 70%;
+	font-weight: normal;
+}
+
+.head2 {
+	position: relative;
+	padding: 0 0 5px;
+	font-size: 200%;
+	background: url(/contents/contents/other/common/h_bg_02.png) no-repeat left bottom;
+	color:#2B1D14;
+	font-weight:bold;
+}
+
+.head2 span {
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+	font-size: 30%;
+	font-weight: normal;
+}
+
+/*　tab 内のh2用　*/
+.head3{
+	width: 654px;
+	margin: 0 auto;
+	padding: 10px 7px;
+	color: #fff;
+	font-size: 140%;
+	background: url(/contents/contents/other/common/h2_bg.png) no-repeat 0 100% #D29F4A;
+	position: relative;
+}
+
+.head3.lines{
+	padding: 3px 7px;
+	line-height: 1.3;
+}
+
+.head3.lines span.ttl {
+	width: 100px;
+	padding: 5px 0;
+	float: left;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.head3 span {
+	font-size: 84%;
+	padding: 3px 5px 2px;
+	margin-right: 10px;
+	background-color: #367FAA;
+	color: #ffffff;
+}
+
+.head3 span.notes {
+	font-size: 65%;
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	font-weight: normal;
+}
+
+.head3 strong {
+	color: #FFFF00;
+	font-size: 150%;
+}
+
+/*　tab 内のh2用 end　*/
+
+
+
+.aojiruThought {
+	overflow: hidden;
+	margin: 0 0 50px;
+}
+
+.aojiruThought ul {
+	position: relative;
+	left: 0;
+	width: 710px;
+	overflow: hidden;
+	margin: 0 0 10px;
+}
+
+.aojiruThought li {
+	float: left;
+	width: 345px;
+	margin: 0 10px 10px 0;
+}
+
+.aojiruThought dd {
+	overflow: hidden;
+	padding: 5px 15px 10px;
+	border: 1px solid #e4e4e4;
+	border-top: none;
+}
+
+.aojiruThought dd img {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+
+.aojiruThought p {
+	clear: both;
+	text-align: center;
+}
+
+.itemList {
+	overflow: hidden;
+	margin: 0 0 30px;
+}
+
+.itemList li {
+	float: left;
+	width: 331px;
+	overflow: hidden;
+	margin: 0 0 30px;
+	padding: 10px 12px 10px 5px;
+	border: 1px solid #ccc;
+}
+
+.itemList .itemData1 {
+	float: right;
+	width: 210px;
+	margin: 0 0 10px;
+}
+
+.itemList .itemName {
+	margin: 0 0 5px;
+	color: #E07F00;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.itemList .itemName a {
+	color: #E07F00;
+	text-decoration: none;
+}
+
+.itemList .itemName a:hover {
+	text-decoration: underline;
+}
+
+.itemList .itemCampaign {
+	position: relative;
+	left: -9px;
+	margin: 0 0 3px;
+}
+
+.itemList .itemNotes {
+	margin: 0 0 5px;
+	font-size: 80%;
+}
+
+.itemList .itemPresent {
+	margin: 0 0 10px;
+}
+
+.itemList .itemCapacity {
+	margin: 0 0 10px;
+	padding: 5px;
+	background: #F4F1E6;
+}
+
+.itemList .itemData2 {
+	float: left;
+	width: 107px;
+	margin: 0 0 10px;
+	text-align: center;
+}
+
+.itemList .itemData2 p {
+	margin: 0 0 10px;
+}
+
+.itemList .itemPrice {
+	clear: both;
+	padding: 10px 0 0;
+	border-top: 1px dotted #bdbdbd;
+}
+
+.itemList .itemPrice1 {
+	float: left;
+	width: 154px;
+	line-height: 1.3;
+	padding: 0 0 0 7px;
+	font-size: 120%;
+	text-align: center;
+}
+
+.itemList .itemPrice2 {
+	float: right;
+	width: 154px;
+	line-height: 1.3;
+	color: #c00;
+	font-size: 120%;
+	text-align: center;
+}
+
+.itemList .itemPrice3 {
+	line-height: 1.3;
+	font-size: 120%;
+	text-align: center;
+}
+
+.itemList .itemPrice1 strong,
+.itemList .itemPrice2 strong,
+.itemList .itemPrice3 strong {
+	font-size: 200%;
+}
+
+.itemList .itemPrice1 img,
+.itemList .itemPrice2 img,
+.itemList .itemPrice3 img {
+	margin: 7px 0 0;
+}
+
+.itemList img {
+	vertical-align: top;
+}
+
+.recommendList {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.recommendList h2 {
+	margin: 0 0 20px;
+	padding-top: 20px;
+}
+
+.recommendList h2 span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 50%;
+	font-weight: normal;
+}
+
+.recommendList ul {
+	position: relative;
+	left: 0;
+	width: 708px;
+}
+
+.recommendList li {
+	float: left;
+	width: 110px;
+	margin: 0 8px 0 0;
+	font-size: 95%;
+}
+
+.recommendList p:first-child {
+	margin: 0 0 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.recommendList li p a {
+	font-weight: bold;
+}
+
+.recommendList dt {
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+
+.recommendList dt a {
+	color: #DF7F00;
+	font-weight: bold;
+}
+
+.recommendListBtn {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.itemTtlDetail{
+	font-size:115%;
+	margin-bottom:10px;
+	font-weight:bold;
+	line-height:1.1 !important;
+}
+.itemTtlType01{
+	color:#A36C31;
+	font-size:320%;
+	font-weight:bold;
+	line-height:1.2 !important;
+}
+.itemTtlType02{
+	color:#CE8522;
+	font-size:250%;
+	font-weight:bold;
+	line-height:1.2 !important;
+	margin-bottom: 10px;
+}
+
+
+.itemTtlType02 span.normal{
+	font-weight:normal !important;
+	font-size:17px;
+}
+
+
+
+/* お客さまの声 */
+
+ul.voiceBook {
+	overflow:hidden;
+	padding:0 10px;
+	margin:0 0 20px -10px;
+}
+ul.voiceBook li{
+	float:left;
+	overflow:hidden;
+	padding:0 10px 30px 20px;
+	margin-left:10px;
+	width:300px;
+	background:url(/contents/contents/other/common/voice_bg.png) 0 bottom no-repeat;
+	min-height:208px !important;
+}
+ul.voiceBook li p.ph{
+	float:left;
+	padding-top:8px;
+}
+ul.voiceBook li>div{
+	float:right;
+	width:160px;
+}
+
+ul.voiceBook li h3{
+	margin-top:20px;
+}
+
+/* お客さまの声 end */
+
+
+
+.itemPrice_c{
+	width:100% !important;
+	text-align: center;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------
+:::
+-------------------------------------------------------------------*/
+
+ul#headTab{
+	overflow: hidden;
+}
+
+ul#headTab li{
+	float: left;
+	margin-right: 12px;
+}
+
+.healthWrap{
+	border:#A36F31 4px solid;
+}
+
+.notes{
+	font-size:80%;
+}
+
+.notes img {
+	vertical-align: middle;
+}
+
+.contMain{
+	position: relative;
+	margin-bottom: 30px;
+	/*
+	padding: 10px 10px 0 10px;
+	*/
+	padding-bottom:25px;
+	
+	/*
+	background:url(/contents/contents/cola-rich/common/contMain_bg.png) 0 0 repeat-x;
+	*/
+}
+.contMain .mainAojiru{
+	position: absolute;
+	z-index: 10;
+	top:0;
+	right:0;
+}
+.contMain div.flL{
+	padding: 25px 0 0 0;
+}
+.contMain div.flR{
+	padding-top: 25px;
+	width: 470px;
+	padding-right: 7px;
+}
+
+.contMain div.flR div {
+	float: right;
+	width: 468px;
+}
+
+.contMain div.flR div .ttl {
+	margin-left: -13px;
+}
+
+.contMain .volumeBox{
+	border: #DAD0C1 1px solid;
+	min-height: 30px;
+	line-height: 30px;
+	color: #664B24;
+	font-size: 92.8%;
+	text-align: center;
+	margin:0 0 25px 5px;
+	background-color: #fff;
+	letter-spacing: -1px;
+}
+
+.contReccomend {
+	width: 667px;
+	margin: 0 auto 40px auto;
+}
+
+.contReccomend ul {
+	padding: 20px 0 5px 0;
+	border: 1px solid #B06A13;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.contReccomend ul li {
+	width: 320px;
+	padding-left: 10px;
+	margin-bottom: 15px;
+	float: left;
+
+}
+
+.colaggenBox {
+	width: 669px;
+	margin: 0 auto 30px auto;
+	padding: 0 0 20px 0;
+	background: url(/contents/contents/cola-rich/allinone-gel/img/collagen_bg_bottom.png) 50% 100% no-repeat;
+}
+
+.colaggenBox div {
+	padding: 20px 20px 0 20px;
+	background: url(/contents/contents/cola-rich/allinone-gel/img/collagen_bg_top.png) 0 0 no-repeat;
+}
+
+.colaggenBox div dt {
+	border-bottom: 1px dashed #A36F31;
+	padding: 0 0 7px 5px;
+	margin-bottom: 7px;
+}
+
+.colaggenBox div dd {
+	padding: 0 5px;
+}
+
+.shoppingList{
+	width: 650px;
+	margin:0 auto;
+	padding: 15px 7px;
+	background: #fff;
+	border: #DAD0C1 1px solid;
+}
+.shoppingList .itemPrice1 {
+	float: left;
+	width: 320px;
+	line-height: 1.3;
+	font-size: 120%;
+	text-align: center;
+	color: #664B24;
+}
+
+.shoppingList .itemPrice2 {
+	float: right;
+	width: 320px;
+	line-height: 1.3;
+	color: #c00;
+	font-size: 120%;
+	text-align: center;
+}
+.shoppingList .itemPrice1 strong,
+.shoppingList .itemPrice2 strong{
+	font-size: 200%;
+}
+
+.shoppingList .itemPrice1 img,
+.shoppingList .itemPrice2 img{
+	margin: 7px 0 0;
+}
+
+.shoppingList img {
+	vertical-align: top;
+}
+
+.secretBox {
+	width: 664px;
+	margin: 0 auto 35px auto;
+}
+
+.secretBox h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.secretBox ul {
+	width: 675px;
+	overflow: hidden;
+	margin: 0 0 0 -9px;
+}
+	
+.secretBox ul li{
+	float: left;
+	margin: 0 0 0 9px;
+	width: 216px;
+}
+
+
+.collagenNote {
+	background: url(/contents/contents/health/hc/150/img/intake_bg_bottom.png) 0 bottom no-repeat #E6E6E6;
+	width: 550px;
+	margin: 0 0 20px 50px;
+	padding-bottom: 7px;
+	font-size: 75%;
+}
+
+.contEiyou .collagenNote .inner {
+	background: url(/contents/contents/health/hc/150/img/intake_bg_top.png) 0 top no-repeat #E6E6E6;
+	padding: 10px 0 0 0;
+	width: 550px;
+}
+
+.collagenNote table {
+	width: 100%;
+}
+
+.collagenNote table th {
+	text-align: center;
+	padding: 2px 5px;
+}
+
+.collagenNote table td {
+	padding: 2px;
+}
+
+
+.contSecret {
+}
+
+.contKodawari {
+	width: 663px;
+	border: 2px solid #FF9900;
+	border-top: none;
+	margin: 0 auto;
+	padding-bottom:15px;
+	
+}
+
+.contKodawari h3 {
+	background-color: #FF9900;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 140%;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.contKodawari ul {
+	overflow: hidden;
+	padding: 3px;
+}
+
+.contKodawari ul li {
+	width: 193px;
+	float: left;
+	padding: 10px;
+	background-color: #FFFFBF;
+	margin: 3px;
+	min-height: 160px;
+}
+
+.contKodawari ul li.viE {
+	min-height: 345px;
+	float: right;
+}
+
+.contKodawari ul li .img {
+	float: left;
+	margin-right: 10px;
+}
+
+.contKodawari ul li dl {
+	float: left;
+	padding-top: 2px;
+}
+
+.contKodawari ul li dt {
+	color: #E00000;
+
+	font-weight: bold;
+}
+
+.contKodawari ul li dt span {
+	font-size: 85%;
+}
+
+.contKodawari ul li dd {
+	color: #A16700;
+	font-weight: bold;
+}
+
+.contKodawari ul li .txt {
+	clear: both;
+	padding-top: 10px;
+}
+
+.contEiyou .inner,
+.contContinue .inner,
+.contUse .inner {
+	width: 670px;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+.contContinue {
+}
+
+ul#bottomTab{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+ul#bottomTab li{
+	float: left;
+	margin-right: 12px;
+}
+
+.contShopping{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.contShopping div.flL{
+	padding-top: 20px;
+}
+
+.contShopping div.flR{
+	width: 476px;
+	padding: 35px 0 0 0 ;
+}
+.contShopping .volumeBox{
+	border: #DAD0C1 1px solid;
+	min-height: 30px;
+	line-height: 30px;
+	color: #664B24;
+	font-size: 92.8%;
+	text-align: center;
+}
+.shoppingBox{
+	clear: both;
+	width: 700px;
+	padding: 15px 0 0;
+	background: #fff;
+	text-align: center;
+	font-size: 120%;
+	line-height: 1.3;
+}
+
+.shoppingBox p.price{
+	float: left;
+	padding: 15px 0 0 30px;
+}
+.shoppingBox p.img{
+	float: right;
+}
+
+.shoppingBox .itemPrice1 {
+	border: #DAD0C1 3px solid;
+	padding: 10px;
+	margin-bottom: 30px;
+	color: #664B24;
+}
+.shoppingBox .itemPrice2 {
+	border: #FFCC33 3px solid;
+	color: #c00;
+	padding: 10px;
+}
+.shoppingBox .itemPrice1 strong,
+.shoppingBox .itemPrice2 strong{
+	font-size: 200%;
+}
+.shoppingBox img {
+	vertical-align: bottom;
+}
+
+.shoppingBox .honeyAttention{
+	font-size:70%;
+}
+
+.contMerit{
+	width: 694px;
+	background: url(/contents/contents/health/hc/150/img/merit_bg.png) 0 0 repeat;
+	border: #6A8B1F 3px solid;
+	padding: 22px 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.contMerit2{
+	width: 694px;
+	background: url(/contents/contents/images/sys/merit2_bg.png) 0 0 repeat;
+	border: #FF6477 3px solid;
+	padding: 22px 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+.contMerit ul,
+.contMerit2 ul{
+	overflow: hidden;
+	width: 674px;
+	margin: 0 auto;
+	margin-top: -10px;
+}
+.contMerit ul li,
+.contMerit2 ul li{
+	float: left;
+	margin-top: 30px;
+	width: 335px;
+	text-align: left;
+}
+
+.contCustomer {
+	margin-bottom: 40px;
+}
+
+.contCustomer div {
+	border: 1px solid #F7C4C1;
+	border-top: none;
+	padding: 15px;
+	line-height: 1.8;
+}
+
+.contCustomer .tel {
+	font-weight: bold;
+	font-size: 120%;
+	color: #444444;
+}
+
+.contCustomer .tel img {
+	vertical-align: middle;
+}
+
+.contLotbuy{
+	width: 694px;
+	border: #F7A91A 3px solid;
+	padding-bottom: 17px;
+	margin-bottom: 50px;
+}
+
+.contLotbuy h3{
+	height: 47px;
+	background: #F7A91A;
+	text-align: center;
+	padding-top: 9px;
+}
+.contLotbuy div.setPriceBox{
+	width: 451px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.contLotbuy div.setPriceBox p{
+	float: left;
+}
+.contLotbuy div.setPriceBox p.setPrice{
+	background: url(/contents/contents/aojiru/powder/honey-stick/img/lotbuy_fukidashi.png) no-repeat 0 0;
+	width: 290px;
+	height: 65px;
+	font-size: 120%;
+	color: #c00;
+	text-align: center;
+	padding-top: 25px;
+}
+.contLotbuy .setPrice strong{
+	font-size: 200%;
+}
+.contLotbuy .setPrice strong.otoku{
+color: #2B1D14;
+}
+.lotbuyLine{
+	line-height: 0;
+}
+
+.contLotbuy div.priceOff{
+	overflow: hidden;
+	text-align: left;
+	font-size: 120%;
+	width: 510px;
+	margin:10px auto;
+}
+.contLotbuy div.priceOff p{
+	float: left;
+}
+.contLotbuy div.priceOff .itemPrice1 {
+	width: 210px;
+	line-height:1.2;
+}
+.contLotbuy div.priceOff .itemPrice2 {
+	color: #c00;
+	width: 210px;
+	line-height:1.2;
+}
+.contLotbuy div.priceOff .itemPrice1 strong,
+.contLotbuy div.priceOff .itemPrice2 strong{
+	font-size: 200%;
+}
+.lotbuyNote{
+	padding:0 0 15px 95px;
+}
+
+#compTab{
+	display: none;
+}
+
+.compMain{
+	padding:0 0 0 10px;
+	overflow: hidden;
+}
+.contComp{
+	width: 670px;
+	margin: 0 auto;
+}
+.contComp h2{
+	padding-left: 17px;
+	width: 644px;
+	margin-bottom: 20px;
+}
+.contComp p,
+.contComp ul{
+	margin-bottom: 30px;
+}
+.contComp li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+
+
+/*------------------------------------------------------------------ 
+
+-------------------------------------------------------------------*/
+#secret01{
+	margin-top: 30px;
+}
+
+#secret01 .pics{
+	width: 376px;
+	float: left;
+}
+
+#secret01 .desc{
+	float: right;
+	width: 266px;
+}
+
+#secret01 .desc dt{
+	margin-bottom: 10px;
+}
+
+#secret01_1 .pics{
+	width: 275px;
+	float: left;
+	margin-top: 8px;
+}
+
+#secret01_1 .desc{
+	float: right;
+	width: 367px;
+	margin-top: 8px;
+}
+
+#secret01_1 .desc dd{
+	margin: 5px 0px 20px;
+	font-size: 95%;
+}
+
+#secret02{
+	background:#fff url(/contents/contents/cola-rich/common/pics.jpg) no-repeat right top;
+	padding: 0px 260px 0px 0px;
+	width: 400px;
+}
+
+#secret02 dt{
+	padding: 24px 0px 18px;
+}
+
+#secret02 dd .emph{
+	color:#FA5C26;
+}
+
+#secret03{
+	margin-top:25px;
+}
+
+#secret03 .pics{
+	width: 361px;
+	float: right;
+}
+
+#secret03 .desc{
+	width: 279px;
+	float: left;
+}
+
+#hcHowto{
+	width: 657px;
+	margin: 0 auto;
+	padding:24px 0px 0px;
+	clear: both;
+}
+
+#hcHowto .recipe{
+	padding: 25px 0px 0px;
+	background:#fff url(/contents/contents/cola-rich/common/recipePics.jpg) no-repeat right 25px;
+	width: 651px;
+}
+
+#hcHowto .recipe dd{
+	margin: 10px 0px 6px;
+}
+
+#hc .pIntro .note,
+#hc .closing .note{
+	margin-bottom: 10px;
+}
+
+
+.align_l{
+	text-align:left !important;
+}
+
+.itemPrice_c{
+	width:100% !important;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+レシピ
+-------------------------------------------------------------------*/
+.recipe_ttl{
+	background:url(/contents/contents/health/common/recipe_ttl_bg.png) 0 0 no-repeat;
+	
+	width: 654px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 5px 7px 5px 70px;
+	color: #fff;
+	font-size: 140%;
+	min-height:40px;
+	font-weight:bold;
+}
+
+
+/*------------------------------------------------------------------
+よくある質問
+-------------------------------------------------------------------*/
+.qa_ttl{
+	background:url(/contents/contents/health/common/ttl_qa.png) 0 0 no-repeat;
+	
+	width: 654px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 5px 7px 5px 60px;
+	color: #fff;
+	font-size: 140%;
+	min-height:40px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+
+.ttl_qa_atten{
+	background:url(/contents/contents/health/common/ttl_qa_atten.png) 0 0 no-repeat;
+	
+	width: 654px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 5px 7px 5px 60px;
+	color: #fff;
+	font-size: 140%;
+	min-height:40px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+
+

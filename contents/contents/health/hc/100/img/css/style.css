@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ヒアコラ分包
+-------------------------------------------------------------------*/
+#hc_150 .btnFirst{
+	text-align: right;
+	margin-top: 3px;
+}
+
+#secret01{
+	margin-top: 30px;
+}
+
+#secret01 .pics{
+	width: 376px;
+	float: left;
+}
+
+#secret01 .desc{
+	width: 266px;
+	float: right;
+}
+
+#secret01 .desc dt{
+	margin-bottom: 10px;
+}
+
+#secret01_1 .pics{
+	width: 275px;
+	float: left;
+	margin-top: 8px;
+}
+
+#secret01_1 .desc{
+	float: right;
+	width: 367px;
+	margin-top: 8px;
+}
+
+#secret01_1 .desc dd{
+	margin: 5px 0px 20px;
+	font-size: 95%;
+}
+
+#secret02{
+	background: url(../../hc/common/pics.jpg) no-repeat right top;
+	padding: 0px 260px 60px 0px;
+	width: 400px;
+}
+
+#secret02 dt{
+	padding: 24px 0px 18px;
+}
+
+#secret02 dd .emph{
+	color:#FA5C26;
+}
+
+#secret03{
+	margin-top:25px;
+}
+
+#secret03 .pics{
+	width: 361px;
+	float: right;
+}
+
+#secret03 .desc{
+	width: 279px;
+	float: left;
+}
+
+#hcHowto{
+	width: 657px;
+	margin: 0 auto;
+	padding:24px 0px 0px;
+	clear: both;
+}
+
+#hcHowto .recipe{
+	padding: 25px 0px 0px;
+	background: url(../../hc/common/recipePics.jpg) no-repeat right 25px;
+	width: 651px;
+}
+
+#hcHowto .recipe dd{
+	margin: 10px 0px 6px;
+}

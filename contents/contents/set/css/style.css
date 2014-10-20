@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+まとめ買い
+-------------------------------------------------------------------*/
+#catch{
+	background: url(../img/bg.jpg) no-repeat right top;
+	margin: 8px auto;
+	padding-bottom: 35px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#catch dt{
+	padding: 5px 0px 16px 13px;
+}
+
+#catch dd{
+	padding: 0px 0px 0px 20px;
+	font-size: 115%;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.set_tit{
+	clear:both;
+	padding:20px 0px 10px;
+}
+
+
+
+/* 商品枠 */
+.kLayout{
+	padding: 10px 0px;
+}
+
+.kLayout .pics{
+	width: 188px;
+}
+
+.kLayout .desc{
+	float: left;
+	width: 462px;
+}
+
+.kLayout .desc h4{
+	font-size: 130%;
+	margin-bottom: 10px;
+}
+
+.kLayout .volume {
+	margin-bottom: 10px;
+}
+.kLayout .desc ul{
+	background:#F2F2F2;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.kLayout .desc li{
+}
+
+.kLayout .desc .setPrice{
+	color: #D53C3C;
+}
+
+.kLayout .desc .sellingPrice .price{
+	font-weight: bold;
+	font-size: 115%;
+	line-height: 1.2;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.kLayout .desc .setPrice .price{
+	font-weight: bold;
+	font-size: 130%;
+	_font-family:Arial, Helvetica, sans-serif;
+}
+
+.kLayout .desc .note{
+	font-size: 85%;
+	line-height: 1.2;
+	margin-bottom: 7px;
+}

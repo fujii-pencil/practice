@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+/*--------------------
+  fontsize small
+--------------------*/
+
+h1, h2, h3, h4, h5, h6,
+div, p, pre, ul, ol, dl, dt, dd,
+address, form, blockquote, table {
+	font-size: 100%;
+}
+
+/***** fontSize *****/
+#header #tagline #fontSize #fontSizeN a{
+	background: url(../common/fontSizeS.jpg) no-repeat 0 -28px;
+}
+
+/* QPACEC 2014/5/20 DEL STR サイトリニューアル対応 */
+/*
+#header #tagline #fontSize #fontSizeL a{
+	background: url(../common/fontSizeL.jpg) no-repeat 0 0px;
+}
+
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */

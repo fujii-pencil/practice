@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+#details01{
+	margin: 17px auto 50px;
+	width: 666px;
+}
+
+#details01 .pics{
+	width: 365px;
+	float: left;
+	padding-right: 20px;
+}
+
+#details01 .desc{
+	float: left;
+	width: 281px;
+}
+
+#details02{
+	margin: 17px auto 50px;
+	width: 666px;
+}
+
+#details02 .pics{
+	width: 257px;
+	float: left;
+}
+
+#details02 .desc{
+	float: left;
+	width: 364px;
+	padding-right: 45px;
+}
+
+
+#details03{
+	margin:12px 0px 47px;
+}
+
+.bdr_t{
+	border-top:1px dotted #CCC;
+	padding-top:5px;
+	margin-top:5px;
+}

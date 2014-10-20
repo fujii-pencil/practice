@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------ 
+青汁（冷凍タイプ）シリーズ
+-------------------------------------------------------------------*/
+
+#howto{
+}
+
+#howto h3{
+}
+
+#howto li{
+	float: left;
+	padding: 16px 24px 40px 0px;
+}
+
+#howto li.last{
+	padding: 16px 0px 30px 0px;
+}
+
+#advice{
+	background: url(../img/freshBg.jpg) no-repeat right bottom;
+	padding: 0px 144px 0px 0px;
+	width: 512px;
+	margin: 17px auto 40px;
+}
+
+#advice dl{
+	background: url(../img/bubble_t.gif) no-repeat left top;
+	padding: 17px 30px 0px 15px;
+}
+
+#advice dd{
+	padding: 2px 0px 18px 38px;
+}
+
+#advice #bubble{
+	background: url(../img/bubble_b.gif) no-repeat left bottom;
+}
+
+#freezeRecipe{
+	width: 658px;
+	margin: 18px auto 40px;
+}
+
+#freezeRecipe dl{
+	float: left;
+	width: 154px;
+	padding-right: 14px;
+	padding-top: 14px;
+}
+
+#freezeRecipe dl.last{
+	padding-right: 0;
+}
+
+#freezeRecipe dt{
+}
+
+#freezeRecipe dd{
+	font-size: 85%;
+	padding: 3px 8px;
+	line-height: 1.6;
+}

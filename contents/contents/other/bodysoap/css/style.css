@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+無添加ボディソープ
+-------------------------------------------------------------------*/
+
+#smile{
+	background: url(../../common/img01.jpg) no-repeat right top;
+	padding: 0px 220px 50px 0px;
+	width: 440px;
+	margin-top: 18px;
+}
+
+/* 商品名・内容量：商品画像の右にある場合 */
+.closing .bg .desc dl.mutenkaName{
+	margin: 0px 0px 20px;
+	background: #F2F2F2;
+	padding: 8px;
+}
+
+.closing .bg .desc .mutenkaName dt{
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.closing .bg .desc .mutenkaName dd{
+	font-size: 95%;
+}
+
+.closing .bg .desc .mutenkaName dt .kome{
+	font-size: 75%;
+}

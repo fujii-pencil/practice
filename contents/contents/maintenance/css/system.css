@@ -1,0 +1,2126 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+cart
+-------------------------------------------------------------------*/  
+
+/*********** flow chart ***********/
+#c-flow ul {
+	width: 800px;
+	list-style: none;
+}
+#c-flow li {
+	display: inline;
+	float: left;
+	text-indent: -9999px;
+}
+#c-flow li.two {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow2.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.three {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow3.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.four {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow4.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.five {
+	width: 136px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow5.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.six {
+	width: 124px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow6.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.one-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow1_on.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.two-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow2_on.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.three-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow3_on.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.three-enquete {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow3_enquete.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.four-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow4_on.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.five-on {
+	width: 136px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow5_on.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.six-on {
+	width: 124px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow6_on.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.six2-on {
+	width: 124px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow6-2_on.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.one-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow1_off.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.two-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow2_off.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.three-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow3_off.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.four-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow4_off.gif);
+	background-repeat: no-repeat;
+}
+#c-flow li.five-off {
+	width: 136px;
+	height: 80px;
+	background-image: url(../images/sys/cart/c-flow5_off.gif);
+	background-repeat: no-repeat;
+}
+
+#r-2-flow ul {
+	width: 800px;
+	list-style: none;
+}
+#r-2-flow li {
+	display: inline;
+	float: left;
+	text-indent: -9999px;
+}
+#r-2-flow li.two {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow2.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.three {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow3.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.four {
+	width: 136px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow4.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.five {
+	width: 124px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow5.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.one-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow1_on.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.two-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow2_on.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.three-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow3_on.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.four-on {
+	width: 136px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow4_on.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.five-on {
+	width: 124px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow5_on.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.one-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow1_off.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.two-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow2_off.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.three-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow3_off.gif);
+	background-repeat: no-repeat;
+}
+#r-2-flow li.four-off {
+	width: 136px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-2-flow4_off.gif);
+	background-repeat: no-repeat;
+}
+#r-1-flow ul {
+	width: 800px;
+	list-style: none;
+}
+#r-1-flow li {
+	display: inline;
+	float: left;
+	text-indent: -9999px;
+}
+#r-1-flow li.two {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-1-flow2.gif);
+	background-repeat: no-repeat;
+}
+#r-1-flow li.three {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-1-flow3.gif);
+	background-repeat: no-repeat;
+}
+#r-1-flow li.one-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-1-flow1_on.gif);
+	background-repeat: no-repeat;
+}
+#r-1-flow li.two-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-1-flow2_on.gif);
+	background-repeat: no-repeat;
+}
+#r-1-flow li.three-on {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-1-flow3_on.gif);
+	background-repeat: no-repeat;
+}
+#r-1-flow li.one-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-1-flow1_off.gif);
+	background-repeat: no-repeat;
+}
+#r-1-flow li.two-off {
+	width: 135px;
+	height: 80px;
+	background-image: url(../images/sys/reminder/r-1-flow2_off.gif);
+	background-repeat: no-repeat;
+}
+.ic-question {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 800px;
+	text-align: right;
+}
+
+
+
+
+#freeshopping ol{
+	padding-left: 2em;
+}
+#freeshopping li{
+	list-style-type: decimal;
+}
+
+#plus {
+	padding-right: 1px;
+	padding-left: 1px;
+	width: 798px;
+	background-image: url(../images/sys/cart/c-1-1_plus_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+	text-align: center;
+}
+#plus-ft {
+	width: 800px;
+	height: 41px;
+	background-image: url(../images/sys/cart/c-1-1_plus_ft.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: 5px;
+	text-indent: -9999px;
+}
+.plus-txt {
+	padding-right: 5px;
+}
+.plus-txt-bg {
+	background-color: #F2F2F2;
+}
+
+#menu-link {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 800px;
+}
+#menu-link ul {
+	width: 800px;
+	list-style: none;
+}
+#menu-link li {
+	padding-left: 12px;
+	display: inline;
+	float: left;
+	width: 240px;
+	list-style: none;
+	background-image: url(../images/sys/common/ic_yajirushi.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+
+/*------------------------------------------------------------------ 
+common
+-------------------------------------------------------------------*/
+
+/*********** link ***********/
+.normalLink{
+	background: url(../images/sys/common/ic_yajirushi.gif) no-repeat left 2px;
+	padding-left: 12px;
+	font-size: 12px;
+}
+
+.weekLink{
+	background: url(../images/sys/common/ic_yajirushi.gif) no-repeat left 2px;
+	padding-left: 12px;
+	font-size: 12px;
+	margin: 10px 0px;
+}
+
+.weekLink a:link{
+	color:#333333;
+}
+
+a.linkTri{
+	background: url(../images/sys/common/ic_yajirushi.gif) no-repeat left;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+  
+/*********** main-box ***********/
+
+.main-box20 h3,
+.main-box15 h3,
+.main-box30 h3,
+.main-box40 h3,
+.main-box60 h3 {
+	margin-bottom: 5px;
+	padding-left: 5px;
+	border-left-width: 5px;
+	border-left-color: #95CF0E;
+	border-left-style: solid;
+	width: 750px;
+	font-weight: normal;
+	font-size: 12px;
+}
+.main-box20 h3.title-clear,
+.main-box15 h3.title-clear,
+.main-box30 h3.title-clear,
+.main-box40 h3.title-clear,
+.main-box60 h3.title-clear {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+
+
+/*********** style for table ***********/
+.table-g {
+	width: 800px;
+	background-image: url(../images/sys/common/table_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.table-g-hd {
+	background-image: url(../images/sys/common/table_hd.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+}
+.table-g-ft {
+	padding-bottom: 4px;
+	background-image: url(../images/sys/common/table_ft.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-align: center;
+}
+.table-p {
+	width: 800px;
+	background-image: url(../images/sys/common/table_bg_p.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.table-p-hd {
+	background-image: url(../images/sys/common/table_hd_p.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+}
+.table-p-ft {
+	padding-bottom: 4px;
+	background-image: url(../images/sys/common/table_ft_p.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-align: center;
+}
+.table-line {
+	border-top-width: 2px;
+	border-top-color: #C1C1C1;
+	border-top-style: solid;
+}
+.table-line-s {
+	border-right-width: 1px;
+	border-right-color: #CCC;
+	border-right-style: solid;
+}
+.table-dot {
+	border-top-width: 2px;
+	border-top-color: #C1C1C1;
+	border-top-style: dotted;
+}
+.table-dot-s {
+	border-right-width: 1px;
+	border-right-color: #CCC;
+	border-right-style: dotted;
+}
+.table-p5 {
+	padding: 5px;
+}
+.table-p10 {
+	padding: 10px;
+}
+.table-pt5 {
+	padding-top: 5px;
+}
+.table-pb5 {
+	padding-bottom: 5px;
+}
+.table-ptb5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.table-pb10 {
+	padding-bottom: 10px;
+}
+.table-pl10 {
+	padding-left: 10px;
+}
+.table-pr10 {
+	padding-right: 10px;
+}
+.table-prl10 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.table-ptlb10{
+	padding:10px 0px 10px 10px;
+}
+
+.table-bg-p {
+	background-image: url(../images/sys/common/table_bg_p.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.table-total {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.table-g th{
+	font-size: 11px;
+	font-weight: normal;
+	height: 35px;
+	text-align: center;
+}
+
+.table-g .tblGry{
+	width: 792px;
+	padding: 0;
+	border-collapse: collapse;
+	border: none;
+	margin: 0 auto;
+}
+
+.table-form .table-form02{
+	padding:0;
+	margin:0;
+	width:490px;
+	border: none;
+	border-collapse: collapse;
+}
+
+.table-form .table-form02 td{
+	margin:0;
+	padding:3px 0px;
+}
+
+.table-form th {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.table-form tr.bg_green {
+	background-color: #F0FCD3;
+}
+.table-form .bg_gray {
+	background-color: #F2F2F2;
+}
+
+.table-form tr.bg_org {
+	background-color: #FFEFD7;
+}
+
+.table-form-line {
+	border-right-width: 1px;
+	border-right-color: #95CF0E;
+	border-right-style: dotted;
+}
+.table-form-lineb {
+	border-bottom-width: 4px;
+	border-bottom-color: #C8E681;
+	border-bottom-style: solid;
+}
+.table-form-linew {
+	border-right-width: 1px;
+	border-right-color: #FFF;
+	border-right-style: solid;
+}
+.table-form-green {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	background-color: #C8E681;
+}
+
+.table-form-line-org {
+	border-right: 1px dotted #FF9900;
+}
+
+.table-form td.frame {
+	padding:0;
+	text-align: center;
+}
+
+/*.table-form td {
+	padding:10px 0px 10px 10px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 18px;
+}*/
+
+.table-form td.center {
+	text-align: center;
+}
+
+td.left {
+	text-align: left;
+}
+
+/*.table-form td.table-form-green,
+.table-form td.table-form-org{
+	padding: 3px 10px;
+	text-align: center;
+}
+
+.table-form td.table-form-green_l{
+	padding: 3px 10px;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	background-color: #C8E681;
+}
+*/
+.table-form-org {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	background-color: #FFCC7F;
+}
+
+.table-form .address td{
+	padding:0px;
+}
+
+.table-form td.nop {
+	padding:0px;
+}
+
+.wReq{
+	width:44px;
+	padding:0px 10px 0px 0px;
+	text-align:center;
+}
+
+.w110{
+	width:110px;
+	padding:10px;
+	text-align: left;
+}
+
+.w534{
+	width:534px;
+	padding:10px;
+	text-align: left;
+}
+
+.w650{
+	width:650px;
+	padding:10px;
+}
+
+
+
+/*********** お支払方法の確認 ***********/
+.paymentConf td{
+	padding: 0;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+/*********** login ***********/
+
+#login {
+	margin-top: 15px;
+	width: 800px;
+	background-image: url(../images/sys/cart/c-1-1_login_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+#login-ft {
+	width: 800px;
+	height: 11px;
+	background-image: url(../images/sys/cart/c-1-1_login_ft.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: 5px;
+	text-indent: -9999px;
+}
+#login-add {
+	width: 250px;
+}
+#login-pass {
+	width: 200px;
+}
+#login-error {
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid #CC0101;
+	width: 776px;
+	background-color: #FDE6E6;
+	background-image: url(../images/sys/common/error_img.gif);
+	background-repeat: no-repeat;
+	background-position: 12px center;
+}
+#login-error p {
+	padding-left: 48px;
+}
+.error-form {
+	border: 2px solid #CC0101;
+	background-color: #FDE6E6;
+}
+
+
+
+
+
+
+/*********** 写真と商品名 ***********/
+.productPic{
+	margin: 0px;
+}
+
+.productPic dt{
+	float: left;
+	clear: left;
+}
+
+.productPic dd{
+	padding: 0px 0px 5px 90px;
+	font-weight: bold;
+}	
+
+
+
+
+.noedit{
+	color: #868686;
+}
+
+
+
+#name1,
+#name2,
+#kana1,
+#kana2 {
+	width: 8em;
+}
+
+#deliverAddress{
+	width: 12em;
+}
+
+#zip,
+.day-appoint-input {
+	width: 7em;
+}
+#address3,
+#meigi,
+#delivername,
+#credit_meigi {
+	width: 18em;
+}
+#address1,
+#address2,
+#password1,
+#password2,
+#atena1,
+#atena2,
+#atena3,
+#noshi1,
+#noshi2 {
+	width: 14em;
+}
+#phonenumber {
+	width: 12em;
+}
+
+#mail1,
+#mail2,
+#atena-mail1,
+#atena-mail2,
+#atena-mail3 {
+	width: 22em;
+	font-size: 16px;
+}
+#card1,
+#card2,
+#card3,
+#card4 {
+	width: 4em;
+}
+.comment {
+	width: 90%;
+}
+
+.pw{
+	width: 22em;
+}
+
+.misc{
+	width: 22em;
+	height: 4em;
+	font-size: 12px;
+}
+
+#phonenumber {
+	width: 12em;
+}
+
+#nickname{
+	width: 15em;
+}
+
+#review_title{
+	width: 95%;
+	font-size: 12px;
+}
+
+#review_comment{
+	width: 95%;
+	font-size: 12px;
+}
+
+
+
+
+
+/*------------------------------------------------------------------ 
+privacy policy
+-------------------------------------------------------------------*/  
+
+#privacy {
+	width: 800px;
+	background-image: url(../images/sys/common/privacy_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.privacy-txt {
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	width: 770px;
+}
+.privacy-ft {
+	width: 800px;
+	height: 15px;
+	background-image: url(../images/sys/common/privacy_ft.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: 5px;
+	text-indent: -9999px;
+}
+#privacy-short {
+	margin-right: 70px;
+	margin-left: 70px;
+	border: solid 1px #c9cccd;
+	width: 640px;
+	height: 148px;
+	background-color: #FFF;
+}
+
+#privacy-body {
+	padding: 10px;
+	text-align:left;
+}
+privacy-body p {
+	margin-bottom: 10px;
+	width: 625px;
+}
+#privacy-body h4 {
+	margin-top: 10px;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-left-width: 5px;
+	border-bottom-color: #CCC;
+	border-left-color: #95CF0E;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	width: 615px;
+	font-size: 13px;
+}
+.mark-title {
+	margin-bottom: 5px;
+	padding-left: 5px;
+	border-left-width: 5px;
+	border-left-color: #95CF0E;
+	border-left-style: solid;
+	font-size: 12px;
+}
+.daytime-box {
+	margin-top: 15px;
+	padding-left: 72px;
+	width: 728px;
+	background-image: url(../images/sys/cart/c-3-1_yazjirushi.gif);
+	background-repeat: no-repeat;
+	background-position: left 20px;
+}
+.day-box {
+	margin-top: 15px;
+	padding-left: 72px;
+	width: 728px;
+	background-image: url(../images/sys/cart/c-3-1_yazjirushi.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.table-g-teiki {
+	background-image: url(../images/sys/common/table_bg_g_teiki.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+
+
+#message-box, #message-box2 {
+	width: 800px;
+	height: 103px;
+	background-image: url(../images/sys/common/message_bg.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+#message-box3 {
+	width: 800px;
+	height: 103px;
+	background-image: url(../images/sys/common/message_bg3.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+#message-box p,#message-box3 p {
+	padding-top: 37px;
+	padding-left: 77px;
+	color: #008737;
+	font-size: 14px;
+}
+#message-box2 p {
+	padding-top: 27px;
+	padding-left: 77px;
+	color: #008737;
+	font-size: 14px;
+}
+#message-box p.line2, #message-box2 p.line2, #message-box3 p.line2 {
+	padding-top: 26px;
+	padding-left: 77px;
+	line-height: 20px;
+	color: #008737;
+	font-size: 14px;
+}
+
+#order-member p {
+	width: 800px;
+	height: 103px;
+	background-image: url(../images/sys/cart/l-2-1_member_img.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	text-align: left;
+}
+#order-member-regist {
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 780px;
+	background-color: #F2F2F2;
+	font-size: 14px;
+	text-align: center;
+}
+
+.freedial {
+	margin-top: 5px;
+	margin-right: 10px;
+	float: left;
+	width: 289px;
+	font-size: 12px;
+}
+.freedial img {
+	margin-top: 3px;
+}
+
+.return {
+	border: 1px solid #CCC;
+	line-height: 18px;
+	font-size: 12px;
+}
+.return th {
+	background-color: #F2F2F2;
+}
+
+#membe-regist1 {
+	margin-top: 5px;
+	margin-right: 7px;
+	margin-bottom: 15px;
+	float: left;
+	width: 262px;
+	height: 130px;
+	background-image: url(../images/sys/common/member_regist_bg1.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+#membe-regist2 {
+	margin-top: 5px;
+	margin-right: 7px;
+	margin-bottom: 15px;
+	float: left;
+	width: 262px;
+	height: 130px;
+	background-image: url(../images/sys/common/member_regist_bg2.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+#membe-regist3 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	float: left;
+	width: 262px;
+	height: 130px;
+	background-image: url(../images/sys/common/member_regist_bg3.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+#membe-regist1 h4,
+#membe-regist2 h4,
+#membe-regist3 h4 {
+	width: 262px;
+	height: 43px;
+	text-indent: -9999px;
+}
+#membe-regist1 p,
+#membe-regist2 p,
+#membe-regist3 p {
+	margin-left: 15px;
+	width: 165px;
+}
+.kadomaru1 {
+	background-image: url(../images/sys/common/kadomaru1_bg.gif);
+	background-repeat: repeat-x;
+}
+.kadomaru2 {
+	background-image: url(../images/sys/common/kadomaru2_bg.gif);
+	background-repeat: repeat-x;
+}
+.kadomaru2 td{
+	padding: 0;
+	text-align:center;
+}
+
+.kadomaru3 {
+	background-image: url(../images/sys/common/kadomaru3_bg.gif);
+	background-repeat: repeat-y;
+}
+
+.kadomaru3s {
+	background-image: url(../images/sys/common/kadomaru3s_bg.gif);
+	background-repeat: repeat-y;
+}
+
+.product_name {
+	color:#09c;
+	line-height: 120%;
+}
+#creditcard_info_lp {
+	margin-top:10px;
+	padding-top: 11px;
+	background: url(../images/sys/common/card_shadow.gif) left top repeat-x;
+}
+
+#creditcard_info_lp {
+	margin-top:10px;
+	padding-top: 11px;
+	background: url(../images/sys/common/card_shadow.gif) left top repeat-x;
+}
+
+#creditcard_info_lp .table-form{
+	width:590px;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+my page
+-------------------------------------------------------------------*/
+
+#myPage .table-form{
+	padding:0;
+	margin:0;
+	width:800px;
+	border: none;
+	border-collapse: collapse;
+}
+
+#myPage .day-box .table-form,
+#myPage .daytime-box .table-form{
+	width:728px;
+}
+
+#myPage .table-form td.table-form-green_l{
+	padding: 3px 10px;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	background-color: #C8E681;
+}
+
+#myPage .table-form .bl{
+	border-right: 1px dotted #CCC;
+}
+#creditcard_info .table-form .bl, #creditcard_info_1 .table-form .bl{
+	border-right: 1px dotted #CCC;
+}
+
+#myPage .ic-question a{
+	background: url(../images/sys/common/ic_question.gif) no-repeat left;
+	display:inline-block;
+	padding-left: 18px;
+}
+
+/*********** flow chart ***********/
+
+#m-3-flow{
+	width:800px;
+}
+
+#m-3-flow li{
+	float: left;
+	text-indent: -9999px;
+	width: 135px;
+	height: 80px;
+}
+
+#m-3-flow li.one-on{
+	background: url(../images/sys/mypage/m-3-flow01_on.jpg) no-repeat;
+}
+
+#m-3-flow li.one-off{
+	background: url(../images/sys/mypage/m-3-flow01_off.jpg) no-repeat;
+}
+
+#m-3-flow li.two{
+	background: url(../images/sys/mypage/m-3-flow02.jpg) no-repeat;
+}
+
+#m-3-flow li.two-on{
+	background: url(../images/sys/mypage/m-3-flow02_on.jpg) no-repeat;
+}
+
+#m-3-flow li.two-off{
+	background: url(../images/sys/mypage/m-3-flow02_off.jpg) no-repeat;
+}
+
+
+#m-3-flow li.three{
+	background: url(../images/sys/mypage/m-3-flow03.jpg) no-repeat;
+}
+
+#m-3-flow li.three-on{
+	background: url(../images/sys/mypage/m-3-flow03_on.jpg) no-repeat;
+}
+
+
+
+  
+/*********** ログイン画面 ***********/
+
+#myPage #login {
+	margin-top: 5px;
+	width: 800px;
+	background: url(../images/sys/mypage/m-1-1-login_bg.jpg) repeat-y center top;
+}
+
+#myPage #login-ft {
+	width: 800px;
+	height: 11px;
+	background: url(../images/sys/mypage/m-1-1_login_ft.gif) no-repeat center top;
+	font-size: 5px;
+}
+
+#myPage .iconFree{
+	vertical-align: bottom;
+}
+
+
+
+
+/*********** マイページトップ ***********/
+
+#myPage #welcome{
+	border: 2px solid #E0E0E0;
+	padding: 10px;
+	width: 776px;
+}
+
+#myPage #welcome .pics{
+	width: 80px;
+	float: left;
+	padding-right: 20px;
+}
+
+#myPage #welcome .topics{
+	float: left;
+}
+
+#myPage #welcome .topics dt{
+	color: #94CE0D;
+	font-weight: bold;
+	font-size:12px;
+	margin-bottom: 2px;
+}
+
+#myPage #welcome .topics dd{
+	padding: 1px 0px 1px 62px;
+	font-size: 12px;
+}
+
+#myPage #welcome .topics dd.iconTeiki{
+	background: url(../images/sys/mypage/m-2-1-icon_teiki.gif) no-repeat left top;
+}
+
+#myPage #welcome .topics dd.iconOrder{
+	background: url(../images/sys/mypage/m-2-1-icon_order.gif) no-repeat left top;
+}
+
+#myPage #welcome .topics dd.iconNews{
+	background: url(../images/sys/mypage/m-2-1-icon_news.gif) no-repeat left top;
+}
+
+#myPage #infoChange{
+	width: 800px;
+	background: url(../images/sys/mypage/m-2-1-changeInfo_bg.gif) repeat-y center top;
+	margin: 5px 0px 0px;
+}
+
+#myPage #infoChange-ft{
+	width: 800px;
+	height: 11px;
+	background: url(../images/sys/mypage/m-2-1-changeInfo_ft.gif) no-repeat center top;
+	font-size: 5px;
+	margin-bottom: 20px;
+}
+
+#myPage #phoneOrder{
+	background:#F2F2F2;
+	padding:22px 25px;
+	width: 750px;
+}
+
+#myPage #phoneOrder .desc{
+	width: 548px;
+	float: left;
+}
+
+#myPage #phoneOrder .button{
+	float: right;
+	padding-top: 25px;
+	width: 208px;
+}
+
+#myPage .mypageBtn{
+	width: 208px;
+	padding: 5px 0px 15px 592px;
+}
+
+
+
+
+
+/*********** 注文履歴詳細画面 ***********/
+
+#myPage .products{
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#myPage .products th{
+	width: auto;
+	font-weight: normal;
+	padding: 0px;
+	text-align: left;
+}
+
+#myPage .products td{
+	text-align: left;
+	padding: 0px 0px 0px 25px;
+}
+
+#myPage .products td.price{
+	text-align:right;
+}
+
+#myPage .products .iconTeiki{
+	background: url(../images/sys/common/ic_teiki.gif) no-repeat right;
+	display: block;
+	padding-right: 75px;
+}
+
+#myPage .orderInfo dt{
+	float: left;
+	clear: left;
+}
+
+#myPage .orderInfo dd{
+	padding: 0px 0px 0px 9em;
+}
+
+#myPage .ps{
+	vertical-align: bottom;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+定期お届け情報確認・変更
+-------------------------------------------------------------------*/
+
+/*********** flow chart ***********/
+
+#m-5-flow{
+	width:800px;
+}
+
+#m-5-flow li{
+	float: left;
+	text-indent: -9999px;
+	width: 135px;
+	height: 80px;
+}
+
+#m-5-flow li.one-on{
+	background: url(../images/sys/mypage/m-5-flow01_on.jpg) no-repeat;
+}
+
+#m-5-flow li.one-off{
+	background: url(../images/sys/mypage/m-5-flow01_off.jpg) no-repeat;
+}
+
+#m-5-flow li.two{
+	background: url(../images/sys/mypage/m-5-flow02.jpg) no-repeat;
+}
+
+#m-5-flow li.two-on{
+	background: url(../images/sys/mypage/m-5-flow02_on.jpg) no-repeat;
+}
+
+#m-5-flow li.two-off{
+	background: url(../images/sys/mypage/m-5-flow02_off.jpg) no-repeat;
+}
+
+
+#m-5-flow li.three{
+	background: url(../images/sys/mypage/m-5-flow03.jpg) no-repeat;
+}
+
+#m-5-flow li.three-on{
+	background: url(../images/sys/mypage/m-5-flow03_on.jpg) no-repeat;
+}
+
+
+
+
+/*********** style for table ***********/
+.delStatus{
+	width: 56px;
+	padding: 10px;
+}
+
+td.sum {
+	text-align: right;
+	padding: 10px;
+	border-top: 4px solid #C8E681;
+}
+
+td.sumConfirm {
+	padding: 10px;
+	border-top: 2px solid #C1C1C1;
+}
+
+.orderSum{
+	width: 780px;
+	text-align: left;
+}
+
+.orderSum p{
+	width: 400px;
+	float: left;
+	padding-left: 10px;
+}
+
+.orderSum p .points{
+	font-weight: bold;
+	font-size: 18px;
+	padding: 0px 2px;
+}
+
+.delChoice{
+	clear: both;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+/*********** 合計金額表示 ***********/
+.total{
+	width: 220px;
+	padding-left: 560px;
+}
+
+td.sumConfirm dl{
+	width: 240px;
+	float: right;
+	padding-right: 10px;
+}
+
+
+.total dt,
+td.sumConfirm dt{
+	float: left;
+	clear: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.total dd,
+td.sumConfirm dd{
+	padding: 0px 0px 0px 8em;
+	text-align: right;
+}
+
+.total .price,
+td.sumConfirm .price{
+	font-weight: bold;
+}
+
+.total .price span,
+td.sumConfirm .price span{
+	color: #CC0000;
+	font-size: 16px;
+}
+
+#myPage .kadomaru2 td{
+	font-size: 12px;
+}
+
+#myPage .kadomaru2 .em{
+	color: #CC0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#myPage .table-g-ft .delDates{
+	padding: 10px;
+	text-align: center;
+}
+
+#myPage .table-g-ft .dateList{
+	width: 310px;
+	padding: 10px;
+	text-align: left;
+}
+
+#myPage .table-g-ft .product{
+	width: 250px;
+	padding: 10px;
+	text-align: left;
+}
+
+#myPage .table-g-ft .reviewP{
+	padding: 10px;
+	text-align: left;
+}
+
+#myPage .delDate{
+	width:280px;
+}
+
+#myPage .delDate dt{
+	float: left;
+	clear: left;
+	color: #999999;
+	font-weight: bold;
+	padding: 2px 0px;
+}
+
+#myPage .delDate dd{
+	padding: 2px 0px 2px 8em;
+	color: #999999;
+	font-weight: bold;
+}
+
+#myPage .delDate dd.done{
+	background: url(../images/sys/mypage/m-5_iconDone.gif) no-repeat right center;
+}
+
+#myPage .delDate dd.stop{
+	background: url(../images/sys/mypage/m-5_iconStop.gif) no-repeat right center;
+}
+
+#myPage .delDate .yet{
+	color: #008837;
+	font-weight: bold;
+}
+
+#myPage .delDate .stop{
+	color: #CC0000;
+	font-weight: bold;
+}
+
+#myPage .stopDel .choice{
+	display:inline;
+	padding-right: 10px;
+}
+
+#myPage .stopDel .choice img{
+	vertical-align: bottom;
+}
+
+#myPage .stopDel .void select{
+	background-color: #D6D6D6;
+
+}
+
+#myPage .notice{
+	margin: 20px 0px 5px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#myPage .notice span{
+	color: #CC0000;
+	font-size: 14px;
+}
+
+#myPage #destination_info{
+	margin-bottom: 10px;
+}
+
+#myPage .products .iconMonth{
+	background: url(../images/sys/common/iconEveryM.gif) no-repeat right center;
+	padding: 0px 75px 0px 0px;
+	display: inline-block;
+}
+
+#myPage .products .iconTwoMonth{
+	background: url(../images/sys/common/iconEvery2.gif) no-repeat right center;
+	padding: 0px 75px 0px 0px;
+	display: inline-block;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+お届け先情報登録・変更
+-------------------------------------------------------------------*/
+
+/*********** flow chart ***********/
+
+#m-6-flow{
+	width:800px;
+}
+
+#m-6-flow li{
+	float: left;
+	text-indent: -9999px;
+	width: 135px;
+	height: 80px;
+}
+
+#m-6-flow li.one-on{
+	background: url(../images/sys/mypage/m-6-flow01_on.jpg) no-repeat;
+}
+
+#m-6-flow li.one-off{
+	background: url(../images/sys/mypage/m-6-flow01_off.jpg) no-repeat;
+}
+
+#m-6-flow li.two{
+	background: url(../images/sys/mypage/m-6-flow02.jpg) no-repeat;
+}
+
+#m-6-flow li.two-on{
+	background: url(../images/sys/mypage/m-6-flow02_on.jpg) no-repeat;
+}
+
+#m-6-flow li.two-off{
+	background: url(../images/sys/mypage/m-6-flow02_off.jpg) no-repeat;
+}
+
+
+#m-6-flow li.three{
+	background: url(../images/sys/mypage/m-6-flow03.jpg) no-repeat;
+}
+
+#m-6-flow li.three-on{
+	background: url(../images/sys/mypage/m-6-flow03_on.jpg) no-repeat;
+}
+
+
+
+
+
+/*------------------------------------------------------------------ 
+退会
+-------------------------------------------------------------------*/
+.finalQ{
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.grnBox{
+	background: url(../images/sys/mypage/withdrawalT.gif) no-repeat center top;
+	padding-top: 5px;
+}
+
+.grnBoxB{
+	background: url(../images/sys/mypage/withdrawalB.gif) no-repeat center bottom;
+	padding: 10px;
+	text-align: center;
+}
+
+#yes_no{
+}
+
+#yes_no li{
+	display: inline;
+	padding: 10px;
+}
+
+#thanksBg{
+	width: 800px;
+	background: url(../images/sys/mypage/thanksBg_t.gif) no-repeat top center;
+	padding-top: 11px;
+}
+
+#thanksBg02{
+	background: url(../images/sys/mypage/thanksBg_b.gif) no-repeat center bottom;
+	padding: 20px 40px 31px;
+}
+
+#thanksBg .thanks{
+	font-weight: bold;
+	color: #008737;
+	font-size: 14px;
+	width: 720px;
+}
+
+#thanksBg .thanks_center{
+	text-align:center;
+	font-weight: bold;
+	color: #008737;
+	font-size: 14px;
+	width: 720px;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+新規会員登録
+-------------------------------------------------------------------*/
+
+/*********** flow chart ***********/
+
+#m-8-flow{
+	width:800px;
+}
+
+#m-8-flow li{
+	float: left;
+	text-indent: -9999px;
+	width: 135px;
+	height: 80px;
+}
+
+#m-8-flow li.one-on{
+	background: url(../images/sys/mypage/m-8flow01_on.jpg) no-repeat;
+}
+
+#m-8-flow li.one-off{
+	background: url(../images/sys/mypage/m-8flow01_off.jpg) no-repeat;
+}
+
+#m-8-flow li.two{
+	background: url(../images/sys/mypage/m-8flow02.jpg) no-repeat;
+}
+
+#m-8-flow li.two-on{
+	background: url(../images/sys/mypage/m-8flow02_on.jpg) no-repeat;
+}
+
+#m-8-flow li.two-off{
+	background: url(../images/sys/mypage/m-8flow02_off.jpg) no-repeat;
+}
+
+#m-8-flow li.three{
+	background: url(../images/sys/mypage/m-8flow03.jpg) no-repeat;
+}
+
+#m-8-flow li.three-on{
+	background: url(../images/sys/mypage/m-8flow03_on.jpg) no-repeat;
+}
+
+#m-8-flow li.three-off{
+	background: url(../images/sys/mypage/m-8flow03_off.jpg) no-repeat;
+}
+
+#m-8-flow li.four{
+	background: url(../images/sys/mypage/m-8flow04.jpg) no-repeat;
+}
+
+#m-8-flow li.four-on{
+	background: url(../images/sys/mypage/m-8flow04_on.jpg) no-repeat;
+}
+
+#m-8-flow li.error{
+	background: url(../images/sys/mypage/m-8flow_error.jpg) no-repeat;
+}
+
+
+
+/*********** campaign banner ***********/
+.camBanner{
+	margin: 30px 0px;
+}
+
+
+
+/*------------------------------------------------------------------ 
+オフライン・ゲスト購入注文紐付け
+-------------------------------------------------------------------*/
+#myPage #aboutNum{
+	border: 2px solid #E0E0E0;
+	padding: 10px;
+	margin: 20px 0px 30px;
+	width: 776px;
+}
+
+#myPage #aboutNum .pics{
+	width: 170px;
+	float: left;
+	padding-right: 20px;
+}
+
+#myPage #aboutNum .desc{
+	width: 586px;
+	float: left;
+}
+
+#myPage #aboutNum dt{
+	color: #95CF0E;
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+#myPage .numNotice{
+	border: 1px solid #CCC;
+	width: 798px;
+	padding-bottom: 10px;
+	margin: 40px 0px 20px;
+}
+
+#myPage .numNotice dt{
+	font-weight: bold;
+	margin-bottom: 5px;
+	background: #EDEDED;
+	padding: 5px 20px;
+	text-align: left;
+}
+
+#myPage .numNotice dd{
+	padding: 0px 20px;
+	text-align: left;
+}
+
+#myPage  .result{
+	color: #008837;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/*------------------------------------------------------------------ 
+ポイント交換商品
+-------------------------------------------------------------------*/
+#myPage .table-gPoint {
+	width: 329px;
+	background: url(../images/sys/mypage/pointBt_m.jpg) repeat-y center top;
+	float:left;
+}
+
+#myPage .table-gPoint-hd {
+	background: url(../images/sys/mypage/pointBt_t.jpg) no-repeat center top;
+}
+
+#myPage .table-gPoint-ft {
+	padding-bottom: 11px;
+	background: url(../images/sys/mypage/pointBt_b.jpg) no-repeat center bottom;
+}
+
+#myPage .table-gPoint .tblGry th{
+	font-size: 11px;
+	font-weight: normal;
+	height: 35px;
+	text-align: center;
+}
+
+#myPage .table-gPoint .tblGry{
+	width: 329px;
+	padding: 0;
+	border-collapse: collapse;
+	border: none;
+	margin: 0 auto;
+}
+
+#myPage .table-gPoint .tblGry td{
+	padding: 10px 25px;
+}
+
+#myPage #pointMerit{
+	width: 361px;
+	float: right;
+	background: url(../images/sys/mypage/merit.jpg) no-repeat right top;
+	padding-right: 85px;
+}
+
+#myPage #pointMerit dt{
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 11px;
+}
+
+
+/*********** ポイント商品一覧 ***********/
+#myPage #list{
+	width: 800px;
+	margin: 10px 0px;
+}
+
+#myPage #list .point{
+	border: 1px solid #CCC;
+	width: 258px;
+	float: left;
+	margin:10px 10px 0px 0px;
+}
+
+#myPage #list .pointLast{
+	border: 1px solid #CCC;
+	width: 258px;
+	float: left;
+	margin:10px 0px 0px;
+}
+
+#myPage #list h4{
+	background: url(../images/sys/mypage/bgProduct.jpg) repeat-x left top;
+	margin: 1px 1px 7px;
+	color: #008837;
+	padding: 3px 10px 7px;
+	font-size: 12px;
+}
+
+#myPage #list h4 .notsale{
+	background: url(../images/sys/mypage/iconNotsale.jpg) no-repeat left center;
+	padding-left: 55px;
+}
+
+#myPage #list .pics{
+	padding: 0px 9px 10px;
+	width: 100px;
+}
+
+#myPage #list .desc{
+	width: 128px;
+	float: right;
+	padding-right: 10px;
+}
+
+#myPage #list .desc dt{
+	font-weight: bold;
+	line-height: 1.4;
+	margin-bottom:8px;
+}
+
+#myPage #list .desc dd{
+	line-height: 1.3;
+	font-size:10px;
+	margin-bottom: 8px;
+}
+
+#myPage #list .num{
+	background: #F2F2F2;
+	padding: 4px;
+}
+
+#myPage #list select{
+	border: 2px solid #CCC;
+}
+
+#myPage #list .choice{
+	clear: both;
+	background: url(../images/sys/mypage/bgChoice.jpg) repeat-x left bottom;
+	border-top: 1px dotted #CCC;
+	padding: 5px 10px;
+	text-align: right;
+	height: 20px;
+}
+
+#myPage #list .choice li{
+	float: right;
+}
+
+#myPage #list .choice li.soon{
+	color:#CC0000;
+	float: left;
+	font-size: 10px;
+	width: 90px;
+	line-height: 1.2;
+}
+
+
+
+/*********** ポイント履歴一覧 ***********/
+#myPage .main-box20 h3.hlNews {
+	margin-bottom: 5px;
+	padding-left: 20px;
+	width: 750px;
+	font-size: 14px;
+	border: none;
+	color: #95CF0E;
+	background: url(../images/sys/mypage/iconPencil.jpg) no-repeat left;
+	font-weight: bold;
+}
+
+#myPage #pointNews{
+	border: 2px solid #CCC;
+	padding: 18px 15px;
+	background: url(../images/sys/mypage/bgNews.jpg) no-repeat right bottom;
+}
+
+#myPage #pointNews li{
+	background: url(../images/sys/mypage/iconNews.jpg) no-repeat left 3px;
+	padding-left: 40px;
+}
+
+
+/*********** 郵便番号検索 ***********/
+#zip_search {
+	background: none;
+	margin: 10px;
+	width: 250px;
+	text-align: left;
+}
+
+#zip_search table th {
+	border-right: 1px dotted #95CF0E;
+}
+
+#zip_search table td.addr {
+	border-right: 1px dotted #95CF0E;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+完了画面
+-------------------------------------------------------------------*/
+#thanks{
+	background: url(../images/sys/common/thanks_t.gif) no-repeat center bottom;
+	padding-bottom: 35px;
+	margin-top: 10px;
+}
+
+#thanks .msg{
+	background: url(../images/sys/common/thanks_b.gif) no-repeat center top;
+	padding: 30px 10px 5px 80px;
+}
+
+#thanks .msg_s{
+	background: url(../images/sys/common/thanks_b.gif) no-repeat center top;
+	padding: 40px 10px 10px 80px;
+}
+
+#thanks .weekLink{
+	padding-left: 90px;
+	background: url(../images/sys/common/ic_yajirushi.gif) no-repeat 78px 2px;
+	margin: 0px;
+}
+
+
+/*********** エラー ***********/
+#thanksError{
+	background: url(../images/sys/common/thanks02_t.gif) no-repeat center bottom;
+	padding-bottom: 35px;
+	margin-top: 10px;
+}
+
+#thanksError .msg{
+	background: url(../images/sys/common/thanks02_b.gif) no-repeat center top;
+	padding: 30px 10px 5px 80px;
+}
+
+#thanksError .msg_s{
+	background: url(../images/sys/common/thanks02_b.gif) no-repeat center top;
+	padding: 40px 10px 10px 80px;
+}
+
+#thanksError .weekLink{
+	padding-left: 90px;
+	background: url(../images/sys/common/ic_yajirushi.gif) no-repeat 78px 2px;
+	margin: 0px;
+}
+
+#notice{
+	margin-top: 10px;
+	width: 800px;
+}
+
+#notice .msg{
+	width: 545px;
+	float: left;
+	padding-left: 5px;
+}
+
+#notice .freedial{
+	width: 249px;
+	float: right;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+会員登録訴求枠
+-------------------------------------------------------------------*/
+#noMember{
+	width: 800px;
+}
+
+.merit{
+	border: 2px solid #E0E0E0;
+	padding: 15px 80px 15px 15px;
+	width: 161px;
+	float: left;
+	text-align: left;
+	margin-bottom: 20px;
+}
+* html .merit{
+	padding: 15px 80px 15px 15px;
+	width: 160px;
+}
+
+.merit dt{
+	margin-bottom: 8px;
+}
+
+#merit01{
+	background: url(../images/sys/common/merit01_img.jpg) no-repeat right bottom;
+	margin-right: 10px;
+}
+
+#merit02{
+	background: url(../images/sys/common/merit03_img.jpg) no-repeat right bottom;
+	margin-right: 10px;
+}
+
+#merit03{
+	background: url(../images/sys/common/merit02_img.jpg) no-repeat right bottom;
+}
+
+
+
+
+
+/*------------------------------------------------------------------ 
+レビュー投稿
+-------------------------------------------------------------------*/
+#review_flow{
+	width:800px;
+}
+
+#review_flow li{
+	float: left;
+	text-indent: -9999px;
+	width: 135px;
+	height: 80px;
+}
+
+#review_flow li.one-on{
+	background: url(../images/sys/mypage/review01_on.jpg) no-repeat;
+}
+
+#review_flow li.one-off{
+	background: url(../images/sys/mypage/review01_off.jpg) no-repeat;
+}
+
+#review_flow li.two{
+	background: url(../images/sys/mypage/review02.jpg) no-repeat;
+}
+
+#review_flow li.two-on{
+	background: url(../images/sys/mypage/review02_on.jpg) no-repeat;
+}
+
+#review_flow li.two-off{
+	background: url(../images/sys/mypage/review02_off.jpg) no-repeat;
+}
+
+#review_flow li.three{
+	background: url(../images/sys/mypage/review03.jpg) no-repeat;
+}
+
+#review_flow li.three-on{
+	background: url(../images/sys/mypage/review03_on.jpg) no-repeat;
+}
+
+#review_flow li.three-off{
+	background: url(../images/sys/mypage/review03_off.jpg) no-repeat;
+}

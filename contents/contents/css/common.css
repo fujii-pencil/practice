@@ -1,0 +1,729 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------ 
+header
+-------------------------------------------------------------------*/  
+/* QPACEC 2014/5/30 DEL STA サイトリニューアル対応 
+#header{
+	width:980px;
+	padding:0px 11px;
+	margin: 0 auto;
+	background: url(../common/contentsBg.jpg) repeat-y center;
+	text-align: center;
+}
+
+#season{
+	background: url(../common/headerBg.jpg) no-repeat center top;
+	width: 980px;
+}
+
+#header #tagline{
+	width: 952px;
+	padding:0px 14px;
+}
+
+#header #tagline p{
+	float: left;
+	padding: 12px 0px 0px;
+	font-size: 83%;
+}
+
+#header #tagline #fontSize{
+	float: right;
+}
+
+#header #tagline #fontSize li{
+	float: left;
+}
+
+#header #tagline #fontSize a{
+	display:block;
+	height:28px;
+	text-indent:-9999px;
+}
+
+#header #tagline #fontSize #fontSizeN a{
+	width: 42px;
+	background: url(../common/fontSizeS.jpg) no-repeat 0 0;
+}
+
+		#header #tagline #fontSize #fontSizeN a:hover{
+			background: url(../common/fontSizeS.jpg) no-repeat 0 -28px;
+		}
+
+#header #tagline #fontSize #fontSizeL a{
+	width: 82px;
+	background: url(../common/fontSizeL.jpg) no-repeat 0 0;
+}
+
+		#header #tagline #fontSize #fontSizeL a:hover{
+			background: url(../common/fontSizeL.jpg) no-repeat 0 -28px;
+		}
+
+
+#header #tagline #h_com a{
+	background: url(../common/header_com.png) no-repeat left top;
+	height: 28px;
+	width: 77px;
+	text-indent: -9999px;
+	margin-right:20px;
+}
+
+#header #tagline #h_com a:hover{
+	background: url(../common/header_com.png) no-repeat left bottom;
+}
+
+#logo{
+	width: 340px;
+	padding: 0;
+	float: left;
+	text-align: center;
+}
+
+#tel{
+	width: 299px;
+	float: right;
+	margin-top: 3px;
+	padding-right: 15px;
+}
+
+#points{
+	background: url(../common/pointBg.jpg) no-repeat center top;
+	width: 297px;
+	float: left;
+	padding: 8px 0px 5px 22px;
+	margin: 6px 0px 0px 0px;
+}
+
+#points dt{
+	margin-bottom: 1px;
+	padding-left:120px;
+	font-size:83%;
+}
+
+#points dd{
+	padding-left:120px
+}
+ QPACEC 2014/5/30 DEL END サイトリニューアル対応 */
+
+/*------------------------------------------------------------------ 
+ログイン後
+-------------------------------------------------------------------*/  
+#points dt span{
+	font-weight: bold;
+}
+
+#points dt .point{
+	font-size: 125%;
+}
+
+#sideColumn .bargain{
+	border-top: 1px dotted #CCC;
+	clear:both;
+	padding:8px 0px;
+	margin-top:8px;
+}
+
+#sideColumn .first{
+	border-top: none;
+	padding:0px 0px 8px 0px;
+	margin-top:0px;
+}
+
+#sideColumn .bargain h3{
+	font-weight: bold;
+	font-size: 103%;
+	margin: 0px auto 5px;
+	width:210px;
+}
+
+#sideColumn .bargain img{
+	float: left;
+	padding-right: 5px;
+}
+
+#sideColumn .bargain .text{
+	font-size: 85%;
+}
+
+#sideColumn .bargain .more{
+	background: url(../common/arrowS.gif) no-repeat 138px center;
+	text-align: right;
+}
+
+
+
+
+/*------------------------------------------------------------------ 
+gNavi
+-------------------------------------------------------------------*/  
+#gNavi{
+	width: 1002px;
+	margin: 0 auto;
+	background: url(../common/contentsBg.jpg) repeat-y center;
+/* QPACEC 2014/5/20 ADD STA サイトリニューアル対応 */
+	position:relative;
+	z-index:2;
+/* QPACEC 2014/5/20 ADD END サイトリニューアル対応 */
+}
+
+#gNavi li{
+	float: left;
+	padding-bottom: 25px;
+}
+
+#gNavi li.shop{
+	float: right;
+}
+
+
+
+/*------------------------------------------------------------------ 
+contentsArea
+-------------------------------------------------------------------*/  
+#contentsArea{
+	background: url(../common/contentsBg.jpg) repeat-y center;
+	width: 980px;
+	margin: 0 auto;
+	padding: 0px 11px;
+	text-align: center;
+}
+
+#mainColumn{
+	width: 696px;
+	float: left;
+	padding: 0px 0px 0px 15px;
+}
+
+/* QPACEC 2014/5/20 DEL STA サイトリニューアル対応 */
+/*
+#sideColumn{
+	width: 249px;
+	float: left;
+	padding: 0px 0px 0px 13px;
+}
+
+#sideColumn #mypage{
+	background: url(../common/myPage_b.gif) no-repeat center bottom;
+	padding: 5px 0px 10px;
+	margin: 0px auto 13px;
+	width: 241px;
+}
+
+#sideColumn #mypage .button{
+	text-align: center;
+}
+
+#sideColumn #mypage ul{
+	margin-bottom:10px;
+}
+
+#sideColumn #mypage .more{
+	background: url(../common/arrowS.gif) no-repeat left 16px;
+	margin: 0 auto;
+	width: 203px;
+	border-top: 1px dotted #CCC;
+	padding-top: 10px;
+}
+
+#sideColumn .more a:hover,
+#sideColumn .bargain h3 a:hover,
+#sideColumn .text02 a:hover{
+	color:#0099CC;
+	text-decoration:none;
+}
+
+#sideColumn #mypage #user{
+	padding: 0px 0px 10px;
+	border-bottom: 1px dotted #CCC;
+	width: 203px;
+	margin: 0 auto 2px;
+}
+
+#sideColumn #mypage #user dt{
+	color: #008837;
+	font-weight: bold;
+}
+
+#sideColumn #mypage #user dd{
+	font-size: 95%;
+}
+
+#sideColumn #mypage #user dt span{
+	font-size: 125%;
+}
+
+#sideColumn h2,
+#sideColumn h3,
+#sideColumn .bnr{
+	width:241px;
+	margin:0 auto;
+}
+
+#sideColumn #mypage li{
+	padding: 4px 0px 0px 19px;
+}
+
+#sideColumn #mypage .btnLogin{
+	width: 218px;
+	margin: 0px auto 15px;
+}
+
+#sideColumn #mypage .btnRegister{
+	width: 218px;
+	margin: 0 auto;
+}
+
+#sideColumn #mypage .text{
+	font-size:83%;
+	padding: 0px 20px;
+}
+
+#sideColumn .box{
+	border-right: 2px solid #E0E0E0;
+	border-bottom: 2px solid #E0E0E0;
+	border-left: 2px solid #E0E0E0;
+	width: 217px;
+	margin: 0px 3px 10px 4px;
+	padding: 5px 10px;
+}
+
+#sideColumn .box02{
+	border-right: 2px solid #E0E0E0;
+	border-left: 2px solid #E0E0E0;
+	width: 217px;
+	margin: 0px 3px 0px 4px;
+	padding: 5px 10px;
+}
+
+#sideColumn .box .emphLink,
+#sideColumn .box02 .emphLink{
+	font-size:95%;
+	line-height: 1.6;
+}
+
+#sideColumn #beginner{
+	background: url(../common/bgBeginner.gif) no-repeat right bottom;
+}
+
+#sideColumn #magazine{
+	background: url(../common/bgMagazine.jpg) no-repeat right bottom;
+}
+
+#sideColumn #info{
+	background: url(../common/bgContact.jpg) no-repeat right bottom;
+}
+
+#sideColumn #info .text02{
+	margin-bottom: 30px;
+}
+
+#sideColumn .box .points{
+	margin-bottom: 9px;
+}
+
+#sideColumn .text{
+	font-size: 95%;
+	line-height: 1.3;
+}
+
+#sideColumn .text02{
+	font-size: 83%;
+	line-height: 1.3;
+}
+
+#sideColumn .text02 ul{
+	padding-top:6px;
+}
+
+#sideColumn .text02 li{
+	display: inline;
+	font-size: 125%;
+}
+
+#sideColumn .text02 li a{
+	color:#0099CC;
+}
+
+#sideColumn .btnCheckC{
+	margin-bottom: 12px;
+}
+
+#sideColumn #search{
+	padding: 3px 0px;
+}
+
+#sideColumn #search input{
+	width: 12em;
+	padding: 0em;
+}
+
+#sideColumn #search li{
+	float: left;
+}
+
+#sideColumn .order dt{
+	margin-bottom: 2px;
+}
+
+#sideColumn .order{
+	margin-bottom: 10px;
+}
+
+#sideColumn .tel dt{
+	margin-bottom: 5px;
+}
+
+#sideColumn .tel .hours{
+	margin-bottom: 5px;
+}
+
+
+*/
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+/* contents */
+#contents{
+	text-align: left;
+/* QPACEC 2014/5/20 DEL STA サイトリニューアル対応 */
+/*
+	width: 696px;
+	padding-top: 20px;
+*/
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+}
+
+
+
+
+
+/*------------------------------------------------------------------ 
+breadcrumbs
+-------------------------------------------------------------------*/  
+/* QPACEC 2014/5/20 DEL STA サイトリニューアル対応 */
+/*
+#breadcrumbs{
+	width: 696px;
+	margin: 0 auto;
+	background: url(../common/breadcrumbBg_t.jpg) no-repeat center top;
+	height: 30px;
+}
+
+#breadcrumbs li{
+	float: left;
+	padding: 5px 5px 5px 20px;
+	background: url(../common/crumb.gif) no-repeat left center;
+	margin-left: 5px;
+}
+
+#breadcrumbs li#home{
+	background: none;
+}
+
+#breadcrumbs li a{
+	color:#0099CC;
+}
+*/
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+link style
+-------------------------------------------------------------------*/
+.more{
+	background: url(../common/arrowS.gif) no-repeat left center;
+	padding: 2px 0px 2px 10px;
+}
+
+.emphLink a{
+	color:#0099CC;
+}
+
+
+
+
+
+/*------------------------------------------------------------------ 
+headline
+-------------------------------------------------------------------*/ 
+#pageTtl{
+	width: 912px;
+	margin: 0 auto;
+}
+
+.hl02_t{
+	margin: 0px 0px 15px;
+}
+
+.hl02{
+	clear: both;
+	padding: 45px 0px 15px;
+}
+
+.hl02_nb{
+	clear: both;
+	padding: 45px 0px 0px;
+}
+
+
+
+.hl03{
+	font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #327B4C;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+footer
+-------------------------------------------------------------------*/  
+/* QPACEC 2014/5/20 DEL STA サイトリニューアル対応 */
+/*
+#footer{
+	background: #F7F7F7 url(../common/footerBg01.jpg) repeat-x left top;
+	width: 980px;
+	clear:both;
+}
+
+#footerid dt{
+	float: left;
+	padding: 12px 0px 0px 20px;
+}
+
+#footerid dd{
+	float: right;
+	padding: 15px 20px 0px 0px;
+	font-size: 83%;
+}
+
+#footerNavi{
+	padding: 30px 0px 20px;
+	width: 940px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#footerNavi ul{
+	float:left;
+	padding: 0px 50px 20px 0px;
+}
+
+#footerNavi ul#long{
+	padding: 25px 50px 20px 0px;
+}
+
+#footerNavi ul.last{
+	padding-right: 0px;
+}
+
+#footerNavi .border{
+	background: url(../common/dotVer.gif) repeat-y right;
+	margin-right: 28px;
+}
+
+#footerNavi li{
+	background: url(../common/footerBullet.gif) no-repeat left center;
+	padding-left: 10px;
+	color: #666;
+}
+
+#footerNavi li.sec{
+	background: none;
+	border-left: 1px dotted #95CF0E;
+	margin-left: 12px;
+}
+
+#footerNavi li.category{
+	color: #95CF0E;
+	font-weight: bold;
+	padding: 0;
+	background: none;
+	margin-bottom: 5px;
+}
+
+		#footerNavi li.category a{
+			color: #95CF0E;
+		}
+
+		#footerNavi li a{
+			color:#404040;
+			text-decoration:none;
+		}
+		
+		#footerNavi li a:hover{
+			text-decoration:underline;
+		}
+
+#footerNavi li.shop{
+	background: url(../common/iconCart.gif) no-repeat left center;
+	padding-left: 20px;
+}
+
+#footerAddress{
+	width: 912px;
+	margin: 10px auto;
+}
+
+#footerAddress dd{
+	padding-left: 25px;
+	margin-top: 3px;
+}
+
+#copyright{
+	background: #FFFFFF url(../common/footerBg02.jpg) repeat-x left top;
+	padding: 18px 20px 30px;
+}
+
+#copyright .copy{
+	float: left;
+	font-size: 83%;
+}
+
+#copyright .note{
+	font-size: 83%;
+	color: #666;
+}
+
+#copyright .banners{
+	float: right;
+}
+
+#copyright .banners td{
+	padding-left: 10px;
+}
+
+*/
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+
+
+/*------------------------------------------------------------------ 
+backtoTop
+-------------------------------------------------------------------*/  
+.backtoTop{
+	width: 120px;
+	background: url(../common/arrowVer.gif) no-repeat left center;
+	font-size: 95%;
+	padding: 0px 0px 0px 15px;
+	margin: 20px 0px 15px auto;
+	border-bottom: 1px dotted #333;
+	padding-bottom: 2px;
+	clear: both;
+}
+
+.backtoTop a{
+	text-decoration:none;
+}
+
+.backtoTop a:hover{
+	color:#0099CC;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------------ 
+font color/style
+-------------------------------------------------------------------*/
+.emph{
+	color:#CC0000;
+}
+
+.b{
+	font-weight:bold;
+	color:#333333;
+}
+
+
+/*------------------------------------------------------------------ 
+table
+-------------------------------------------------------------------*/
+.cmn{
+	border: none;
+	border-collapse: collapse;
+	margin: 0px auto;
+	padding: 0;
+	width: 640px;
+}
+
+.cmn th,
+.cmn td{
+	padding: 10px;
+	border-top: 1px dotted #CCCCCC;
+	border-bottom: 1px dotted #CCCCCC;
+	vertical-align: top;
+}
+
+
+
+/*---------------------------------------------------------
+パッケージの注釈
+---------------------------------------------------------*/ 
+.package_note{
+	margin-top: 20px;
+}
+
+
+/*---------------------------------------------------------
+スマートフォン切り替え
+---------------------------------------------------------*/ 
+/* QPACEC 2014/5/20 UPD STA サイトリニューアル対応 */
+/*
+#contentsArea #mainColumn #trans1,
+#contentsArea #mainColumn #trans2 {
+	display: none;
+}
+*/
+#contentsArea #mainColumn #trans1,
+#contentsArea #mainColumn #trans2 {
+	display: none;
+}
+
+/* QPACEC 2014/5/20 UPD END サイトリニューアル対応 */
+/* QPACEC 2014/5/20 DEL STA サイトリニューアル対応 */
+/*
+#contentsArea #trans1 {
+	padding-bottom: 15px;
+	text-align:center;
+}
+*/
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+#contentsArea #mainColumn #trans1 {
+	padding-bottom: 15px;
+}
+#contentsArea #mainColumn #trans2 {
+	float:left;
+	width: 241px;
+	height:12px;
+	font-size:12px;
+	line-height:1em;
+	text-align:center;
+	padding:10px;
+	margin:20px 0 -25px 210px;
+	background:url(/contents/contents/common/trans2_bg.gif) no-repeat left top;
+}
+/* top page */
+#contentsArea #mainColumn .top_trans {
+	margin: 10px 0 20px  120px !important;
+}
+/* QPACEC 2014/5/20 ADD STA サイトリニューアル対応 */
+/*---------------------------------------------------------
+注釈
+---------------------------------------------------------*/ 
+.kome{
+	font-size:85%;
+	font-weight:normal;
+}
+/* QPACEC 2014/5/20 ADD END サイトリニューアル対応 */

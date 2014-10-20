@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+.pIntroTtl{
+	position:relative;
+}
+.pIntroTtl .note{
+	font-size: 75%;
+	padding-left: 270px;
+	font-weight: normal;
+}
+
+.pIntroTtl .pos_ttl01{
+	position:absolute;
+	display:block !important;
+	top:12px;
+	right:15px;
+	z-index:5;
+}
+
+.bdr_t{
+	border-top:1px dotted #CCC;
+	padding-top:5px;
+	margin-top:5px;
+}
+
+.layout{
+	width:676px;
+	margin:0 auto;
+}

@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+@import "../../aojiru/css/style.css";
+
+#backnumber {
+	width: 695px;
+	margin-top: 20px;
+	background: url(../img/backNumberFt.jpg) no-repeat center bottom;
+	padding-bottom: 15px
+}
+
+#backnumber h3 {
+	width: 695px;
+	height: 41px;
+	background: url(../img/backNumberTtl.jpg);
+	text-indent: -9999px;
+}
+
+#backnumber-contents {
+	width: 667px;
+	padding: 0 14px;
+	background: url(../img/backNumberBg.jpg);
+}
+
+#backnumber01,
+#backnumber03 {
+	width: 208px;
+	float: left;
+}
+
+#backnumber02 {
+	width: 208px;
+	float: left;
+	border-right: dotted 1px #CCC;
+	border-left: dotted 1px #CCC;
+	margin: 0 10px;
+	padding: 0 10px;
+}
+
+#backnumber ul {
+	margin-top: 5px;
+}
+
+#backnumber01 li {
+	background: url(../img/arrowBn01.gif) no-repeat left center;
+	padding: 2px 0px 2px 10px;
+}
+
+#backnumber02 li {
+	background: url(../img/arrowBn02.gif) no-repeat left center;
+	padding: 2px 0px 2px 10px;
+}
+
+#backnumber03 li {
+	background: url(../img/arrowBn03.gif) no-repeat left center;
+	padding: 2px 0px 2px 10px;
+}
+
+/*------------------------------------------------------------------ 
+キューサイ青汁 ケール栽培にかける情熱
+-------------------------------------------------------------------*/
+#kale-jonetsu {
+	width: 695px;
+}
+
+#kale-jonetsu h2 {
+	background: url(../img/kale-jonetsuTtl.jpg);
+	width: 695px;
+	height: 108px;
+	text-indent: -9999px;
+}
+
+.kale-jonetsu-contents {
+	margin-left: 18px;
+	width: 677px;
+	clear: both;
+}
+
+.kale-jonetsu-contents-txt {
+	float: left;
+	width: 447px;
+	margin-bottom: 15px;
+}
+
+.kale-jonetsu-contents-photo {
+	float: right;
+	margin-bottom: 15px;
+}
+
+.kale-jonetsu-crosshead {
+	width: 645px;
+	border-bottom: dotted 1px #333;
+	border-left: solid 5px #85c80c;
+	margin-bottom: 10px;
+	padding: 3px 0px 3px 10px;
+	font-size: 117%;
+	font-weight: bold;
+	clear: both;
+}
+
+.kale-jonetsu-crosshead-s {
+	width: 432px;
+	border-bottom: dotted 1px #333;
+	border-left: solid 5px #85c80c;
+	margin-bottom: 10px;
+	padding: 3px 0px 3px 10px;
+	font-size: 117%;
+	font-weight: bold;
+	float: left;
+}
+
+#kale-jonetsu-point {
+	margin: 10px 0;
+}
+
+.kale-jonetsu-point-box {
+	width: 325px;
+	padding-bottom: 15px;
+	background: url(../img/kale-jonetsu_pointFt.jpg) no-repeat center bottom;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.kale-jonetsu-point-txt {
+	width: 325px;
+	background: url(../img/kale-jonetsu_pointBg.jpg);
+}
+
+.kale-jonetsu-point-txt p {
+	padding: 0 18px;
+}
+
+#kale-jonetsu-seisan {
+	width: 660px;
+	background: url(../img/kale-jonetsu_seisanBg.jpg);
+}
+
+#kale-jonetsu-seisanHd {
+	width: 660px;
+	background: url(../img/kale-jonetsu_seisanHd.jpg);
+	height: 15px;
+	text-indent: -9999px;
+	clear: both;
+}
+
+#kale-jonetsu-seisanFt {
+	width: 660px;
+	background: url(../img/kale-jonetsu_seisanFt.jpg);
+	height: 19px;
+	text-indent: -9999px;
+	margin-bottom: 10px;
+}
+
+#kale-jonetsu-seisan-photo {
+	float: left;
+	padding-left: 15px;
+}
+
+#kale-jonetsu-seisan-box {
+	width: 438px;
+	float: right;
+	padding-right: 15px;
+}
+
+.kale-jonetsu-seisan-txt {
+	margin: 8px 0;
+	color: #835A0C;
+}
+
+.kale-jonetsu-seisan-txt span {
+	font-size: 117%;
+	font-weight: bold;
+}
+
+#kale-jonetsu-message {
+	width: 695px;
+	height: 150px;
+	background: url(../img/kale-jonetsuMessage.jpg);
+	margin: 20px 0;
+	text-indent: -9999px;
+	clear: both;
+}

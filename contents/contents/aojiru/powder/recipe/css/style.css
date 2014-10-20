@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+青汁 レシピ
+-------------------------------------------------------------------*/
+#intro{
+	background: url(../img/cofee.jpg) no-repeat right bottom;
+	margin: 0 auto;
+	width: 660px;
+}
+
+#intro dt{
+	margin-bottom: 11px;
+}
+
+#intro li{
+	float: left;
+	padding: 20px 0px 40px;
+}

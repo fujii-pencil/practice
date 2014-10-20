@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ヒアルロン酸コラーゲン おいしい飲み方
+-------------------------------------------------------------------*/
+#drink{
+	background: url(../img/catchBg.jpg) no-repeat right top;
+	width: 357px;
+	margin: 25px auto;
+	padding: 0px 303px 25px 0px;
+}
+
+#drink dt{
+	margin-bottom: 15px;
+}
+
+#drink dd{
+	margin-left: 5px;
+}
+
+#arrangement{
+	margin: 20px auto 0px;
+}
+
+#arrangement li{
+	float: left;
+	padding: 20px 24px 0px 0px;
+}
+
+#arrangement .last{
+	padding: 20px 0px 0px 0px;
+}
+
+.btnDrink{
+	text-align: right;
+	clear: both;
+	padding-top: 20px;
+	width: 660px;
+	margin: 0 auto;
+}
+
+#beauty{
+	background: url(../img/beautyBg.jpg) no-repeat right bottom;
+	padding: 10px 250px 0px 0px;
+	width: 410px;
+}
+
+#beauty .desc p{
+	margin-bottom:15px;
+}
+
+#eg{
+	margin: 0 auto;
+	width: 660px;
+	padding-top: 25px;
+}
+
+.drink_notice{
+	width: 660px;
+	margin: 0 auto;

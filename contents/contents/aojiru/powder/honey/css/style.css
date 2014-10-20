@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------
+ハチミツ青汁 TOP
+-------------------------------------------------------------------*/
+
+.aojiruHoneyMain{
+	position: relative;
+}
+
+.aojiruHoneyMain p{
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 10;
+}
+
+.aojiruNote{
+	font-size:71.4%;
+	text-align:right;
+}
+
+.kodawari{
+	background:#FFECCC;
+	text-align:center;
+	padding-bottom:20px;
+	margin-bottom:50px;
+}
+.kodawari div{
+	overflow:hidden;
+	width:648px;
+	margin:0 auto;
+}
+.kodawari div p{
+	float:left;
+	margin:0 21px;
+}
+
+.aojiruFeature {
+	background:url(/contents/contents/aojiru/powder/honey/img/feature_bg.jpg) 0 50px no-repeat;
+	overflow: hidden;
+	margin: 0 0 70px;
+	width: 700px;
+	height:778px;
+}
+
+.aojiruFeature ul {
+	width: 678px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.aojiruFeature li {
+	float: left;
+	margin:0 13px;
+}
+
+.featureNote{
+	clear:both;
+	padding:10px 25px 50px;
+	font-size:71.4%;
+	text-align:right;
+}
+
+.featureYouhou{
+	overflow: hidden;
+	width: 657px;
+	margin:0 auto;
+}
+
+.featureYouhou h3{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.featureYouhou div{
+	float: left;
+	width: 395px;
+}
+.featureYouhou>p{
+	float: right;
+}
+
+.featureYouhou .secretHl{
+	font-size:138%;
+	display: block;
+	margin: 0 0 5px;
+}
+
+.head2Wrap{
+	position: relative;
+}
+.head2Wrap>p{
+	position: absolute;
+	top:20px;
+	right: 0;
+	font-size:71.4%;
+}
+

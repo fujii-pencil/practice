@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+髪育習慣　薬用育毛剤
+-------------------------------------------------------------------*/
+#tonic{
+	font-size: 160%;
+}
+
+.ttl01{
+	margin: 10px 0px;
+	clear: both;
+}
+
+#element01 ul{
+	width: 674px;
+	margin: 10px 0px 15px;
+}
+
+#element01 li{
+	float: left;
+	padding-right: 4px;
+}
+
+#element01 li.last{
+	padding-right: 0;
+}
+
+#element02 ul{
+	width: 675px;
+	margin: 10px 0px 15px;
+}
+
+#element02 li{
+	float: left;
+	padding-right: 2px;
+}
+
+#element02 li.last{
+	padding-right: 0;
+}
+
+
+#merit_ikumo{
+	padding: 10px 0px 30px 0px;
+	background: url(../img/bg_ikumo.jpg) no-repeat right top;
+	width: 647px;
+	margin-left: 10px;
+}
+
+#merit_ikumo .free{
+	margin-top: 20px;
+}
+
+#howto{
+	width: 658px;
+	margin: 15px auto;
+}
+
+#howto .pics{
+	width: 150px;
+	float: left;
+}
+
+#howto .desc{
+	float: right;
+	width: 464px;
+}
+
+#howto .desc dt{
+	margin-bottom:15px;
+}
+
+#howto .desc dd{
+	margin-bottom:10px;
+}
+
+
+#tabTxt2{
+	font-size:54px;
+}
+
+#tabTxt2 span.normal{
+	font-size:35px !important;
+}

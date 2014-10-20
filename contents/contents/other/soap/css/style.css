@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+無添加固形せっけん
+-------------------------------------------------------------------*/
+#mutenka_soap .point{
+	float: left;
+	width: 210px;
+	padding-right:15px;
+	padding-top: 15px;
+}
+
+#mutenka_soap .last{
+	padding-right:0;
+}
+
+#mutenka_soap .point dd{
+	font-size: 95%;
+	margin-top: 5px;
+}
+
+#smile{
+	background: url(../../common/img01.jpg) no-repeat right top;
+	padding: 0px 220px 50px 0px;
+	width: 440px;
+	margin-top: 18px;
+}
+
+.pIntro .details .name .kome,
+.closing .bg .desc #name dt .kome{
+	font-size: 69%;
+}

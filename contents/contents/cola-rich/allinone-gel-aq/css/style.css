@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.notice_r{
+	font-size:85%;
+	text-align:right;
+}
+
+.notice_ex{
+	margin:10px 0px 20px;
+}
+
+.notice_ex li{
+	font-size:85%;
+	margin-left:1em;
+	text-indent:-1em;
+}
+
+.readme{
+	background: url(../img/img01.jpg) no-repeat left top;
+	width: 587px;
+	height: 61px;
+	padding: 39px 0px 0px 83px;
+	margin: 10px auto 20px;
+}
+
+.crex{
+	background: url(../img/img08.jpg) no-repeat left top;
+	width: 230px;
+	height: 65px;
+	padding: 15px 0px 0px 436px;
+	margin: 20px auto 0px;
+}
+
+.next{
+	margin-bottom:25px;
+	text-align: center;
+	clear: both;
+}
+
+.layout{
+	width:676px;
+	margin:15px auto;
+}
+
+.layout .note{
+	text-align:right;
+	font-size:85%;
+	line-height:1.2;
+	margin: 15px 0px 0px;
+}
+
+
+.layout .ttl{
+	margin: 30px 0px 10px;
+}
+
+.mb40{
+	margin-bottom:40px;
+}
+
+.mb20{
+	margin-bottom:20px;
+}
+
+.bdr_t{
+	border-top:1px dotted #CCC;
+	padding-top:5px;
+	margin-top:5px;
+}
+
+.check{
+	margin-top: 10px;
+}
+
+.pIntroTtl{
+	position:relative;
+}
+.pIntroTtl .note{
+	font-size: 75%;
+	position:absolute;
+	top:15px;
+	right:15px;
+	font-weight: normal;
+}

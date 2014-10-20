@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+わくわくキューサイポイントサービス
+-------------------------------------------------------------------*/
+#point {
+}
+
+#pointTtl {
+	background: url(../img/pointTtl.jpg);
+	width: 696px;
+	height: 134px;
+}
+
+#pointContentsTtl {
+	background: url(../img/pointContentsTtl.jpg);
+	width: 696px;
+	height: 137px;
+	margin-bottom: 15px;
+}
+
+#pointTtl h2,
+#pointContentsTtl h2 {
+	width: 301px;
+	height: 134px;
+	float: left;
+	text-indent: -9999px;
+}
+
+#pointTtl ul,
+#pointContentsTtl ul {
+	width: 395px;
+	margin-top: 100px;
+	float: left;
+}
+
+#pointTtl li,
+#pointContentsTtl li {
+	float: left;
+	margin-right: 10px;
+	padding: 0px 20px 0px 0px;
+	background: url(../img/pointTtlIc.gif) no-repeat right center;
+}
+
+#pointSave {
+	float: left;
+	margin-bottom: 20px;
+}
+
+#pointChange {
+	width: 443px;
+	float: left;
+	background: url(../img/pointChangeBg.jpg) no-repeat right center;
+	margin-bottom: 20px;
+}
+
+#pointChange img {
+	float: left;
+}
+
+#pointChange img.btn {
+	float: left;
+	margin: 74px 0px 0px 20px;
+}
+
+#pointTxt {
+	width: 655px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#list {
+	width: 703px;
+	margin: 0px 0px 10px 0px;
+	margin-right: -7px;
+}
+
+#list .point {
+	border: 1px solid #CCC;
+	width: 225px;
+	float: left;
+	margin:7px 7px 0px 0px;
+}
+
+/*#list .pointLast {
+	border: 1px solid #CCC;
+	width: 225px;
+	float: left;
+	margin:7px 0px 0px;
+}*/
+
+#list h4 {
+	background: url(../img/bgProduct.jpg) repeat-x left top;
+	margin: 1px 1px 7px;
+	color: #008837;
+	padding: 3px 10px 7px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#list h4 .notsale {
+	background: url(../img/iconNotsale.jpg) no-repeat left center;
+	padding-left: 55px;
+}
+
+#list .pics {
+	padding: 0px 9px 10px;
+	width: 100px;
+}
+
+#pointCaution {
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px dotted #CCC;
+	clear:both;
+}
+
+#pointCaution li {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+#pointCaution span {
+	font-size: 83%;
+}

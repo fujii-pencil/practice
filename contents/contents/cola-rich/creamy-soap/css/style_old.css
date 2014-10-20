@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+コラリッチ クリーミーソープ
+-------------------------------------------------------------------*/
+#ing{
+	width: 669px;
+	background: url(../img/ingBg.jpg) no-repeat 73px center;
+	margin: 40px auto 10px;
+}
+
+#ing #moisture{
+	float: left;
+	width: 216px;
+}
+
+#ing #moisture li{
+	float: left;
+}
+
+#ing #beauty{
+	float: right;
+}
+
+#bubble{
+	width: 653px;
+	background: url(../img/bubbleBg.jpg) no-repeat center bottom;
+}
+
+#bubble p{
+	font-size:95%;
+	margin: 15px 0px 20px;
+}
+
+#secret01{
+	float: left;
+}
+
+#secret02{
+	float: right;
+}
+
+#howto{
+	width: 684px;
+	margin: 10px auto;
+}
+
+#howto li{
+	float: left;
+	margin-bottom: 5px;
+}

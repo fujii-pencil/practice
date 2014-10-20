@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------------ 
+ケール青汁（粉末タイプ）善玉菌プラス
+-------------------------------------------------------------------*/
+
+#section03 {
+	background: url(../img/section03Img01.jpg) right top no-repeat;
+}
+
+#section03 p {
+	margin-right: 380px;
+	min-height: 209px;
+	height: auto !important;
+	height: 209px;
+}
+
+
+#secret03{
+	background: url(../../../../aojiru/common/secret03Bg01.jpg) no-repeat left top;
+	min-height: 310px;
+	height: auto !important;
+	height: 310px;
+}
+
+#secret03 h3 {
+	margin-top:20px;
+	padding-left: 310px;
+}
+
+#secret03 h4 {/*マークアップ変更前のスタイル*/
+	margin-top:20px;
+	padding-left: 310px;
+}
+
+
+#secret03 .text{
+	padding: 15px 0px 10px 310px;
+}
+
+#secret03 .img{
+	padding-left: 310px;
+}
+
+
+
+
+
+
+
+#secret04{
+	margin-top: 20px;
+	background: url(../../../../aojiru/common/secret04Bbg01.jpg) right bottom no-repeat;
+}
+
+#secret04 h3{
+	margin-top:20px;
+}
+
+#secret04 .text{
+	padding: 15px 310px 0px 0px;
+}
+
+
+
+/*---------------------------------------------------------
+recipe
+---------------------------------------------------------*/ 
+
+#aojiruRecipe{
+	background: url(../../../../aojiru/common/recipeBg.jpg) no-repeat center top;
+	width: 696px;
+	min-height: 174px;
+}
+
+#aojiruRecipe dl{
+	padding: 55px 0px 0px 37px;
+}
+
+#aojiruRecipe dd{
+	padding: 15px 0px 0px 0px;
+}
+
+

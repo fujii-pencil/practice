@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+/*
+---------------------------------------------------------
+	reset.css ver 1.2 [2008/11/25] 
+	*This document validates as CSS level 3
+	*GNU General Public License v3
+	*http://higash.net/20081125/reset_css3.html
+
+	Modify YUI Reset CSS, YUI Fonts CSS	
+	*Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+	*http://developer.yahoo.com/yui/license.html
+	
+	Modify Formy CSS Form Framework 0.8(beta)
+	*GNU General Public License v2
+	*http://code.google.com/p/formy-css-framework/
+---------------------------------------------------------
+*/
+
+/* --HTML-- */
+html {
+background:#fff;
+color:#333;
+overflow-y:scroll;
+}
+
+/* --BODY-- */
+body {
+/* QPACEC 2014/5/20 DEL STR サイトリニューアル対応 */
+/*
+font:12px/1.5 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+margin:0;
+padding:0;
+background:#FFFFFF url(../common/bg.jpg) repeat-x center top;
+*/
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+}
+
+	/* for Firefox3 */
+	body,x:-moz-broken {
+	margin-left:-1px;
+	}
+
+	/* for IE7 */
+	*+html body {
+	font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	font-size:75%;
+	}
+	
+	/* for IE6 */
+	* html body {
+	font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	font-size:75%;
+	}
+
+/* --OTHER TAGS-- */
+a {
+overflow:hidden;
+}
+
+a img, img { 
+border:0;
+vertical-align:bottom;
+}
+
+abbr, acronym {
+border:0;
+}
+
+/* QPACEC 2014/6/23 DEL START サイトリニューアル対応 */
+/* address, caption, cite, code, dfn, em, th, strong, var { */
+/* QPACEC 2014/6/23 DEL END サイトリニューアル対応 */
+address, caption, cite, code, dfn, em, th, var {
+
+font-style:normal;
+font-weight:normal;
+}
+
+blockquote, dd, div, dl, dt, h1, h2, h3, h4, h5, h6, li, ol, p, pre, span, td, th, ul {
+/* QPACEC 2014/5/20 DEL STR サイトリニューアル対応 */
+/*
+margin:0;
+padding:0;
+text-align:left;
+*/
+/* QPACEC 2014/5/20 DEL END サイトリニューアル対応 */
+}
+
+caption, th {
+text-align:left;
+}
+
+code, kbd, pre, samp, tt {
+font-family:monospace;
+line-height:100%;
+}
+
+	/* for IE7 */
+	*+html code, kbd, pre, samp, tt {
+	font-size:108%; 
+	}
+/* QPACEC 2014/6/23 DEL START サイトリニューアル対応 */
+h1, h2, h3, h4, h5, h6 {
+/* QPACEC 2014/6/23 DEL END サイトリニューアル対応 */
+h1, h2, h4, h5, h6 {
+font-size:100%;
+font-weight:normal;
+margin:0;
+padding:0;
+}
+
+ol, ul{
+list-style:none;
+}
+
+q:before, q:after {
+content:'';
+}
+
+/* form */
+button, fieldset, form, input, label, legend, select, textarea {
+font-family:inherit;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+/* tables still need 'cellspacing="0"' */
+table {
+border-collapse:collapse;
+border-spacing:0;
+font-size:100%;
+}
+
+/* --A-- */
+a {
+cursor:pointer;
+text-decoration:underline;
+color:#333;
+}
+
+a:hover {
+text-decoration:none;
+color:#0099CC;
+}
+
+/* --FORM-- */
+fieldset {
+border:none;text-align:center;
+}
+
+input, textarea {
+line-height:1.4;
+padding:0.1em;
+vertical-align:middle;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+vertical-align:middle;
+}
+
+input[type="submit"] {
+padding:0.1em;
+}
+
+legend {
+background:#fff;
+padding:0.3em;
+}
+
+select {
+padding:0;
+}
+
+	/* for IE6 */
+	* html input {
+	padding:0.1em;font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	}
+	
+	* html input.checkbox,
+	* html input.radio {
+	vertical-align:-0.3em;
+	}
+
+	* html input.submit {
+	line-height:1.2;
+	padding-top:0.2em;
+	}
+	
+	* html select {
+	vertical-align:-0.2em;
+	font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	}
+
+	* html textarea {
+	font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	}
+	
+	/* for IE7 */
+	*+html input {
+	padding:0.1em;font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	}
+	
+	*+html input.submit {
+	line-height:1.2;
+	padding-top:0.2em;
+	}
+	
+	*+html select {
+	vertical-align:-0.2em;
+	font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	}
+
+	*+html textarea {
+	font-family:'メイリオ', 'ＭＳ Ｐゴシック';
+	}
+
+	/* for Opera9.27 */
+	html:first-child input {
+	padding:0.1em;
+	}
+	
+	html:first-child input[type="checkbox"],
+	html:first-child input[type="radio"] {
+	vertical-align:middle;
+	}
+
+	html:first-child input[type="submit"] {
+	padding:0.3em;
+	}
+	
+	html:first-child select {
+	padding:0.2em 0.5em;
+	}
+
+	/* for Opera9.5+ [Safari3 & Chrome] */
+	body:first-of-type input {
+	padding:0.1em;
+	}
+
+	body:first-of-type input[type="checkbox"],
+	body:first-of-type input[type="radio"] {
+	vertical-align:text-top;
+	}
+	
+	body:first-of-type input[type="submit"] {
+	padding:0.3em 0.3em 0.2em 0.3em;
+	}
+
+	/* for Safari3 & Chrome */
+	html:not(:only-child:only-child) input {
+	padding:0;
+	vertical-align:baseline;
+	}
+	
+	html:not(:only-child:only-child) select {
+	vertical-align:0;
+	}	
+
+
+
+/* clearfix */
+div{
+    zoom:1;/*for IE 5.5-7*/
+}
+
+div:after{
+	content: ".";  
+	display: block;  
+	visibility: hidden;  
+	height: 0.1px;  
+	font-size: 0.1em;  
+	line-height: 0;  
+	clear: both; 
+}
+.clearfix:after {
+content:"";
+display:block;
+clear:both;
+}
+
+	/* for IE6 */
+	* html .clearfix {
+	display:inline-block;
+	}
+	
+	/* for IE7 */
+	*+html .clearfix {
+	display:inline-block;
+	}
+
+
+
+
+hr{
+	display:none;
+}

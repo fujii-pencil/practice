@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+/*
+	File Name   : side.css
+	Description : サイド用
+*/
+
+/*------------------------------------------------------------------ 
+TOP,other用
+-------------------------------------------------------------------*/  
+#contentsArea #sideColumn {
+	width: 210px;
+	float: right;
+	line-height: 1.5;
+}
+
+#contentsAreaSub #sideColumn {
+	width: 210px;
+	float: left;
+	line-height: 1.5;
+}
+
+#sideColumn p {
+	margin-bottom: 0;
+}
+
+#sideNav01 {
+	padding: 0 0 5px 0;
+	margin-bottom: 20px;
+}
+
+#sideNav01 dd {
+	background-color: #ffffff;
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px;
+	background: url(/contents/contents/images/sys/side_nav_01_bg.gif) 0 bottom no-repeat;
+}
+
+#sideNav01 dd li {
+	margin-bottom: 10px;
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+#sideNav02 {
+	margin-bottom: 20px;
+	padding-top: 45px;
+	position: relative;
+}
+
+#sideNav02 dt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-bottom: 6px;
+}
+
+#sideNav03 {
+	background: url(/contents/contents/images/sys/side_nav_03_bg.png) 0 0 no-repeat;
+	margin-bottom: 20px;
+	padding: 15px 11px 15px 11px;
+	height: 230px;
+}
+
+#sideNav03 dt {
+	margin-bottom: 9px;
+}
+
+#sideNav03 dd {
+	margin: 0 auto;
+}
+
+#sideNav03 dd ul {
+	margin: 0 auto;
+	width: 180px;
+}
+
+#sideNav03 dd li {
+	margin-bottom: 4px;
+	padding-top: 3px;
+	border-top: 1px dashed #CCCCCC;
+}
+
+#sideNav03 dd li:first-child {
+	border: none;
+}
+
+#sideNav04 {
+	margin-bottom: 20px;
+	padding-top: 45px;
+	position: relative;
+}
+
+#sideNav04 dt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-bottom: 6px;
+	background: url(/contents/contents/images/sys/side/side_nav_bg.png) 0 100% no-repeat;
+}
+
+#sideAnime {
+}
+
+#sideAnime dl {
+	margin-bottom: 20px;
+	padding: 18px 18px 0 19px;
+	border: 1px solid #BCAEA3;
+}
+
+#sideAnime dt {
+	margin-bottom: 3px;
+	font-weight: bold;
+	font-size: 135%;
+}
+
+#sideAnime dd {
+	margin-bottom: 20px;
+}
+
+
+#sideColumn .sideBnr {
+	margin-bottom: 20px;
+}
+
+#contentsAreaWrap.top #sideColumn .sideBnrCm {
+	display: none;
+}
+
+#sideColumn .sidePresent {
+	background-color: #E46168;
+	
+	/*
+	min-height: 97px;
+	*/
+	padding: 7px 0 0 0;
+	text-align: center;
+	position: relative;
+	font-size: 105%;
+}
+
+#sideColumn .sidePresent p {
+	margin-bottom: 0px;
+	text-align:left;
+	padding:8px 10px 0px 10px;
+}
+
+#sideColumn .sidePresent a:link,
+#sideColumn .sidePresent a:visited{
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+#sideColumn .sidePresent a:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
+#sideColumn .sidePresent span {
+	min-height: 47px;
+	padding: 0 0 5px 15px;
+	display: block;
+	text-align: left;
+}
+
+#sideColumn .sidePresent .bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#sideContact {
+	margin-bottom: 20px;
+	font-size: 120%;
+}
+
+#sideContact dd {
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	padding: 15px;
+}
+
+#sideContact .line {
+	border-bottom: 1px dashed #CCCCCC;
+	padding: 5px 0;
+	margin-bottom: 5px;
+}
+
+#sideContact .orderInfo {
+	font-size: 90%;
+}
+
+#sideContact .tel {
+	padding-top: 10px;
+}
+
+#sideContact p {
+	margin-bottom: 10px;
+}
+
+#sideContact p:last-child {
+	margin: 0;
+}
+
+
+
+/*------------------------------------------------------------------ 
+aojiru,skincare,health用
+-------------------------------------------------------------------*/  
+#productsList {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#productsList dt {
+}
+
+#productsList dd {
+	padding-bottom: 4px;
+	margin-bottom: 1px;
+}
+
+#productsList.aojiru dd {
+	background-color: #66881B;
+}
+
+#productsList.health dd {
+	background-color: #1E7FAC;
+}
+
+#productsList.corarich dd {
+	background-color: #AC7E4C
+}
+
+#productsList dd li {
+	position: relative;
+}
+
+#productsList dd li span {
+	position: absolute;
+	right: -10px;
+	top: 5px;
+	/top: 20px;
+	z-index: 90;
+}
+
+#productsList dd li a {
+	background-color: #fff;
+	display: block;
+	width: 202px;
+	margin: 0 auto;
+}
+
+#rankingList {
+	margin-bottom: 15px;
+	font-size: 130%;
+	padding-top: 45px;
+	position: relative;
+}
+
+#rankingList dt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-bottom: 6px;
+	background: url(/contents/contents/images/sys/side/side_nav_bg.png) 0 100% no-repeat;
+}
+
+#rankingList li {
+	background: url(/contents/contents/top/img/list_bg_02.png) 0 100% no-repeat;
+	text-align: left;
+	line-height: 1.2;
+	border: 1px solid #cccccc;
+	border-top: none;
+}
+
+#rankingList li:first-child {
+}
+
+#rankingList li a {
+	min-height: 55px;
+	background: url(/contents/contents/top/img/link_icon_02.png) 100% 100% no-repeat;
+	display: block;
+	padding: 15px 0 0 10px;
+	text-decoration: none;
+}
+
+#rankingList li p {
+	float: left;
+}
+#rankingList li span {
+	float: left;
+	display:block;
+}
+
+
+#rankingList li .itemImg {
+	padding-right: 43px;
+}
+
+#rankingList li.r01 .itemImg {
+	background: url(/contents/contents/images/sys/side/side_ranking_01_icon.png) 55px 40% no-repeat;
+}
+
+#rankingList li.r02 .itemImg {
+	background: url(/contents/contents/images/sys/side/side_ranking_02_icon.png) 55px 40% no-repeat;
+}
+
+#rankingList li.r03 .itemImg {
+	background: url(/contents/contents/images/sys/side/side_ranking_03_icon.png) 55px 40% no-repeat;
+}
+
+#rankingList li .txt {
+	padding-top: 15px;
+
+}
+
+#rankingList li.lines .txt {
+	padding-top: 8px;
+	letter-spacing: -1px;
+}
+
+#setList {
+	margin-bottom: 15px;
+	font-size: 140%;
+	position: relative;
+	padding-top: 45px;
+}
+
+#setList dt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-bottom: 6px;
+	background: url(/contents/contents/images/sys/side/side_nav_bg.png) 0 100% no-repeat;
+}
+
+#setList p {
+	text-align: right;
+	padding-top: 5px;
+}
+
+#setList a {
+	color: #FF6600;
+}
+
+#oherCategory {
+	margin-bottom: 20px;
+	padding-top: 45px;
+	position: relative;
+}
+
+#oherCategory dt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-bottom: 6px;
+	background: url(/contents/contents/images/sys/side/side_nav_bg.png) 0 100% no-repeat;
+}
+
+#oherCategory ul {
+	background: url(/contents/images/sys/side/side_nav_bg.png) 0 0 no-repeat;
+}
